@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/smicro</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/smicro.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/smicro.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/smicro/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/smicro.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/smicro.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea64Rom</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea64Rom.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea64Rom.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea64Rom/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea64Rom.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea64Rom.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea64x6Ram</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea64x6Ram.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea64x6Ram.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea64x6Ram/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea64x6Ram.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea64x6Ram.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaCPU</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaCPU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaCPU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaCPU/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaCPU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaCPU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea2NOR</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea2NOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea2NOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea2NOR/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea2NOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea2NOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea2OR</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea2OR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea2OR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea2OR/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea2OR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea2OR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea32x6Ram</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea32x6Ram.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea32x6Ram.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea32x6Ram/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea32x6Ram.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea32x6Ram.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6PCf</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6PCf.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6PCf.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6PCf/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6PCf.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6PCf.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6SUB</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6SUB.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6SUB.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6SUB/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6SUB.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6SUB.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6bit64word</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6bit64word.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6bit64word.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6bit64word/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6bit64word.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6bit64word.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6bitto64decoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6bitto64decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6bitto64decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6bitto64decoder/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6bitto64decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6bitto64decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaBGMUX</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaBGMUX.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaBGMUX.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaBGMUX/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaBGMUX.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaBGMUX.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaCU</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaCU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaCU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaCU/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaCU.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaCU.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaOBnon</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaOBnon.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaOBnon.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaOBnon/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaOBnon.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaOBnon.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea3NOR</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea3NOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea3NOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea3NOR/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea3NOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea3NOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea4to1MUX</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea4to1MUX.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea4to1MUX.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea4to1MUX/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea4to1MUX.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea4to1MUX.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea5to32Decoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea5to32Decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea5to32Decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea5to32Decoder/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea5to32Decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea5to32Decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6Ram</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6Ram.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6Ram.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6Ram/struc</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6Ram.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6Ram.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6XOR</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6XOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6XOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6XOR/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6XOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6XOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea7AND</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea7AND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea7AND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea7AND/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea7AND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea7AND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaID</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaID.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaID.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaID/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaID.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaID.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaIR</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaIR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaIR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaIR/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaIR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaIR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaOutputBuf</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaOutputBuf.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaOutputBuf.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaOutputBuf/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaOutputBuf.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaOutputBuf.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaSM</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaSM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaSM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaSM/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaSM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaSM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaadd6bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaadd6bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaadd6bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaadd6bit/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaadd6bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaadd6bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eabuf</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eabuf.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eabuf.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eabuf/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eabuf.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eabuf.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea1bitadder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea1bitadder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea1bitadder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea1bitadder/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea1bitadder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea1bitadder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea2AND</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea2AND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea2AND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea2AND/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea2AND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea2AND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea3AND</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea3AND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea3AND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea3AND/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea3AND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea3AND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6AND</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6AND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6AND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6AND/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6AND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6AND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6Dlatch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6Dlatch.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6Dlatch.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6Dlatch/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6Dlatch.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6Dlatch.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6Flip</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6Flip.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6Flip.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6Flip/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6Flip.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6Flip.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6bitMUX</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6bitMUX.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6bitMUX.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea6bitMUX/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea6bitMUX.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea6bitMUX.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaXOR</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaXOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaXOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaXOR/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaXOR.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaXOR.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eainv6buf</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eainv6buf.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eainv6buf.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eainv6buf/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eainv6buf.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eainv6buf.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea3NAND</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea3NAND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea3NAND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea3NAND/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea3NAND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea3NAND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea4NAND</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea4NAND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea4NAND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea4NAND/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea4NAND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea4NAND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaFlipFlop</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaFlipFlop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaFlipFlop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaFlipFlop/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaFlipFlop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaFlipFlop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eainvbuf</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eainvbuf.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eainvbuf.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eainvbuf/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eainvbuf.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eainvbuf.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaDlatch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaDLatch.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaDLatch.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaDlatch/struc</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaDLatch.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaDLatch.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea2to1MUX</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea2to1MUX.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea2to1MUX.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea2to1MUX/struct</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea2to1MUX.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea2to1MUX.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea2NAND</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea2NAND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea2NAND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/ea2NAND/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/ea2NAND.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/ea2NAND.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaINVERT</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaINVERT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaINVERT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/eaINVERT/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best/../pj6_charlie/eaINVERT.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaINVERT.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaCPU.vhd</arg>&quot; line <arg fmt="%d" index="2">154</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">SUM</arg>&apos; of component &apos;<arg fmt="%s" index="4">ea6PCf</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/eaCPU.vhd</arg>&quot; line <arg fmt="%d" index="2">154</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">C</arg>&apos; of component &apos;<arg fmt="%s" index="4">ea6PCf</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">TEST</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">IR&lt;2&gt;</arg>&gt; is never used.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">AB</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">AD</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">AE</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">AN&lt;5&gt;</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">M2</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">M3</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">M4</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">Cin</arg>&gt; is never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">FA</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DB</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">OE32RAM</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">CS32RAM</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">RW32RAM</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">A1</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">D0</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">TESTS</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">SD</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">A0</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">A1</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate0</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate2</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate2</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate3</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate3</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate4</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate4</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate5</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate5</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate2</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate3</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate4</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate5</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate2</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate2</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate2</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate3</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate5</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate2</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate2</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate3</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate3</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate4</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate4</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate5</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate5</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate70</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate6</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">smicro</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">smicro</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">smicro</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2042" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg>: <arg fmt="%d" index="2">6</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2040" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg>: <arg fmt="%d" index="2">18</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2040" delta="unknown" >Unit <arg fmt="%s" index="1">ea6bit64word</arg>: <arg fmt="%d" index="2">6</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">smicro</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+</messages>
+

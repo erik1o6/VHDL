@@ -1,0 +1,3 @@
+MODULE loro
+SUBMODULE smicro
+INSTANCE UUT

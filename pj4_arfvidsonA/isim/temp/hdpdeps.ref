@@ -1,0 +1,73 @@
+V3 35
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2AND.vhd 2012/10/04.14:14:59 J.36
+EN isim_temp/ea2AND 1349758422 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2AND.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/ea2AND/Behavioral 1349758423 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2AND.vhd \
+      EN isim_temp/ea2AND 1349758422
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2NAND.vhd 2012/10/04.14:17:24 J.36
+EN isim_temp/ea2NAND 1349758408 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2NAND.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/ea2NAND/Behavioral 1349758409 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2NAND.vhd \
+      EN isim_temp/ea2NAND 1349758408
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2to1MUX.vhd 2012/10/04.14:20:10 J.36
+EN isim_temp/ea2to1MUX 1349758412 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2to1MUX.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/ea2to1MUX/struct 1349758413 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2to1MUX.vhd \
+      EN isim_temp/ea2to1MUX 1349758412 CP ea2NAND CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Dlatch.vhd 2012/10/09.00:40:45 J.36
+EN isim_temp/ea6Dlatch 1349758418 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Dlatch.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/ea6Dlatch/struct 1349758419 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Dlatch.vhd \
+      EN isim_temp/ea6Dlatch 1349758418 CP eaDlatch
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Ram.vhd 2012/10/09.00:53:24 J.36
+EN isim_temp/ea6Ram 1349758424 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Ram.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/ea6Ram/struct 1349758425 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Ram.vhd \
+      EN isim_temp/ea6Ram 1349758424 CP ea6Dlatch CP eainv6buf CP ea2AND
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaDLatch.vhd 2012/10/04.14:04:15 J.36
+EN isim_temp/eaDlatch 1349758416 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaDLatch.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/eaDlatch/struc 1349758417 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaDLatch.vhd \
+      EN isim_temp/eaDlatch 1349758416 CP ea2to1MUX
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eainv6buf.vhd 2012/10/04.14:07:07 J.36
+EN isim_temp/eainv6buf 1349758420 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eainv6buf.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/eainv6buf/struct 1349758421 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eainv6buf.vhd \
+      EN isim_temp/eainv6buf 1349758420 CP eainvbuf
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eainvbuf.vhd 2012/10/01.02:29:00 J.36
+EN isim_temp/eainvbuf 1349758414 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eainvbuf.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/eainvbuf/Behavioral 1349758415 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eainvbuf.vhd \
+      EN isim_temp/eainvbuf 1349758414
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaINVERT.vhd 2012/10/04.14:07:50 J.36
+EN isim_temp/eaINVERT 1349758410 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaINVERT.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/eaINVERT/Behavioral 1349758411 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaINVERT.vhd \
+      EN isim_temp/eaINVERT 1349758410

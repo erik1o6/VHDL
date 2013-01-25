@@ -1,0 +1,56 @@
+ command line:
+   ./loro42_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50317
+
+Sun Nov 11 03:47:40 2012
+
+Total Line Count : 50108
+WARNING:Simulator:406 - This is a limited version of the ISE Simulator. The
+   current design has exceeded the design size limit for this version and the
+   performance of the simulation will be derated.
+
+ Elaboration time : 0.0625 sec.
+
+ Estimate current memory usage : 174.166 Meg. 
+
+ Total Signals          : 15258
+ Total Nets             : 3185
+ Total Signal Drivers   : 3436
+ Total Blocks           : 4118
+ Total Primitive Blocks : 2944
+ Total Processes        : 3440
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 3331
+ntrace select -o on -n /loro42/RPC 
+ntrace select -o on -n /loro42/asb 
+ntrace select -o on -n /loro42/idat 
+ntrace select -o on -n /loro42/CPC 
+ntrace select -o on -n /loro42/DOE 
+ntrace select -o on -n /loro42/madr 
+ntrace select -o on -n /loro42/WDR 
+ntrace select -o on -n /loro42/rw 
+ntrace select -o on -n /loro42/WIR 
+ntrace select -o on -n /loro42/mdat 
+ntrace select -o on -n /loro42/iadr 
+ntrace select -o on -n /loro42/SDM 
+ntrace select -o on -n /loro42/TEST 
+ntrace select -o on -n /loro42/RIR 
+ntrace select -o on -n /loro42/PERIOD 
+ntrace select -o on -n /loro42/DUTY_CYCLE 
+ntrace select -o on -n /loro42/OFFSET 
+ntrace select -o on -n /loro42/resetb 
+ntrace select -o on -n /loro42/clock 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 100000 ns 
+
+ Simulation time 0.21875 sec.
+
+ Estimate current memory usage : 181.436 Meg. 
+
+Sun Nov 11 03:55:30 2012
+

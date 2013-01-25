@@ -1,0 +1,2 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -ifn eaTFlipFlop.xst -ofn eaTFlipFlop.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -ifn eaTFlipFlop.xst -ofn eaTFlipFlop.syr

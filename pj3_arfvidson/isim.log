@@ -1,0 +1,27 @@
+ command line:
+   ./FrequencyDivider_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  61005
+
+Thu Oct 04 12:27:17 2012
+
+Total Line Count : 2232
+
+ Elaboration time : 0 sec.
+
+ Estimate current memory usage : 151.441 Meg. 
+
+ Total Signals          : 686
+ Total Nets             : 167
+ Total Signal Drivers   : 156
+ Total Blocks           : 184
+ Total Primitive Blocks : 124
+ Total Processes        : 156
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 167
+ntrace select -o on -m / -l this 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

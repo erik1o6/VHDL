@@ -1,0 +1,82 @@
+--------------------------------------------------------------------------------
+Release 9.2i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx92i\bin\nt\trce.exe -ise
+C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise -intstyle ise
+-e 3 -s 4 -xml eaRisc eaRisc.ncd -o eaRisc.twr eaRisc.pcf
+
+Design file:              earisc.ncd
+Physical constraint file: earisc.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.26 2007-04-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+csm            |adat<1>        |   20.160|
+csm            |adat<2>        |   20.323|
+csm            |adat<3>        |   20.240|
+csm            |adat<4>        |   20.212|
+csm            |adat<5>        |   20.240|
+csm            |bx             |   21.642|
+csm            |cf             |   20.137|
+csm            |dat0<0>        |   20.427|
+csm            |dat0<1>        |   20.684|
+csm            |dat0<2>        |   20.001|
+csm            |dat1<0>        |   18.622|
+csm            |dat1<1>        |   20.416|
+csm            |dat1<2>        |   18.652|
+csm            |dat1<3>        |   19.705|
+csm            |dat2<1>        |   19.973|
+csm            |dat2<2>        |   18.051|
+csm            |dat2<3>        |   21.776|
+csm            |dat2<5>        |   17.844|
+csm            |dx0            |   18.317|
+csm            |dx1            |   22.045|
+csm            |iadr<0>        |    8.074|
+csm            |iadr<1>        |   10.022|
+csm            |iadr<2>        |    9.787|
+csm            |iadr<3>        |   10.105|
+csm            |iadr<4>        |    9.530|
+csm            |iadr<5>        |    9.489|
+csm            |mdw            |    5.147|
+csm            |pck            |    5.147|
+csm            |sub            |   19.947|
+csm            |wc             |   19.227|
+rsm            |pres           |    4.793|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Dec 06 02:01:28 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 133 MB
+
+
+

@@ -1,0 +1,3 @@
+MODULE BAKED
+SUBMODULE ea4bitFrequencyCounter
+INSTANCE UUT

@@ -1,0 +1,105 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2NAND.vhd" in Library work.
+Architecture behavioral of Entity ea2nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaINVERT.vhd" in Library work.
+Architecture behavioral of Entity eainvert is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2to1MUX.vhd" in Library work.
+Architecture struct of Entity ea2to1mux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaDLatch.vhd" in Library work.
+Architecture struc of Entity eadlatch is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eainvbuf.vhd" in Library work.
+Architecture behavioral of Entity eainvbuf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea3NAND.vhd" in Library work.
+Architecture behavioral of Entity ea3nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea4NAND.vhd" in Library work.
+Architecture behavioral of Entity ea4nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaFlipFlop.vhd" in Library work.
+Architecture struct of Entity eaflipflop is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6Dlatch.vhd" in Library work.
+Architecture struct of Entity ea6dlatch is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eainv6buf.vhd" in Library work.
+Architecture struct of Entity eainv6buf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2AND.vhd" in Library work.
+Architecture behavioral of Entity ea2and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6AND.vhd" in Library work.
+Architecture behavioral of Entity ea6and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea1bitadder.vhd" in Library work.
+Architecture behavioral of Entity ea1bitadder is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaXOR.vhd" in Library work.
+Architecture behavioral of Entity eaxor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6Flip.vhd" in Library work.
+Architecture struct of Entity ea6flip is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6bitMUX.vhd" in Library work.
+Architecture struct of Entity ea6bitmux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea3AND.vhd" in Library work.
+Architecture behavioral of Entity ea3and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea5to32Decoder.vhd" in Library work.
+Architecture struct of Entity ea5to32decoder is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea3NOR.vhd" in Library work.
+Architecture behavioral of Entity ea3nor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaOutputBuf.vhd" in Library work.
+Architecture struct of Entity eaoutputbuf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6Ram.vhd" in Library work.
+Architecture struc of Entity ea6ram is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea7AND.vhd" in Library work.
+Architecture behavioral of Entity ea7and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6XOR.vhd" in Library work.
+Architecture struct of Entity ea6xor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaadd6bit.vhd" in Library work.
+Architecture struct of Entity eaadd6bit is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaSM.vhd" in Library work.
+Architecture struct of Entity easm is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaID.vhd" in Library work.
+Architecture struct of Entity eaid is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaIR.vhd" in Library work.
+Architecture struct of Entity eair is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eabuf.vhd" in Library work.
+Architecture behavioral of Entity eabuf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea4to1MUX.vhd" in Library work.
+Architecture struct of Entity ea4to1mux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea32x6Ram.vhd" in Library work.
+Architecture struct of Entity ea32x6ram is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2OR.vhd" in Library work.
+Architecture behavioral of Entity ea2or is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6bitto64decoder.vhd" in Library work.
+Architecture struct of Entity ea6bitto64decoder is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6bit64word.vhd" in Library work.
+Architecture struct of Entity ea6bit64word is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2NOR.vhd" in Library work.
+Architecture behavioral of Entity ea2nor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6PCf.vhd" in Library work.
+Architecture struct of Entity ea6pcf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaBGMUX.vhd" in Library work.
+Architecture struct of Entity eabgmux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaOBnon.vhd" in Library work.
+Architecture struct of Entity eaobnon is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaCU.vhd" in Library work.
+Architecture struct of Entity eacu is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6SUB.vhd" in Library work.
+Architecture struct of Entity ea6sub is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaCPU.vhd" in Library work.
+Architecture struct of Entity eacpu is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea64Rom.vhd" in Library work.
+Architecture struct of Entity ea64rom is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea64x6Ram.vhd" in Library work.
+Architecture struct of Entity ea64x6ram is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/smicro.vhd" in Library work.
+Architecture struct of Entity smicro is up to date.
+CPU : 0.69 / 0.76 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 158712 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

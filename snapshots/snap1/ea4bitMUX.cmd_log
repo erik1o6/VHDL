@@ -1,0 +1,2 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/pj2_ea.ise" -intstyle ise -ifn ea4bitMUX.xst -ofn ea4bitMUX.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/pj2_ea.ise" -intstyle ise -ifn ea4bitMUX.xst -ofn ea4bitMUX.syr

@@ -1,0 +1,3 @@
+vhdl work "eainvbuf.vhd"
+vhdl work "eainv6buf.vhd"
+vhdl work "ea6bit64word.vhd"

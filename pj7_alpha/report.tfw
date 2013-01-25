@@ -1,0 +1,90 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : report.tfw
+// /___/   /\     Timestamp : Thu Dec 06 15:20:27 2012
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: report
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module report;
+    reg [5:0] input = 6'b000000;
+    wire [5:0] output;
+    reg rsm = 1'b0;
+    reg csm = 1'b0;
+    wire [5:0] iadr;
+    wire [5:0] dat0;
+    wire [5:0] dat1;
+    wire [5:0] dat2;
+    wire [5:0] adat;
+    wire [5:0] sdat;
+    wire [5:0] ddat;
+    wire dx0;
+    wire dx1;
+    wire mdw;
+    wire bx;
+    wire wc;
+    wire cf;
+    wire wot;
+    wire sub;
+    wire pres;
+    wire pck;
+
+    parameter PERIOD = 2000;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 100;
+
+    initial    // Clock process for csm
+    begin
+        #OFFSET;
+        forever
+        begin
+            csm = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) csm = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    eaRisc UUT (
+        .input(input),
+        .output(output),
+        .rsm(rsm),
+        .csm(csm),
+        .iadr(iadr),
+        .dat0(dat0),
+        .dat1(dat1),
+        .dat2(dat2),
+        .adat(adat),
+        .sdat(sdat),
+        .ddat(ddat),
+        .dx0(dx0),
+        .dx1(dx1),
+        .mdw(mdw),
+        .bx(bx),
+        .wc(wc),
+        .cf(cf),
+        .wot(wot),
+        .sub(sub),
+        .pres(pres),
+        .pck(pck));
+
+    initial begin
+        // -------------  Current Time:  5085ns
+        #5085;
+        rsm = 1'b1;
+        // -------------------------------------
+    end
+
+endmodule
+

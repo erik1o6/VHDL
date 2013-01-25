@@ -1,0 +1,3 @@
+MODULE locks
+SUBMODULE ea4Dlatch
+INSTANCE UUT

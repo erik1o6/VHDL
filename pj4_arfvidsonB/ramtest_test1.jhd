@@ -1,0 +1,3 @@
+MODULE ramtest_test1
+SUBMODULE ramtest
+INSTANCE UUT

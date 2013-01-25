@@ -1,0 +1,61 @@
+ command line:
+   ./silly_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50065
+
+Sun Nov 11 02:37:31 2012
+
+Total Line Count : 50128
+WARNING:Simulator:406 - This is a limited version of the ISE Simulator. The
+   current design has exceeded the design size limit for this version and the
+   performance of the simulation will be derated.
+
+ Elaboration time : 0.0625 sec.
+
+ Estimate current memory usage : 174.412 Meg. 
+
+ Total Signals          : 15261
+ Total Nets             : 3179
+ Total Signal Drivers   : 3438
+ Total Blocks           : 4120
+ Total Primitive Blocks : 2946
+ Total Processes        : 3442
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 3325
+ntrace select -o on -n /silly/RPC 
+ntrace select -o on -n /silly/asb 
+ntrace select -o on -n /silly/idat 
+ntrace select -o on -n /silly/CPC 
+ntrace select -o on -n /silly/DOE 
+ntrace select -o on -n /silly/madr 
+ntrace select -o on -n /silly/iadr 
+ntrace select -o on -n /silly/WDR 
+ntrace select -o on -n /silly/rw 
+ntrace select -o on -n /silly/WIR 
+ntrace select -o on -n /silly/mdat 
+ntrace select -o on -n /silly/SDM 
+ntrace select -o on -n /silly/TEST 
+ntrace select -o on -n /silly/RIR 
+ntrace select -o on -n /silly/PERIOD 
+ntrace select -o on -n /silly/DUTY_CYCLE 
+ntrace select -o on -n /silly/OFFSET 
+ntrace select -o on -n /silly/resetb 
+ntrace select -o on -n /silly/clock 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+
+ Simulation time 0.28125 sec.
+
+ Estimate current memory usage : 181.682 Meg. 
+
+Sun Nov 11 02:44:22 2012
+

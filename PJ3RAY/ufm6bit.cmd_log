@@ -1,0 +1,2 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/PJ3RAY/PJ3RAY.ise" -intstyle ise -ifn ufm6bit.xst -ofn ufm6bit.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/PJ3RAY/PJ3RAY.ise" -intstyle ise -ifn ufm6bit.xst -ofn ufm6bit.syr

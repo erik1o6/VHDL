@@ -1,0 +1,41 @@
+V3 19
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2NAND.vhd 2012/10/04.14:17:24 J.36
+EN work/ea2NAND 1349757651 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2NAND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2NAND/Behavioral 1349757652 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2NAND.vhd \
+      EN work/ea2NAND 1349757651
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2to1MUX.vhd 2012/10/04.14:20:10 J.36
+EN work/ea2to1MUX 1349757655 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2to1MUX.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2to1MUX/struct 1349757656 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2to1MUX.vhd \
+      EN work/ea2to1MUX 1349757655 CP ea2NAND CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Dlatch.vhd 2012/10/09.00:40:45 J.36
+EN work/ea6Dlatch 1349757659 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Dlatch.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6Dlatch/struct 1349757660 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Dlatch.vhd \
+      EN work/ea6Dlatch 1349757659 CP eaDlatch
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaDLatch.vhd 2012/10/04.14:04:15 J.36
+EN work/eaDlatch 1349757657 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaDLatch.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaDlatch/struc 1349757658 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaDLatch.vhd \
+      EN work/eaDlatch 1349757657 CP ea2to1MUX
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaINVERT.vhd 2012/10/04.14:07:50 J.36
+EN work/eaINVERT 1349757653 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaINVERT.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaINVERT/Behavioral 1349757654 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaINVERT.vhd \
+      EN work/eaINVERT 1349757653

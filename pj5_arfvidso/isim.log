@@ -1,0 +1,38 @@
+ command line:
+   ./smicro_tbw2_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  59046
+
+Tue Oct 23 22:02:48 2012
+
+Total Line Count : 50112
+WARNING:Simulator:406 - This is a limited version of the ISE Simulator. The
+   current design has exceeded the design size limit for this version and the
+   performance of the simulation will be derated.
+
+ Elaboration time : 0.0624 sec.
+
+ Estimate current memory usage : 165.945 Meg. 
+
+ Total Signals          : 15258
+ Total Nets             : 3185
+ Total Signal Drivers   : 3436
+ Total Blocks           : 4118
+ Total Primitive Blocks : 2944
+ Total Processes        : 3440
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 3331
+ntrace select -o on -m / -l this 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 100000 ns 
+
+ Simulation time 1.20121 sec.
+
+ Estimate current memory usage : 173.216 Meg. 
+
+Tue Oct 23 22:04:58 2012
+

@@ -1,0 +1,1 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_charlie/pj6_charlie.ise" -intstyle ise -ifn smicro.xst -ofn smicro.syr

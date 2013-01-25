@@ -1,0 +1,62 @@
+ command line:
+   ./loros2_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  57067
+
+Sun Nov 11 12:12:55 2012
+
+Total Line Count : 53246
+WARNING:Simulator:406 - This is a limited version of the ISE Simulator. The
+   current design has exceeded the design size limit for this version and the
+   performance of the simulation will be derated.
+
+ Elaboration time : 0.0624 sec.
+
+ Estimate current memory usage : 165.892 Meg. 
+
+ Total Signals          : 16292
+ Total Nets             : 3387
+ Total Signal Drivers   : 3655
+ Total Blocks           : 4371
+ Total Primitive Blocks : 3144
+ Total Processes        : 3655
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 3387
+ntrace select -o on -n /loros2/resetb 
+ntrace select -o on -n /loros2/clock 
+ntrace select -o on -n /loros2/asb 
+ntrace select -o on -n /loros2/rw 
+ntrace select -o on -n /loros2/iadr 
+ntrace select -o on -n /loros2/idat 
+ntrace select -o on -n /loros2/madr 
+ntrace select -o on -n /loros2/mdat 
+ntrace select -o on -n /loros2/rir 
+ntrace select -o on -n /loros2/wir 
+ntrace select -o on -n /loros2/rpc 
+ntrace select -o on -n /loros2/cpc 
+ntrace select -o on -n /loros2/sdm 
+ntrace select -o on -n /loros2/sdm1 
+ntrace select -o on -n /loros2/wdr 
+ntrace select -o on -n /loros2/test 
+ntrace select -o on -n /loros2/doe 
+ntrace select -o on -n /loros2/spc 
+ntrace select -o on -n /loros2/cf 
+ntrace select -o on -n /loros2/wc 
+ntrace select -o on -n /loros2/sub 
+ntrace select -o on -n /loros2/input 
+ntrace select -o on -n /loros2/output 
+ntrace select -o on -n /loros2/dmuxo 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 100000 ns 
+isimrun 100000 ns 
+
+ Simulation time 0.327601 sec.
+
+ Estimate current memory usage : 173.162 Meg. 
+
+Sun Nov 11 12:28:18 2012
+

@@ -1,0 +1,6 @@
+vhdl work "eaINVERT.vhd"
+vhdl work "ea2NAND.vhd"
+vhdl work "ea2to1MUX.vhd"
+vhdl work "ea6bitMUX.vhd"
+verilog work "lolfd.tfw"
+verilog work "C:/Xilinx92i/verilog/src/glbl.v"

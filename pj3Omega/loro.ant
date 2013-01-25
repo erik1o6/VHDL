@@ -1,0 +1,93 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : loro.ant
+// /___/   /\     Timestamp : Tue Oct 02 12:53:05 2012
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: loro
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module loro;
+    reg CLK = 1'b0;
+    reg RESET = 1'b0;
+    reg Cin = 1'b0;
+    reg [5:0] B = 6'b000000;
+    wire [5:0] A;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 100;
+
+    initial    // Clock process for CLK
+    begin
+        #OFFSET;
+        forever
+        begin
+            CLK = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) CLK = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    ea6PCf UUT (
+        .CLK(CLK),
+        .RESET(RESET),
+        .Cin(Cin),
+        .B(B),
+        .A(A));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process for clock CLK
+        #0;
+        ANNOTATE_A;
+        #OFFSET;
+        forever begin
+            #115;
+            ANNOTATE_A;
+            #85;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("C:\\Users\\ERIK\\Dropbox\\cmpen471\\projects\\pj3Omega\\loro.ano");
+        #10200 // Final time:  10200 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  185ns
+        #185;
+        RESET = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  385ns
+        #200;
+        B = 6'b000001;
+        // -------------------------------------
+    end
+
+    task ANNOTATE_A;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,A,%b]", $time, A);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

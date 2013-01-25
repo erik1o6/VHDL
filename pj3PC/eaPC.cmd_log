@@ -1,0 +1,1 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3PC/pj3PC.ise" -intstyle ise -ifn eaPC.xst -ofn eaPC.syr

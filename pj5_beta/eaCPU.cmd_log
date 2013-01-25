@@ -1,0 +1,1 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj5_beta/pj5_beta.ise" -intstyle ise -ifn eaCPU.xst -ofn eaCPU.syr

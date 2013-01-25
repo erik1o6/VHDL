@@ -1,0 +1,1 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_Be/pj6_Be.ise" -intstyle ise -ifn r2s8mt.xst -ofn r2s8mt.syr

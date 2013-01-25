@@ -1,0 +1,3 @@
+MODULE lostos
+SUBMODULE smicro
+INSTANCE UUT

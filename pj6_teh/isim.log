@@ -1,0 +1,54 @@
+ command line:
+   ./losl_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  60760
+
+Sun Nov 11 13:24:17 2012
+
+Total Line Count : 53207
+WARNING:Simulator:406 - This is a limited version of the ISE Simulator. The
+   current design has exceeded the design size limit for this version and the
+   performance of the simulation will be derated.
+
+ Elaboration time : 0.078 sec.
+
+ Estimate current memory usage : 165.437 Meg. 
+
+ Total Signals          : 16280
+ Total Nets             : 3399
+ Total Signal Drivers   : 3651
+ Total Blocks           : 4367
+ Total Primitive Blocks : 3140
+ Total Processes        : 3651
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 3399
+ntrace select -o on -n /losl/resetb 
+ntrace select -o on -n /losl/clock 
+ntrace select -o on -n /losl/asb 
+ntrace select -o on -n /losl/rw 
+ntrace select -o on -n /losl/iadr 
+ntrace select -o on -n /losl/idat 
+ntrace select -o on -n /losl/madr 
+ntrace select -o on -n /losl/mdat 
+ntrace select -o on -n /losl/rir 
+ntrace select -o on -n /losl/wir 
+ntrace select -o on -n /losl/rpc 
+ntrace select -o on -n /losl/cpc 
+ntrace select -o on -n /losl/sdm 
+ntrace select -o on -n /losl/wdr 
+ntrace select -o on -n /losl/test 
+ntrace select -o on -n /losl/doe 
+ntrace select -o on -n /losl/spc 
+ntrace select -o on -n /losl/cf 
+ntrace select -o on -n /losl/wc 
+ntrace select -o on -n /losl/sub 
+ntrace select -o on -n /losl/sdm1 
+ntrace select -o on -n /losl/input 
+ntrace select -o on -n /losl/output 
+ntrace select -o on -n /losl/dmuxo 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 100000 ns 

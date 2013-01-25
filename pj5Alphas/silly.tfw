@@ -1,0 +1,88 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : silly.tfw
+// /___/   /\     Timestamp : Sun Nov 11 02:37:11 2012
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: silly
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module silly;
+    reg resetb = 1'b0;
+    reg clock = 1'b0;
+    wire asb;
+    wire rw;
+    wire [5:0] iadr;
+    wire [5:0] idat;
+    wire [5:0] madr;
+    wire [5:0] mdat;
+    wire RIR;
+    wire WIR;
+    wire RPC;
+    wire CPC;
+    wire SDM;
+    wire WDR;
+    wire [5:0] TEST;
+    wire DOE;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 100;
+
+    initial    // Clock process for clock
+    begin
+        #OFFSET;
+        forever
+        begin
+            clock = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) clock = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    smicro UUT (
+        .resetb(resetb),
+        .clock(clock),
+        .asb(asb),
+        .rw(rw),
+        .iadr(iadr),
+        .idat(idat),
+        .madr(madr),
+        .mdat(mdat),
+        .RIR(RIR),
+        .WIR(WIR),
+        .RPC(RPC),
+        .CPC(CPC),
+        .SDM(SDM),
+        .WDR(WDR),
+        .TEST(TEST),
+        .DOE(DOE));
+
+    initial begin
+        // -------------  Current Time:  8585ns
+        #8585;
+        resetb = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  26785ns
+        #18200;
+        resetb = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  41585ns
+        #14800;
+        resetb = 1'b1;
+        // -------------------------------------
+    end
+
+endmodule
+

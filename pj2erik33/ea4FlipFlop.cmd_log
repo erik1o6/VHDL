@@ -1,0 +1,1 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/pj2erik33.ise" -intstyle ise -ifn ea4FlipFlop.xst -ofn ea4FlipFlop.syr

@@ -1,0 +1,10 @@
+AR eainvert behavioral C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaINVERT.vhd sub00/vhpl03 1349757654
+EN ea2to1mux NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2to1MUX.vhd sub00/vhpl04 1349757655
+EN eainvert NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaINVERT.vhd sub00/vhpl02 1349757653
+AR ea6dlatch struct C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Dlatch.vhd sub00/vhpl09 1349757660
+EN ea2nand NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2NAND.vhd sub00/vhpl00 1349757651
+AR eadlatch struc C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaDLatch.vhd sub00/vhpl07 1349757658
+EN ea6dlatch NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea6Dlatch.vhd sub00/vhpl08 1349757659
+AR ea2nand behavioral C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2NAND.vhd sub00/vhpl01 1349757652
+EN eadlatch NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/eaDLatch.vhd sub00/vhpl06 1349757657
+AR ea2to1mux struct C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/ea2to1MUX.vhd sub00/vhpl05 1349757656

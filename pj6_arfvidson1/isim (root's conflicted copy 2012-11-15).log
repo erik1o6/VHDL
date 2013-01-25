@@ -1,0 +1,57 @@
+ command line:
+   ./lllll_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  65271
+
+Wed Nov 14 18:25:46 2012
+
+Total Line Count : 53269
+WARNING:Simulator:406 - This is a limited version of the ISE Simulator. The
+   current design has exceeded the design size limit for this version and the
+   performance of the simulation will be derated.
+
+ Elaboration time : 0.078 sec.
+
+ Estimate current memory usage : 165.458 Meg. 
+
+ Total Signals          : 16302
+ Total Nets             : 3411
+ Total Signal Drivers   : 3658
+ Total Blocks           : 4371
+ Total Primitive Blocks : 3144
+ Total Processes        : 3658
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 3411
+ntrace select -o on -n /lllll/resetb 
+ntrace select -o on -n /lllll/clock 
+ntrace select -o on -n /lllll/asb 
+ntrace select -o on -n /lllll/rw 
+ntrace select -o on -n /lllll/iadr 
+ntrace select -o on -n /lllll/idat 
+ntrace select -o on -n /lllll/madr 
+ntrace select -o on -n /lllll/mdat 
+ntrace select -o on -n /lllll/rir 
+ntrace select -o on -n /lllll/wir 
+ntrace select -o on -n /lllll/rpc 
+ntrace select -o on -n /lllll/cpc 
+ntrace select -o on -n /lllll/sdm 
+ntrace select -o on -n /lllll/wdr 
+ntrace select -o on -n /lllll/test 
+ntrace select -o on -n /lllll/doe 
+ntrace select -o on -n /lllll/spc 
+ntrace select -o on -n /lllll/cf 
+ntrace select -o on -n /lllll/wc 
+ntrace select -o on -n /lllll/sub 
+ntrace select -o on -n /lllll/sdm1 
+ntrace select -o on -n /lllll/input 
+ntrace select -o on -n /lllll/output 
+ntrace select -o on -n /lllll/dmuxo 
+ntrace select -o on -n /lllll/subout 
+ntrace select -o on -n /lllll/suboutc 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 100000 ns 
+isimrun 100000 ns 

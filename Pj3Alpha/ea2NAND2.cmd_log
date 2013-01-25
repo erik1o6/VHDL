@@ -1,0 +1,1 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/Pj3Alpha/Pj3Alpha.ise" -intstyle ise -ifn ea2NAND2.xst -ofn ea2NAND2.syr

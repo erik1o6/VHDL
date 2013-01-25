@@ -1,0 +1,66 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : 1231sd.tfw
+// /___/   /\     Timestamp : Tue Oct 02 15:27:59 2012
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: 1231sd
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module 1231sd;
+    reg CLK = 1'b0;
+    reg RESET = 1'b0;
+    reg Cin = 1'b0;
+    reg [5:0] B = 6'b000000;
+    wire [5:0] SUM;
+    wire [5:0] C;
+    wire [5:0] A;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 100;
+
+    initial    // Clock process for CLK
+    begin
+        #OFFSET;
+        forever
+        begin
+            CLK = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) CLK = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    ea6PCf UUT (
+        .CLK(CLK),
+        .RESET(RESET),
+        .Cin(Cin),
+        .B(B),
+        .SUM(SUM),
+        .C(C),
+        .A(A));
+
+    initial begin
+        // -------------  Current Time:  185ns
+        #185;
+        RESET = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1385ns
+        #1200;
+        B = 6'b000001;
+        // -------------------------------------
+    end
+
+endmodule
+

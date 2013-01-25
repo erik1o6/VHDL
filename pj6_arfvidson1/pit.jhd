@@ -1,0 +1,3 @@
+MODULE pit
+SUBMODULE smicro
+INSTANCE UUT

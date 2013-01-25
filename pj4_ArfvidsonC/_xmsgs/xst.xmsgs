@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_ArfvidsonC/ea64x6Ram.vhd</arg>&quot; line <arg fmt="%d" index="2">62</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">D</arg>&apos; of component &apos;<arg fmt="%s" index="4">ea32x6Ram</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_ArfvidsonC/ea64x6Ram.vhd</arg>&quot; line <arg fmt="%d" index="2">63</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">D</arg>&apos; of component &apos;<arg fmt="%s" index="4">ea32x6Ram</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">AN&lt;5&gt;</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">DB</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">OE32RAM</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">CS32RAM</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">RW32RAM</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">A1</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2563" delta="unknown" >Inout &lt;<arg fmt="%s" index="1">D&lt;0&gt;</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">Z</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2563" delta="unknown" >Inout &lt;<arg fmt="%s" index="1">D&lt;1&gt;</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">Z</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2563" delta="unknown" >Inout &lt;<arg fmt="%s" index="1">D&lt;2&gt;</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">Z</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2563" delta="unknown" >Inout &lt;<arg fmt="%s" index="1">D&lt;3&gt;</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">Z</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2563" delta="unknown" >Inout &lt;<arg fmt="%s" index="1">D&lt;4&gt;</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">Z</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2563" delta="unknown" >Inout &lt;<arg fmt="%s" index="1">D&lt;5&gt;</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">Z</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">B0</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate7</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate7</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate7</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate7</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate7</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate7</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">gate6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">gate7</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2042" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg>: <arg fmt="%d" index="2">6</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2040" delta="unknown" >Unit <arg fmt="%s" index="1">ea32x6Ram</arg>: <arg fmt="%d" index="2">6</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+</messages>
+

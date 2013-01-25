@@ -1,0 +1,3 @@
+MODULE lost
+SUBMODULE ea4Dlatch
+INSTANCE UUT

@@ -1,0 +1,1 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidso/pj4_arfvidso.ise" -intstyle ise -ifn ramtest.xst -ofn ramtest.syr

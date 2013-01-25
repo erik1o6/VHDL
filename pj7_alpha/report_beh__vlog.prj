@@ -1,0 +1,3 @@
+--Verilog project file split out from report_beh.prj
+verilog work "C:\Users\ERIK\Dropbox\cmpen471\projects\pj7_alpha/report.tfw"
+verilog work "C:/Xilinx92i/verilog/src/glbl.v"

@@ -1,0 +1,3 @@
+MODULE testALpha
+SUBMODULE ufm6bit
+INSTANCE UUT

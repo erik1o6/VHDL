@@ -1,0 +1,1 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj2eaFinal/pj2eaFinal.ise" -intstyle ise -ifn eaPCf.xst -ofn eaPCf.syr

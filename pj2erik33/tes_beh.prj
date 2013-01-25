@@ -1,0 +1,6 @@
+vhdl work "eaINVERT.vhd"
+vhdl work "ea2NAND.vhd"
+vhdl work "ea2to1MUX.vhd"
+vhdl work "eaDLatch.vhd"
+vhdl work "eaFlipFlop.vhd"
+vhdl work "tes.vhw"

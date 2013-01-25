@@ -1,0 +1,292 @@
+V3 143
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea1bitadder.vhd 2012/10/04.13:14:05 J.36
+EN work/ea1bitadder 1352619108 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea1bitadder.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea1bitadder/Behavioral 1352619109 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea1bitadder.vhd \
+      EN work/ea1bitadder 1352619108 CP eaINVERT CP ea2NAND CP ea3NAND CP ea4NAND
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2AND.vhd 2012/10/04.13:14:59 J.36
+EN work/ea2AND 1352619098 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2AND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2AND/Behavioral 1352619099 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2AND.vhd \
+      EN work/ea2AND 1352619098
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2NAND.vhd 2012/10/04.13:17:24 J.36
+EN work/ea2NAND 1352619078 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2NAND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2NAND/Behavioral 1352619079 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2NAND.vhd \
+      EN work/ea2NAND 1352619078
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2NOR.vhd 2012/10/04.13:18:18 J.36
+EN work/ea2NOR 1352619136 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2NOR.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2NOR/Behavioral 1352619137 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2NOR.vhd \
+      EN work/ea2NOR 1352619136
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2OR.vhd 2012/10/09.00:29:40 J.36
+EN work/ea2OR 1352619130 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2OR.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2OR/Behavioral 1352619131 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2OR.vhd \
+      EN work/ea2OR 1352619130
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2to1MUX.vhd 2012/10/04.13:20:10 J.36
+EN work/ea2to1MUX 1352619082 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2to1MUX.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2to1MUX/struct 1352619083 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea2to1MUX.vhd \
+      EN work/ea2to1MUX 1352619082 CP ea2NAND CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea32x6Ram.vhd 2012/10/11.02:04:05 J.36
+EN work/ea32x6Ram 1352619128 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea32x6Ram.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea32x6Ram/struct 1352619129 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea32x6Ram.vhd \
+      EN work/ea32x6Ram 1352619128 CP ea5to32Decoder CP eaINVERT CP ea3NOR \
+      CP eaOutputBuf CP ea6Ram
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea3AND.vhd 2012/10/04.13:20:37 J.36
+EN work/ea3AND 1352619106 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea3AND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea3AND/Behavioral 1352619107 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea3AND.vhd \
+      EN work/ea3AND 1352619106
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea3NAND.vhd 2012/10/04.13:23:45 J.36
+EN work/ea3NAND 1352619090 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea3NAND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea3NAND/Behavioral 1352619091 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea3NAND.vhd \
+      EN work/ea3NAND 1352619090
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea3NOR.vhd 2012/10/09.00:42:01 J.36
+EN work/ea3NOR 1352619112 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea3NOR.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea3NOR/Behavioral 1352619113 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea3NOR.vhd \
+      EN work/ea3NOR 1352619112
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea4NAND.vhd 2012/10/04.12:59:30 J.36
+EN work/ea4NAND 1352619092 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea4NAND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea4NAND/Behavioral 1352619093 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea4NAND.vhd \
+      EN work/ea4NAND 1352619092
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea5to32Decoder.vhd 2012/10/11.04:21:08 J.36
+EN work/ea5to32Decoder 1352619110 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea5to32Decoder.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea5to32Decoder/struct 1352619111 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea5to32Decoder.vhd \
+      EN work/ea5to32Decoder 1352619110 CP ea6AND CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea64Rom.vhd 2012/10/04.12:35:35 J.36
+EN work/ea64Rom 1352619144 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea64Rom.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea64Rom/struct 1352619145 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea64Rom.vhd \
+      EN work/ea64Rom 1352619144 CP ea6bitto64decoder CP ea6bit64word CP ea2NOR \
+      CP eaOutputBuf
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea64x6Ram.vhd 2012/10/11.05:01:13 J.36
+EN work/ea64x6Ram 1352619146 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea64x6Ram.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea64x6Ram/struct 1352619147 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea64x6Ram.vhd \
+      EN work/ea64x6Ram 1352619146 CP ea32x6Ram CP eaINVERT CP ea2OR
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6AND.vhd 2012/10/09.00:04:57 J.36
+EN work/ea6AND 1352619100 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6AND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6AND/Behavioral 1352619101 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6AND.vhd \
+      EN work/ea6AND 1352619100
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6bit64word.vhd 2012/10/22.14:57:47 J.36
+EN work/ea6bit64word 1352619134 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6bit64word.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6bit64word/struct 1352619135 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6bit64word.vhd \
+      EN work/ea6bit64word 1352619134 CP eainv6buf
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6bitMUX.vhd 2012/10/04.12:19:31 J.36
+EN work/ea6bitMUX 1352619104 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6bitMUX.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6bitMUX/struct 1352619105 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6bitMUX.vhd \
+      EN work/ea6bitMUX 1352619104 CP ea2to1MUX
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6bitto64decoder.vhd 2012/10/04.12:20:38 J.36
+EN work/ea6bitto64decoder 1352619132 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6bitto64decoder.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6bitto64decoder/struct 1352619133 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6bitto64decoder.vhd \
+      EN work/ea6bitto64decoder 1352619132 CP ea7AND CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6Dlatch.vhd 2012/10/08.23:40:45 J.36
+EN work/ea6Dlatch 1352619094 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6Dlatch.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6Dlatch/struct 1352619095 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6Dlatch.vhd \
+      EN work/ea6Dlatch 1352619094 CP eaDlatch
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6Flip.vhd 2012/10/04.12:21:37 J.36
+EN work/ea6Flip 1352619102 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6Flip.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6Flip/struct 1352619103 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6Flip.vhd \
+      EN work/ea6Flip 1352619102 CP eaFlipFlop
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6PCf.vhd 2012/10/04.12:22:14 J.36
+EN work/ea6PCf 1352619138 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6PCf.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6PCf/struct 1352619139 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6PCf.vhd \
+      EN work/ea6PCf 1352619138 CP ea6bitMUX CP ea6Flip CP eaadd6bit
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6Ram.vhd 2012/10/10.22:43:11 J.36
+EN work/ea6Ram 1352619116 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6Ram.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6Ram/struc 1352619117 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea6Ram.vhd \
+      EN work/ea6Ram 1352619116 CP ea6Dlatch CP eainv6buf CP ea2AND
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea7AND.vhd 2012/10/04.12:34:05 J.36
+EN work/ea7AND 1352619118 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea7AND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea7AND/Behavioral 1352619119 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/ea7AND.vhd \
+      EN work/ea7AND 1352619118
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaadd6bit.vhd 2012/10/04.12:39:49 J.36
+EN work/eaadd6bit 1352619126 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaadd6bit.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaadd6bit/struct 1352619127 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaadd6bit.vhd \
+      EN work/eaadd6bit 1352619126 CP ea1bitadder
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaCPU.vhd 2012/10/23.04:09:44 J.36
+EN work/eaCPU 1352619142 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaCPU.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaCPU/struct 1352619143 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaCPU.vhd \
+      EN work/eaCPU 1352619142 CP ea6PCf CP ea6bitMUX CP ea6Flip CP eainv6buf CP eaCU
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaCU.vhd 2012/10/22.09:18:58 J.36
+EN work/eaCU 1352619140 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaCU.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaCU/struct 1352619141 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaCU.vhd EN work/eaCU 1352619140 \
+      CP eaSM CP eaID CP eaIR
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaDLatch.vhd 2012/10/04.13:04:15 J.36
+EN work/eaDlatch 1352619084 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaDLatch.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaDlatch/struc 1352619085 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaDLatch.vhd \
+      EN work/eaDlatch 1352619084 CP ea2to1MUX
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaFlipFlop.vhd 2012/10/04.13:03:03 J.36
+EN work/eaFlipFlop 1352619088 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaFlipFlop.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaFlipFlop/struct 1352619089 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaFlipFlop.vhd \
+      EN work/eaFlipFlop 1352619088 CP eaDlatch CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaID.vhd 2012/10/22.14:42:31 J.36
+EN work/eaID 1352619122 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaID.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaID/struct 1352619123 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaID.vhd EN work/eaID 1352619122 \
+      CP ea2AND CP eaINVERT CP ea3AND
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eainv6buf.vhd 2012/10/04.13:07:07 J.36
+EN work/eainv6buf 1352619096 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eainv6buf.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eainv6buf/struct 1352619097 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eainv6buf.vhd \
+      EN work/eainv6buf 1352619096 CP eainvbuf
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eainvbuf.vhd 2012/10/01.01:29:00 J.36
+EN work/eainvbuf 1352619086 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eainvbuf.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eainvbuf/Behavioral 1352619087 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eainvbuf.vhd \
+      EN work/eainvbuf 1352619086
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaINVERT.vhd 2012/10/04.13:07:50 J.36
+EN work/eaINVERT 1352619080 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaINVERT.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaINVERT/Behavioral 1352619081 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaINVERT.vhd \
+      EN work/eaINVERT 1352619080
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaIR.vhd 2012/10/22.09:29:23 J.36
+EN work/eaIR 1352619124 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaIR.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaIR/struct 1352619125 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaIR.vhd EN work/eaIR 1352619124 \
+      CP ea6Flip CP ea6bitMUX
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaOutputBuf.vhd 2012/10/23.02:26:40 J.36
+EN work/eaOutputBuf 1352619114 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaOutputBuf.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaOutputBuf/struct 1352619115 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaOutputBuf.vhd \
+      EN work/eaOutputBuf 1352619114 CP eainvbuf
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaSM.vhd 2012/10/22.09:19:24 J.36
+EN work/eaSM 1352619120 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaSM.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaSM/struct 1352619121 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/eaSM.vhd EN work/eaSM 1352619120 \
+      CP eaFlipFlop CP eaINVERT CP ea2to1MUX
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/smicro.vhd 2012/10/23.03:49:30 J.36
+EN work/smicro 1352619431 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/smicro.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/smicro/struct 1352619432 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/smicro.vhd \
+      EN work/smicro 1352619431 CP eaCPU CP ea64Rom CP ea64x6Ram CP eaINVERT \
+      CP ea2NAND

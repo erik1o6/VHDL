@@ -1,0 +1,10 @@
+V3 8
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5_beta/smicro.vhd 2012/10/23.13:51:17 J.36
+EN work/smicro 1351044109 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5_beta/smicro.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/smicro/struct 1351044110 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj5_beta/smicro.vhd \
+      EN work/smicro 1351044109 CP eaCPU CP ea64Rom CP ea64x6Ram CP eaINVERT \
+      CP ea2NAND

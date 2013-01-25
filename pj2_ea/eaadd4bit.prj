@@ -1,0 +1,6 @@
+vhdl work "eaINVERT.vhd"
+vhdl work "ea4NAND.vhd"
+vhdl work "ea3NAND.vhd"
+vhdl work "ea2NAND.vhd"
+vhdl work "ea1bitadder.vhd"
+vhdl work "eaadd4bit.vhd"

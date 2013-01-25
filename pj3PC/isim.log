@@ -1,0 +1,48 @@
+ command line:
+   ./asd12_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  59355
+
+Tue Oct 02 16:02:44 2012
+
+Total Line Count : 1314
+
+ Elaboration time : 0 sec.
+
+ Estimate current memory usage : 150.634 Meg. 
+
+ Total Signals          : 430
+ Total Nets             : 132
+ Total Signal Drivers   : 107
+ Total Blocks           : 105
+ Total Primitive Blocks : 81
+ Total Processes        : 111
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 283
+ntrace select -o on -n /asd12/A 
+ntrace select -o on -n /asd12/C 
+ntrace select -o on -n /asd12/SUM 
+ntrace select -o on -n /asd12/Cout 
+ntrace select -o on -n /asd12/PERIOD 
+ntrace select -o on -n /asd12/DUTY_CYCLE 
+ntrace select -o on -n /asd12/OFFSET 
+ntrace select -o on -n /asd12/CLK 
+ntrace select -o on -n /asd12/RESET 
+ntrace select -o on -n /asd12/B 
+ntrace select -o on -n /asd12/Cin 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 1000 ns 
+isimrun 1000 ns 
+isimrun 1000 ns 
+isimrun 1000 ns 
+
+ Simulation time 0.125 sec.
+
+ Estimate current memory usage : 160.002 Meg. 
+
+Tue Oct 02 16:05:16 2012
+

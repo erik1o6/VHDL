@@ -1,0 +1,42 @@
+ command line:
+   ./cake_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  51542
+
+Wed Sep 19 13:20:31 2012
+
+Total Line Count : 1673
+
+ Elaboration time : 0.015625 sec.
+
+ Estimate current memory usage : 150.594 Meg. 
+
+ Total Signals          : 542
+ Total Nets             : 135
+ Total Signal Drivers   : 123
+ Total Blocks           : 138
+ Total Primitive Blocks : 100
+ Total Processes        : 122
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 135
+ntrace select -o on -n /cake/clk 
+ntrace select -o on -n /cake/reset 
+ntrace select -o on -n /cake/cin 
+ntrace select -o on -n /cake/b 
+ntrace select -o on -n /cake/a 
+ntrace select -o on -n /cake/c 
+ntrace select -o on -n /cake/sum 
+ntrace select -o on -n /cake/cout 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 100000 ns 
+
+ Simulation time 0.203125 sec.
+
+ Estimate current memory usage : 159.961 Meg. 
+
+Wed Sep 19 13:22:31 2012
+

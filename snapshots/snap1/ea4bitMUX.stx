@@ -1,0 +1,25 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.28 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea2NAND.vhd" in Library work.
+Architecture behavioral of Entity ea2nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea2to1MUX.vhd" in Library work.
+Architecture behavioral of Entity ea2to1mux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea4bitMUX.vhd" in Library work.
+Architecture struct of Entity ea4bitmux is up to date.
+CPU : 0.28 / 0.56 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 150168 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

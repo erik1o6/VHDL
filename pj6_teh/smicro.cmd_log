@@ -1,0 +1,7 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_teh/pj6_teh.ise" -intstyle ise -ifn smicro.xst -ofn smicro.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_teh/pj6_teh.ise" -intstyle ise -ifn smicro.xst -ofn smicro.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_teh/pj6_teh.ise" -intstyle ise -ifn smicro.xst -ofn smicro.syr
+ngdbuild -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_teh/pj6_teh.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "smicro.ngc" smicro.ngd
+map -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_teh/pj6_teh.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o smicro_map.ncd smicro.ngd smicro.pcf
+par -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_teh/pj6_teh.ise" -w -intstyle ise -ol std -t 1 smicro_map.ncd smicro.ncd smicro.pcf
+trce -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_teh/pj6_teh.ise" -intstyle ise -e 3 -s 4 -xml smicro smicro.ncd -o smicro.twr smicro.pcf

@@ -1,0 +1,3 @@
+vhdl work "eaINVERT.vhd"
+vhdl work "ea6AND.vhd"
+vhdl work "ea5to32Decoder.vhd"

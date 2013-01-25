@@ -1,0 +1,41 @@
+ command line:
+   ./dasqw_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  58640
+
+Thu Oct 04 05:54:15 2012
+
+Total Line Count : 11348
+
+ Elaboration time : 0.0156 sec.
+
+ Estimate current memory usage : 152.928 Meg. 
+
+ Total Signals          : 3434
+ Total Nets             : 856
+ Total Signal Drivers   : 813
+ Total Blocks           : 918
+ Total Primitive Blocks : 744
+ Total Processes        : 817
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 1010
+ntrace select -o on -n /dasqw/d 
+ntrace select -o on -n /dasqw/PERIOD 
+ntrace select -o on -n /dasqw/DUTY_CYCLE 
+ntrace select -o on -n /dasqw/OFFSET 
+ntrace select -o on -n /dasqw/ckm 
+ntrace select -o on -n /dasqw/rb 
+ntrace select -o on -n /dasqw/b 
+ntrace select -o on -n /dasqw/s 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.1248 sec.
+
+ Estimate current memory usage : 164.393 Meg. 
+
+Thu Oct 04 06:58:45 2012
+

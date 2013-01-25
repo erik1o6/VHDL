@@ -1,0 +1,44 @@
+ command line:
+   ./eee_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  57389
+
+Thu Oct 11 12:41:09 2012
+
+Total Line Count : 37947
+WARNING:Simulator:406 - This is a limited version of the ISE Simulator. The
+   current design has exceeded the design size limit for this version and the
+   performance of the simulation will be derated.
+
+ Elaboration time : 0.0625 sec.
+
+ Estimate current memory usage : 165.405 Meg. 
+
+ Total Signals          : 11518
+ Total Nets             : 2209
+ Total Signal Drivers   : 2553
+ Total Blocks           : 3131
+ Total Primitive Blocks : 2158
+ Total Processes        : 2556
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 2310
+ntrace select -o on -n /eee/d 
+ntrace select -o on -n /eee/joe 
+ntrace select -o on -n /eee/csb 
+ntrace select -o on -n /eee/a 
+ntrace select -o on -n /eee/oeb 
+ntrace select -o on -n /eee/j 
+ntrace select -o on -n /eee/rw 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 10000 ns 
+
+ Simulation time 0.203125 sec.
+
+ Estimate current memory usage : 172.675 Meg. 
+
+Thu Oct 11 12:43:07 2012
+

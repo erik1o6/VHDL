@@ -1,0 +1,3 @@
+MODULE lolz
+SUBMODULE ea4Dlatch
+INSTANCE UUT

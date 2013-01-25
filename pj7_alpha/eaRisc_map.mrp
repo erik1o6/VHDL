@@ -1,0 +1,243 @@
+Release 9.2i Map J.36
+Xilinx Mapping Report File for Design 'eaRisc'
+
+Design Information
+------------------
+Command Line   : C:\Xilinx92i\bin\nt\map.exe -ise
+C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise -intstyle ise -p
+xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o eaRisc_map.ncd eaRisc.ngd
+eaRisc.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.36 $
+Mapped Date    : Thu Dec 06 02:09:14 2012
+
+Design Summary
+--------------
+Number of errors   :  24
+Number of warnings :   8
+
+Section 1 - Errors
+------------------
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate1/z_not0001_wg_lut<10>" (output
+   signal=N126) has input signal "RAM/gate9/gate1/gate1/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate1/z_not0001_wg_lut<8>" (output
+   signal=N124) has input signal "RAM/gate13/gate1/gate1/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate1/z_not0001_wg_lut<9>" (output
+   signal=N125) has input signal "RAM/gate8/gate1/gate1/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate1/z_not0001_wg_lut<9>" (output
+   signal=N125) has input signal "RAM/gate12/gate1/gate1/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate2/z_not0001_wg_lut<10>" (output
+   signal=N113) has input signal "RAM/gate9/gate1/gate2/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate2/z_not0001_wg_lut<8>" (output
+   signal=N111) has input signal "RAM/gate13/gate1/gate2/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate2/z_not0001_wg_lut<9>" (output
+   signal=N112) has input signal "RAM/gate8/gate1/gate2/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate2/z_not0001_wg_lut<9>" (output
+   signal=N112) has input signal "RAM/gate12/gate1/gate2/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate3/z_not0001_wg_lut<10>" (output
+   signal=N100) has input signal "RAM/gate9/gate1/gate3/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate3/z_not0001_wg_lut<8>" (output
+   signal=N98) has input signal "RAM/gate13/gate1/gate3/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate3/z_not0001_wg_lut<9>" (output
+   signal=N99) has input signal "RAM/gate8/gate1/gate3/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate3/z_not0001_wg_lut<9>" (output
+   signal=N99) has input signal "RAM/gate12/gate1/gate3/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate4/z_not0001_wg_lut<10>" (output
+   signal=N87) has input signal "RAM/gate9/gate1/gate4/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate4/z_not0001_wg_lut<8>" (output
+   signal=N85) has input signal "RAM/gate13/gate1/gate4/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate4/z_not0001_wg_lut<9>" (output
+   signal=N86) has input signal "RAM/gate8/gate1/gate4/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate4/z_not0001_wg_lut<9>" (output
+   signal=N86) has input signal "RAM/gate12/gate1/gate4/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate5/z_not0001_wg_lut<10>" (output
+   signal=N74) has input signal "RAM/gate9/gate1/gate5/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate5/z_not0001_wg_lut<8>" (output
+   signal=N72) has input signal "RAM/gate13/gate1/gate5/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate5/z_not0001_wg_lut<9>" (output
+   signal=N73) has input signal "RAM/gate8/gate1/gate5/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate5/z_not0001_wg_lut<9>" (output
+   signal=N73) has input signal "RAM/gate12/gate1/gate5/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate6/z_not0001_wg_lut<10>" (output
+   signal=N61) has input signal "RAM/gate9/gate1/gate6/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate6/z_not0001_wg_lut<8>" (output
+   signal=N59) has input signal "RAM/gate13/gate1/gate6/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate6/z_not0001_wg_lut<9>" (output
+   signal=N60) has input signal "RAM/gate8/gate1/gate6/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate6/z_not0001_wg_lut<9>" (output
+   signal=N60) has input signal "RAM/gate12/gate1/gate6/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:243 - Logical network input<5> has no load.
+WARNING:LIT:395 - The above warning message base_net_load_rule is repeated 5
+   more times for the following (max. 5 shown):
+   input<4>,
+   input<3>,
+   input<2>,
+   input<1>,
+   input<0>
+   To see the details of these warning messages, please use the -detail switch.
+WARNING:MapLib:701 - Signal output<5> connected to top level port output<5> has
+   been removed.
+WARNING:MapLib:701 - Signal output<4> connected to top level port output<4> has
+   been removed.
+WARNING:MapLib:701 - Signal output<3> connected to top level port output<3> has
+   been removed.
+WARNING:MapLib:701 - Signal output<2> connected to top level port output<2> has
+   been removed.
+WARNING:MapLib:701 - Signal output<1> connected to top level port output<1> has
+   been removed.
+WARNING:MapLib:701 - Signal output<0> connected to top level port output<0> has
+   been removed.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  48 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "output_5_OBUF" is unused and has been removed.
+The signal "output_4_OBUF" is unused and has been removed.
+The signal "output_3_OBUF" is unused and has been removed.
+The signal "output_2_OBUF" is unused and has been removed.
+The signal "output_1_OBUF" is unused and has been removed.
+The signal "output_0_OBUF" is unused and has been removed.
+The signal "RAM/gate8/gate1/gate1/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate8/gate1/gate2/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate8/gate1/gate3/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate8/gate1/gate4/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate8/gate1/gate5/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate8/gate1/gate6/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate9/gate1/gate1/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate9/gate1/gate2/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate9/gate1/gate3/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate9/gate1/gate4/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate9/gate1/gate5/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate9/gate1/gate6/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate10/gate1/gate1/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate10/gate1/gate2/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate10/gate1/gate3/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate10/gate1/gate4/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate10/gate1/gate5/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate10/gate1/gate6/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate12/gate1/gate1/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate12/gate1/gate2/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate12/gate1/gate3/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate12/gate1/gate4/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate12/gate1/gate5/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate12/gate1/gate6/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate13/gate1/gate1/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate13/gate1/gate2/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate13/gate1/gate3/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate13/gate1/gate4/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate13/gate1/gate5/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate13/gate1/gate6/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate15/gate1/gate1/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate15/gate1/gate2/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate15/gate1/gate3/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate15/gate1/gate4/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate15/gate1/gate5/gate3/gate1/M0" is unused and has been
+removed.
+The signal "RAM/gate15/gate1/gate6/gate3/gate1/M0" is unused and has been
+removed.
+The signal "output<5>" is unused and has been removed.
+The signal "output<4>" is unused and has been removed.
+The signal "output<3>" is unused and has been removed.
+The signal "output<2>" is unused and has been removed.
+The signal "output<1>" is unused and has been removed.
+The signal "output<0>" is unused and has been removed.

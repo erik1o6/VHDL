@@ -1,0 +1,2 @@
+vhdl work "eainvbuf.vhd"
+vhdl work "eaOutputBuf.vhd"

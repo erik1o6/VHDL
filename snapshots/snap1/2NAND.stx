@@ -1,0 +1,22 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.27 s | Elapsed : 0.00 / 1.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/2eaNAND.vhd" in Library work.
+ERROR:HDLParsers:164 - "C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/2eaNAND.vhd" Line 30. parse error, unexpected INTEGER_LITERAL, expecting IDENTIFIER
+WARNING:HDLParsers:3481 - Library work has no units. Did not save reference file "xst/work/hdllib.ref" for it.
+CPU : 0.12 / 0.39 s | Elapsed : 0.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 150680 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

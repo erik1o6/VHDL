@@ -1,0 +1,3 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_ArfvidsonC/pj4_ArfvidsonC.ise" -intstyle ise -ifn ramtest.xst -ofn ramtest.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_ArfvidsonC/pj4_ArfvidsonC.ise" -intstyle ise -ifn ramtest.xst -ofn ramtest.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_ArfvidsonC/pj4_ArfvidsonC.ise" -intstyle ise -ifn ramtest.xst -ofn ramtest.syr

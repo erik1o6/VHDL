@@ -1,0 +1,57 @@
+ command line:
+   ./lor212_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  53003
+
+Tue Nov 13 01:33:54 2012
+
+Total Line Count : 53273
+WARNING:Simulator:406 - This is a limited version of the ISE Simulator. The
+   current design has exceeded the design size limit for this version and the
+   performance of the simulation will be derated.
+
+ Elaboration time : 0.046875 sec.
+
+ Estimate current memory usage : 174.109 Meg. 
+
+ Total Signals          : 16302
+ Total Nets             : 3411
+ Total Signal Drivers   : 3659
+ Total Blocks           : 4371
+ Total Primitive Blocks : 3144
+ Total Processes        : 3658
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 3411
+ntrace select -o on -n /lor212/resetb 
+ntrace select -o on -n /lor212/clock 
+ntrace select -o on -n /lor212/asb 
+ntrace select -o on -n /lor212/rw 
+ntrace select -o on -n /lor212/iadr 
+ntrace select -o on -n /lor212/idat 
+ntrace select -o on -n /lor212/madr 
+ntrace select -o on -n /lor212/mdat 
+ntrace select -o on -n /lor212/rir 
+ntrace select -o on -n /lor212/wir 
+ntrace select -o on -n /lor212/rpc 
+ntrace select -o on -n /lor212/cpc 
+ntrace select -o on -n /lor212/wdr 
+ntrace select -o on -n /lor212/test 
+ntrace select -o on -n /lor212/doe 
+ntrace select -o on -n /lor212/spc 
+ntrace select -o on -n /lor212/cf 
+ntrace select -o on -n /lor212/wc 
+ntrace select -o on -n /lor212/sub 
+ntrace select -o on -n /lor212/sdm1 
+ntrace select -o on -n /lor212/sdm 
+ntrace select -o on -n /lor212/input 
+ntrace select -o on -n /lor212/output 
+ntrace select -o on -n /lor212/dmuxo 
+ntrace select -o on -n /lor212/subout 
+ntrace select -o on -n /lor212/suboutc 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 100000 ns 
+isimrun 100000 ns 

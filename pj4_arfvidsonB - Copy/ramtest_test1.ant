@@ -1,0 +1,184 @@
+--------------------------------------------------------------------------------
+-- Copyright (c) 1995-2007 Xilinx, Inc.
+-- All Right Reserved.
+--------------------------------------------------------------------------------
+--   ____  ____ 
+--  /   /\/   / 
+-- /___/  \  /    Vendor: Xilinx 
+-- \   \   \/     Version : 9.2i
+--  \   \         Application : ISE
+--  /   /         Filename : ramtest_test1.ant
+-- /___/   /\     Timestamp : Tue Oct 09 03:27:06 2012
+-- \   \  /  \ 
+--  \___\/\___\ 
+--
+--Command: 
+--Design Name: ramtest_test1
+--Device: Xilinx
+--
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+USE IEEE.STD_LOGIC_TEXTIO.ALL;
+USE STD.TEXTIO.ALL;
+
+ENTITY ramtest_test1 IS
+END ramtest_test1;
+
+ARCHITECTURE testbench_arch OF ramtest_test1 IS
+    FILE RESULTS: TEXT OPEN WRITE_MODE IS "C:\Users\ERIK\Dropbox\cmpen471\projects\pj4_arfvidsonB\ramtest_test1.ano";
+
+    COMPONENT ramtest
+        PORT (
+            a : In std_logic_vector (5 DownTo 0);
+            rw : In std_logic;
+            csb : In std_logic;
+            oeb : In std_logic;
+            j : In std_logic_vector (5 DownTo 0);
+            joe : In std_logic;
+            d : InOut std_logic_vector (5 DownTo 0)
+        );
+    END COMPONENT;
+
+    SIGNAL a : std_logic_vector (5 DownTo 0) := "000000";
+    SIGNAL rw : std_logic := '0';
+    SIGNAL csb : std_logic := '0';
+    SIGNAL oeb : std_logic := '0';
+    SIGNAL j : std_logic_vector (5 DownTo 0) := "000000";
+    SIGNAL joe : std_logic := '0';
+    SIGNAL d : std_logic_vector (5 DownTo 0) := "ZZZZZZ";
+
+    SHARED VARIABLE TX_ERROR : INTEGER := 0;
+    SHARED VARIABLE TX_OUT : LINE;
+
+    BEGIN
+        UUT : ramtest
+        PORT MAP (
+            a => a,
+            rw => rw,
+            csb => csb,
+            oeb => oeb,
+            j => j,
+            joe => joe,
+            d => d
+        );
+
+        PROCESS
+            BEGIN
+                -- -------------  Current Time:  300ns
+                WAIT FOR 300 ns;
+                joe <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  400ns
+                WAIT FOR 100 ns;
+                a <= "100000";
+                -- -------------------------------------
+                -- -------------  Current Time:  500ns
+                WAIT FOR 100 ns;
+                j <= "000001";
+                -- -------------------------------------
+                -- -------------  Current Time:  900ns
+                WAIT FOR 400 ns;
+                oeb <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  1000ns
+                WAIT FOR 100 ns;
+                a <= "000000";
+                -- -------------------------------------
+                -- -------------  Current Time:  1400ns
+                WAIT FOR 400 ns;
+                joe <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  1500ns
+                WAIT FOR 100 ns;
+                rw <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  1600ns
+                WAIT FOR 100 ns;
+                a <= "100000";
+                -- -------------------------------------
+                -- -------------  Current Time:  1800ns
+                WAIT FOR 200 ns;
+                rw <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  1900ns
+                WAIT FOR 100 ns;
+                oeb <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  2100ns
+                WAIT FOR 200 ns;
+                a <= "000000";
+                -- -------------------------------------
+                -- -------------  Current Time:  2300ns
+                WAIT FOR 200 ns;
+                rw <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  2700ns
+                WAIT FOR 400 ns;
+                oeb <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  2800ns
+                WAIT FOR 100 ns;
+                joe <= '1';
+                a <= "100000";
+                -- -------------------------------------
+                -- -------------  Current Time:  2900ns
+                WAIT FOR 100 ns;
+                rw <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  3300ns
+                WAIT FOR 400 ns;
+                a <= "000000";
+                -- -------------------------------------
+                -- -------------  Current Time:  3500ns
+                WAIT FOR 200 ns;
+                oeb <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  3900ns
+                WAIT FOR 400 ns;
+                a <= "100000";
+                -- -------------------------------------
+                -- -------------  Current Time:  4200ns
+                WAIT FOR 300 ns;
+                rw <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  4300ns
+                WAIT FOR 100 ns;
+                oeb <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  4500ns
+                WAIT FOR 200 ns;
+                rw <= '0';
+                joe <= '0';
+                a <= "000000";
+                -- -------------------------------------
+                -- -------------  Current Time:  4800ns
+                WAIT FOR 300 ns;
+                rw <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  4900ns
+                WAIT FOR 100 ns;
+                a <= "100000";
+                -- -------------------------------------
+                -- -------------  Current Time:  5100ns
+                WAIT FOR 200 ns;
+                oeb <= '0';
+                a <= "000000";
+                -- -------------------------------------
+                -- -------------  Current Time:  5200ns
+                WAIT FOR 100 ns;
+                rw <= '0';
+                -- -------------------------------------
+                WAIT FOR 4800 ns;
+
+                STD.TEXTIO.write(TX_OUT, string'("Total[]"));
+                STD.TEXTIO.writeline(RESULTS, TX_OUT);
+                ASSERT (FALSE) REPORT
+                    "Success! Simulation for annotation completed"
+                    SEVERITY FAILURE;
+            END PROCESS;
+
+    END testbench_arch;
+

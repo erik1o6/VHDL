@@ -1,0 +1,3 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/pj5Alpha.ise" -intstyle ise -ifn smicro.xst -ofn smicro.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/pj5Alpha.ise" -intstyle ise -ifn smicro.xst -ofn smicro.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj5Alphas/pj5Alpha.ise" -intstyle ise -ifn smicro.xst -ofn smicro.syr

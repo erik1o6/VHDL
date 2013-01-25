@@ -1,0 +1,16 @@
+AR eaadd4bit behavioral C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/eaadd4bit.vhd sub00/vhpl13 1347572436
+AR eainvert behavioral C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/eaINVERT.vhd sub00/vhpl03 1347572426
+AR ea2nand2 behavioral C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/2eaNAND.vhd sub00/vhpl01 1347564380
+AR ea3nand behavioral C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea3NAND.vhd sub00/vhpl07 1347572430
+EN oooooo NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/oooooo.vhw sub00/vhpl14 1347572437
+EN eainvert NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/eaINVERT.vhd sub00/vhpl02 1347572425
+EN ea2nand NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea2NAND.vhd sub00/vhpl04 1347572427
+EN ea1bitadder NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea1bitadder.vhd sub00/vhpl10 1347572433
+AR oooooo testbench_arch C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/oooooo.vhw sub00/vhpl15 1347572438
+EN ea3nand NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea3NAND.vhd sub00/vhpl06 1347572429
+EN ea2nand2 NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/2eaNAND.vhd sub00/vhpl00 1347564379
+AR ea1bitadder behavioral C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea1bitadder.vhd sub00/vhpl11 1347572434
+AR ea2nand behavioral C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea2NAND.vhd sub00/vhpl05 1347572428
+EN eaadd4bit NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/eaadd4bit.vhd sub00/vhpl12 1347572435
+AR ea4nand behavioral C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea4NAND.vhd sub00/vhpl09 1347572432
+EN ea4nand NULL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2_ea/ea4NAND.vhd sub00/vhpl08 1347572431

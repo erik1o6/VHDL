@@ -1,0 +1,1528 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.13 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.13 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: smicro.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "smicro.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "smicro"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : smicro
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : smicro.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2NAND.vhd" in Library work.
+Architecture behavioral of Entity ea2nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaINVERT.vhd" in Library work.
+Architecture behavioral of Entity eainvert is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2to1MUX.vhd" in Library work.
+Architecture struct of Entity ea2to1mux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaDLatch.vhd" in Library work.
+Architecture struc of Entity eadlatch is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eainvbuf.vhd" in Library work.
+Architecture behavioral of Entity eainvbuf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea3NAND.vhd" in Library work.
+Architecture behavioral of Entity ea3nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea4NAND.vhd" in Library work.
+Architecture behavioral of Entity ea4nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaFlipFlop.vhd" in Library work.
+Architecture struct of Entity eaflipflop is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6Dlatch.vhd" in Library work.
+Architecture struct of Entity ea6dlatch is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eainv6buf.vhd" in Library work.
+Architecture struct of Entity eainv6buf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2AND.vhd" in Library work.
+Architecture behavioral of Entity ea2and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6AND.vhd" in Library work.
+Architecture behavioral of Entity ea6and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea1bitadder.vhd" in Library work.
+Architecture behavioral of Entity ea1bitadder is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaXOR.vhd" in Library work.
+Architecture behavioral of Entity eaxor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6Flip.vhd" in Library work.
+Architecture struct of Entity ea6flip is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6bitMUX.vhd" in Library work.
+Architecture struct of Entity ea6bitmux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea3AND.vhd" in Library work.
+Architecture behavioral of Entity ea3and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea5to32Decoder.vhd" in Library work.
+Architecture struct of Entity ea5to32decoder is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea3NOR.vhd" in Library work.
+Architecture behavioral of Entity ea3nor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaOutputBuf.vhd" in Library work.
+Architecture struct of Entity eaoutputbuf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6Ram.vhd" in Library work.
+Architecture struc of Entity ea6ram is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea7AND.vhd" in Library work.
+Architecture behavioral of Entity ea7and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6XOR.vhd" in Library work.
+Architecture struct of Entity ea6xor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaadd6bit.vhd" in Library work.
+Architecture struct of Entity eaadd6bit is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaSM.vhd" in Library work.
+Architecture struct of Entity easm is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaID.vhd" in Library work.
+Architecture struct of Entity eaid is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaIR.vhd" in Library work.
+Architecture struct of Entity eair is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eabuf.vhd" in Library work.
+Architecture behavioral of Entity eabuf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea4to1MUX.vhd" in Library work.
+Architecture struct of Entity ea4to1mux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea32x6Ram.vhd" in Library work.
+Architecture struct of Entity ea32x6ram is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2OR.vhd" in Library work.
+Architecture behavioral of Entity ea2or is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6bitto64decoder.vhd" in Library work.
+Architecture struct of Entity ea6bitto64decoder is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6bit64word.vhd" in Library work.
+Architecture struct of Entity ea6bit64word is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2NOR.vhd" in Library work.
+Architecture behavioral of Entity ea2nor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6PCf.vhd" in Library work.
+Architecture struct of Entity ea6pcf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaBGMUX.vhd" in Library work.
+Architecture struct of Entity eabgmux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaOBnon.vhd" in Library work.
+Architecture struct of Entity eaobnon is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaCU.vhd" in Library work.
+Architecture struct of Entity eacu is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6SUB.vhd" in Library work.
+Architecture struct of Entity ea6sub is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaCPU.vhd" in Library work.
+Architecture struct of Entity eacpu is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea64Rom.vhd" in Library work.
+Architecture struct of Entity ea64rom is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea64x6Ram.vhd" in Library work.
+Architecture struct of Entity ea64x6ram is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/smicro.vhd" in Library work.
+Architecture struct of Entity smicro is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <smicro> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaCPU> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea64Rom> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea64x6Ram> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea3AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea6PCf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaBGMUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6Flip> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaOBnon> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaCU> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6bitMUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaFlipFlop> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6SUB> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6bitto64decoder> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6bit64word> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2NOR> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaOutputBuf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea32x6Ram> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2OR> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaadd6bit> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea4to1MUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eabuf> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaSM> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaID> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaIR> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2to1MUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea6XOR> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaXOR> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea7AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eainv6buf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea5to32Decoder> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea3NOR> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaOutputBuf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6Ram> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <ea1bitadder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea3NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea4NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaFlipFlop> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea3AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea6Flip> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6bitMUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2to1MUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea6Dlatch> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eainv6buf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eaFlipFlop> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2to1MUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <smicro> in library <work> (Architecture <struct>).
+WARNING:Xst:2211 - "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/smicro.vhd" line 158: Instantiating black box module <eaIOlatch>.
+WARNING:Xst:2211 - "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/smicro.vhd" line 162: Instantiating black box module <eaIOlatch>.
+Entity <smicro> analyzed. Unit <smicro> generated.
+
+Analyzing Entity <eaCPU> in library <work> (Architecture <struct>).
+WARNING:Xst:753 - "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaCPU.vhd" line 154: Unconnected output port 'SUM' of component 'ea6PCf'.
+WARNING:Xst:753 - "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaCPU.vhd" line 154: Unconnected output port 'C' of component 'ea6PCf'.
+Entity <eaCPU> analyzed. Unit <eaCPU> generated.
+
+Analyzing Entity <ea6PCf> in library <work> (Architecture <struct>).
+Entity <ea6PCf> analyzed. Unit <ea6PCf> generated.
+
+Analyzing Entity <eaadd6bit> in library <work> (Architecture <struct>).
+Entity <eaadd6bit> analyzed. Unit <eaadd6bit> generated.
+
+Analyzing Entity <ea1bitadder> in library <work> (Architecture <behavioral>).
+Entity <ea1bitadder> analyzed. Unit <ea1bitadder> generated.
+
+Analyzing Entity <ea3NAND> in library <work> (Architecture <behavioral>).
+Entity <ea3NAND> analyzed. Unit <ea3NAND> generated.
+
+Analyzing Entity <ea4NAND> in library <work> (Architecture <behavioral>).
+Entity <ea4NAND> analyzed. Unit <ea4NAND> generated.
+
+Analyzing Entity <eaBGMUX> in library <work> (Architecture <struct>).
+Entity <eaBGMUX> analyzed. Unit <eaBGMUX> generated.
+
+Analyzing Entity <ea4to1MUX> in library <work> (Architecture <struct>).
+Entity <ea4to1MUX> analyzed. Unit <ea4to1MUX> generated.
+
+Analyzing Entity <ea6Flip> in library <work> (Architecture <struct>).
+Entity <ea6Flip> analyzed. Unit <ea6Flip> generated.
+
+Analyzing Entity <eaOBnon> in library <work> (Architecture <struct>).
+Entity <eaOBnon> analyzed. Unit <eaOBnon> generated.
+
+Analyzing Entity <eabuf> in library <work> (Architecture <behavioral>).
+Entity <eabuf> analyzed. Unit <eabuf> generated.
+
+Analyzing Entity <eaCU> in library <work> (Architecture <struct>).
+Entity <eaCU> analyzed. Unit <eaCU> generated.
+
+Analyzing Entity <eaSM> in library <work> (Architecture <struct>).
+Entity <eaSM> analyzed. Unit <eaSM> generated.
+
+Analyzing Entity <ea2to1MUX> in library <work> (Architecture <struct>).
+Entity <ea2to1MUX> analyzed. Unit <ea2to1MUX> generated.
+
+Analyzing Entity <eaID> in library <work> (Architecture <struct>).
+Entity <eaID> analyzed. Unit <eaID> generated.
+
+Analyzing Entity <ea2AND> in library <work> (Architecture <behavioral>).
+Entity <ea2AND> analyzed. Unit <ea2AND> generated.
+
+Analyzing Entity <eaIR> in library <work> (Architecture <struct>).
+Entity <eaIR> analyzed. Unit <eaIR> generated.
+
+Analyzing Entity <ea6bitMUX> in library <work> (Architecture <struct>).
+Entity <ea6bitMUX> analyzed. Unit <ea6bitMUX> generated.
+
+Analyzing Entity <eaFlipFlop> in library <work> (Architecture <struct>).
+Entity <eaFlipFlop> analyzed. Unit <eaFlipFlop> generated.
+
+Analyzing Entity <eaDlatch> in library <work> (Architecture <struc>).
+Entity <eaDlatch> analyzed. Unit <eaDlatch> generated.
+
+Analyzing Entity <ea6SUB> in library <work> (Architecture <struct>).
+Entity <ea6SUB> analyzed. Unit <ea6SUB> generated.
+
+Analyzing Entity <ea6XOR> in library <work> (Architecture <struct>).
+Entity <ea6XOR> analyzed. Unit <ea6XOR> generated.
+
+Analyzing Entity <eaXOR> in library <work> (Architecture <behavioral>).
+Entity <eaXOR> analyzed. Unit <eaXOR> generated.
+
+Analyzing Entity <ea64Rom> in library <work> (Architecture <struct>).
+Entity <ea64Rom> analyzed. Unit <ea64Rom> generated.
+
+Analyzing Entity <ea6bitto64decoder> in library <work> (Architecture <struct>).
+Entity <ea6bitto64decoder> analyzed. Unit <ea6bitto64decoder> generated.
+
+Analyzing Entity <ea7AND> in library <work> (Architecture <behavioral>).
+Entity <ea7AND> analyzed. Unit <ea7AND> generated.
+
+Analyzing Entity <ea6bit64word> in library <work> (Architecture <struct>).
+Entity <ea6bit64word> analyzed. Unit <ea6bit64word> generated.
+
+Analyzing Entity <eainv6buf> in library <work> (Architecture <struct>).
+Entity <eainv6buf> analyzed. Unit <eainv6buf> generated.
+
+Analyzing Entity <eainvbuf> in library <work> (Architecture <behavioral>).
+Entity <eainvbuf> analyzed. Unit <eainvbuf> generated.
+
+Analyzing Entity <ea2NOR> in library <work> (Architecture <behavioral>).
+Entity <ea2NOR> analyzed. Unit <ea2NOR> generated.
+
+Analyzing Entity <eaOutputBuf> in library <work> (Architecture <struct>).
+Entity <eaOutputBuf> analyzed. Unit <eaOutputBuf> generated.
+
+Analyzing Entity <ea64x6Ram> in library <work> (Architecture <struct>).
+Entity <ea64x6Ram> analyzed. Unit <ea64x6Ram> generated.
+
+Analyzing Entity <ea32x6Ram> in library <work> (Architecture <struct>).
+Entity <ea32x6Ram> analyzed. Unit <ea32x6Ram> generated.
+
+Analyzing Entity <ea5to32Decoder> in library <work> (Architecture <struct>).
+Entity <ea5to32Decoder> analyzed. Unit <ea5to32Decoder> generated.
+
+Analyzing Entity <ea6AND> in library <work> (Architecture <behavioral>).
+Entity <ea6AND> analyzed. Unit <ea6AND> generated.
+
+Analyzing Entity <ea3NOR> in library <work> (Architecture <behavioral>).
+Entity <ea3NOR> analyzed. Unit <ea3NOR> generated.
+
+Analyzing Entity <ea6Ram> in library <work> (Architecture <struc>).
+Entity <ea6Ram> analyzed. Unit <ea6Ram> generated.
+
+Analyzing Entity <ea6Dlatch> in library <work> (Architecture <struct>).
+Entity <ea6Dlatch> analyzed. Unit <ea6Dlatch> generated.
+
+Analyzing Entity <ea2OR> in library <work> (Architecture <behavioral>).
+Entity <ea2OR> analyzed. Unit <ea2OR> generated.
+
+Analyzing Entity <eaINVERT> in library <work> (Architecture <behavioral>).
+Entity <eaINVERT> analyzed. Unit <eaINVERT> generated.
+
+Analyzing Entity <ea2NAND> in library <work> (Architecture <behavioral>).
+Entity <ea2NAND> analyzed. Unit <ea2NAND> generated.
+
+Analyzing Entity <ea3AND> in library <work> (Architecture <behavioral>).
+Entity <ea3AND> analyzed. Unit <ea3AND> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <eaINVERT>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaINVERT.vhd".
+Unit <eaINVERT> synthesized.
+
+
+Synthesizing Unit <ea2NAND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2NAND.vhd".
+Unit <ea2NAND> synthesized.
+
+
+Synthesizing Unit <ea3AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea3AND.vhd".
+Unit <ea3AND> synthesized.
+
+
+Synthesizing Unit <ea3NAND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea3NAND.vhd".
+Unit <ea3NAND> synthesized.
+
+
+Synthesizing Unit <ea4NAND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea4NAND.vhd".
+Unit <ea4NAND> synthesized.
+
+
+Synthesizing Unit <eabuf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eabuf.vhd".
+    Found 1-bit tristate buffer for signal <z>.
+    Summary:
+	inferred   1 Tristate(s).
+Unit <eabuf> synthesized.
+
+
+Synthesizing Unit <ea2AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2AND.vhd".
+Unit <ea2AND> synthesized.
+
+
+Synthesizing Unit <eaXOR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaXOR.vhd".
+    Found 1-bit xor2 for signal <z>.
+Unit <eaXOR> synthesized.
+
+
+Synthesizing Unit <ea2NOR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2NOR.vhd".
+Unit <ea2NOR> synthesized.
+
+
+Synthesizing Unit <ea7AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea7AND.vhd".
+Unit <ea7AND> synthesized.
+
+
+Synthesizing Unit <eainvbuf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eainvbuf.vhd".
+    Found 1-bit tristate buffer for signal <z>.
+    Summary:
+	inferred   1 Tristate(s).
+Unit <eainvbuf> synthesized.
+
+
+Synthesizing Unit <ea2OR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2OR.vhd".
+Unit <ea2OR> synthesized.
+
+
+Synthesizing Unit <ea3NOR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea3NOR.vhd".
+Unit <ea3NOR> synthesized.
+
+
+Synthesizing Unit <ea6AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6AND.vhd".
+Unit <ea6AND> synthesized.
+
+
+Synthesizing Unit <eaOBnon>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaOBnon.vhd".
+WARNING:Xst:1780 - Signal <TEST> is never used or assigned.
+Unit <eaOBnon> synthesized.
+
+
+Synthesizing Unit <ea1bitadder>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea1bitadder.vhd".
+Unit <ea1bitadder> synthesized.
+
+
+Synthesizing Unit <ea4to1MUX>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea4to1MUX.vhd".
+Unit <ea4to1MUX> synthesized.
+
+
+Synthesizing Unit <eaID>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaID.vhd".
+WARNING:Xst:647 - Input <IR<2>> is never used.
+WARNING:Xst:1780 - Signal <AB> is never used or assigned.
+WARNING:Xst:1780 - Signal <AD> is never used or assigned.
+WARNING:Xst:1780 - Signal <AE> is never used or assigned.
+Unit <eaID> synthesized.
+
+
+Synthesizing Unit <ea2to1MUX>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea2to1MUX.vhd".
+Unit <ea2to1MUX> synthesized.
+
+
+Synthesizing Unit <ea6XOR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6XOR.vhd".
+Unit <ea6XOR> synthesized.
+
+
+Synthesizing Unit <ea6bitto64decoder>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6bitto64decoder.vhd".
+Unit <ea6bitto64decoder> synthesized.
+
+
+Synthesizing Unit <eaOutputBuf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaOutputBuf.vhd".
+Unit <eaOutputBuf> synthesized.
+
+
+Synthesizing Unit <eainv6buf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eainv6buf.vhd".
+Unit <eainv6buf> synthesized.
+
+
+Synthesizing Unit <ea5to32Decoder>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea5to32Decoder.vhd".
+WARNING:Xst:1780 - Signal <AN<5>> is never used or assigned.
+Unit <ea5to32Decoder> synthesized.
+
+
+Synthesizing Unit <eaBGMUX>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaBGMUX.vhd".
+Unit <eaBGMUX> synthesized.
+
+
+Synthesizing Unit <ea6bitMUX>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6bitMUX.vhd".
+WARNING:Xst:1780 - Signal <M2> is never used or assigned.
+WARNING:Xst:1780 - Signal <M3> is never used or assigned.
+WARNING:Xst:1780 - Signal <M4> is never used or assigned.
+Unit <ea6bitMUX> synthesized.
+
+
+Synthesizing Unit <eaadd6bit>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaadd6bit.vhd".
+Unit <eaadd6bit> synthesized.
+
+
+Synthesizing Unit <eaDlatch>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaDLatch.vhd".
+Unit <eaDlatch> synthesized.
+
+
+Synthesizing Unit <ea6bit64word>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6bit64word.vhd".
+Unit <ea6bit64word> synthesized.
+
+
+Synthesizing Unit <ea64Rom>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea64Rom.vhd".
+Unit <ea64Rom> synthesized.
+
+
+Synthesizing Unit <eaFlipFlop>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaFlipFlop.vhd".
+Unit <eaFlipFlop> synthesized.
+
+
+Synthesizing Unit <ea6SUB>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6SUB.vhd".
+Unit <ea6SUB> synthesized.
+
+
+Synthesizing Unit <ea6Dlatch>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6Dlatch.vhd".
+Unit <ea6Dlatch> synthesized.
+
+
+Synthesizing Unit <ea6Flip>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6Flip.vhd".
+Unit <ea6Flip> synthesized.
+
+
+Synthesizing Unit <eaSM>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaSM.vhd".
+Unit <eaSM> synthesized.
+
+
+Synthesizing Unit <ea6Ram>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6Ram.vhd".
+Unit <ea6Ram> synthesized.
+
+
+Synthesizing Unit <ea6PCf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea6PCf.vhd".
+WARNING:Xst:647 - Input <Cin> is never used.
+WARNING:Xst:646 - Signal <FA> is assigned but never used.
+Unit <ea6PCf> synthesized.
+
+
+Synthesizing Unit <eaIR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaIR.vhd".
+Unit <eaIR> synthesized.
+
+
+Synthesizing Unit <ea32x6Ram>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea32x6Ram.vhd".
+WARNING:Xst:1780 - Signal <DB> is never used or assigned.
+WARNING:Xst:1780 - Signal <OE32RAM> is never used or assigned.
+WARNING:Xst:1780 - Signal <CS32RAM> is never used or assigned.
+WARNING:Xst:1780 - Signal <RW32RAM> is never used or assigned.
+WARNING:Xst:1780 - Signal <A1> is never used or assigned.
+Unit <ea32x6Ram> synthesized.
+
+
+Synthesizing Unit <ea64x6Ram>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/ea64x6Ram.vhd".
+Unit <ea64x6Ram> synthesized.
+
+
+Synthesizing Unit <eaCU>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaCU.vhd".
+Unit <eaCU> synthesized.
+
+
+Synthesizing Unit <eaCPU>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/eaCPU.vhd".
+WARNING:Xst:1780 - Signal <D0> is never used or assigned.
+WARNING:Xst:1780 - Signal <TESTS> is never used or assigned.
+WARNING:Xst:646 - Signal <SD> is assigned but never used.
+WARNING:Xst:1780 - Signal <A0> is never used or assigned.
+WARNING:Xst:1780 - Signal <A1> is never used or assigned.
+Unit <eaCPU> synthesized.
+
+
+Synthesizing Unit <smicro>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj6_best2/smicro.vhd".
+WARNING:Xst:646 - Signal <A3ON> is assigned but never used.
+WARNING:Xst:646 - Signal <A31N> is assigned but never used.
+Unit <smicro> synthesized.
+
+WARNING:Xst:524 - All outputs of the instance <gate6> of the block <eaINVERT> are unconnected in block <smicro>.
+   This instance will be removed from the design along with all underlying logic
+WARNING:Xst:524 - All outputs of the instance <gate9> of the block <eaINVERT> are unconnected in block <smicro>.
+   This instance will be removed from the design along with all underlying logic
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Tristates                                            : 792
+ 1-bit tristate buffer                                 : 792
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx92i.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate5> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate6> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate7> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate6> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate8> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate11> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate3> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate3> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate3> is unconnected in block <gate3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate3> is unconnected in block <gate4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate3> is unconnected in block <gate5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate3> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate2> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate2> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate2> is unconnected in block <gate3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate2> is unconnected in block <gate5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate2> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate70> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate3> is unconnected in block <gate1>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate2/gate6/gate1/gate1/M0, gate0/gate7/AO<0>, TEST<0>, gate0/gate7/gate4/X2, gate0/gate7/gate4/X4, gate0/gate6/Q1, gate0/ADSUCO, gate0/gate7/gate4/X3, DMUXO<0>, gate0/gate7/gate4/X6, gate0/gate7/gate4/X5, gate0/gate7/coo, CF, gate0/gate2/gate6/gate1/gate1/M1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: DMUXO<5>, gate0/gate2/gate1/gate1/gate1/M0, gate0/gate2/gate1/gate1/gate1/M1, gate0/gate7/AO<5>, TEST<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate7/AO<4>, DMUXO<4>, gate0/gate2/gate2/gate1/gate1/M0, gate0/gate2/gate2/gate1/gate1/M1, TEST<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: TEST<3>, gate0/gate2/gate3/gate1/gate1/M0, DMUXO<3>, gate0/gate7/AO<3>, gate0/gate2/gate3/gate1/gate1/M1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: TEST<2>, gate0/gate2/gate4/gate1/gate1/M1, DMUXO<2>, gate0/gate2/gate4/gate1/gate1/M0, gate0/gate7/AO<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: TEST<1>, gate0/gate7/AO<1>, gate0/gate2/gate5/gate1/gate1/M0, DMUXO<1>, gate0/gate2/gate5/gate1/gate1/M1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate19/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate17/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate30/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate33/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate36/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate8/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: iadr<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate31/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate17/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate15/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate18/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate16/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate27/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate6/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate30/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate36/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate33/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate22/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate36/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate7/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate8/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: iadr<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate30/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate17/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate15/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate0/gate2/gate5/Q1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate27/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate30/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate36/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate21/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate33/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate22/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate36/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate6/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate7/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate8/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate30/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate25/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate27/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate28/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate35/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate30/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate31/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate21/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate33/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate22/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate34/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate5/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate36/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate6/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate7/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate29/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate13/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate14/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate25/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate27/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate28/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate35/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate20/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate30/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate31/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate21/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate33/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate22/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate34/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate5/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate36/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate6/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: TEST<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate27/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate29/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate12/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate13/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate14/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate25/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate34/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate28/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate20/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate31/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate21/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate34/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: TEST<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate27/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate28/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate11/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate12/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate13/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate25/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate34/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate28/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate20/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate21/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate31/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate34/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate26/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate9/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate7/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: TEST<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate27/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate10/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate28/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate11/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate12/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate16/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate11/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate25/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate33/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate28/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate20/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate18/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate31/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate34/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate26/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate9/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: TEST<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate27/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate10/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate11/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate15/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate16/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate25/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate33/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate2/gate3/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate19/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate17/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate28/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate20/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate31/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate34/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate25/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate4/IRo<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate26/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate9/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: TEST<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate27/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate14/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate15/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate11/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate18/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate16/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate19/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate6/Q1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate25/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate26/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate9/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: TEST<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate13/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate14/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate17/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate15/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate0/gate2/gate4/Q1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate18/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate19/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate24/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate25/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate8/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate4/A1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate26/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate9/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate12/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate13/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate17/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate18/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate9/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate24/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate7/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate25/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate8/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate8/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate10/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate17/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate5/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate23/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate6/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate24/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate7/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate25/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate14/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate26/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate29/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate32/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate5/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate23/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate6/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate9/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate24/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate4/gate2/gate0/gate5/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate4/gate2/gate0/gate1/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate13/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate26/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate29/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate5/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate23/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate24/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate10/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate12/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate26/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate29/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate23/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate10/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate11/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate16/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate26/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate2/gate4/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate7/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate23/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate10/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate11/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate15/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate16/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate26/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate20/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate6/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate24/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate10/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate14/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate15/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate16/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate0/gate2/gate3/Q1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate19/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate7/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate7/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate23/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate12/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate13/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate11/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate14/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate15/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate18/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate5/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate22/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate12/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate10/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate13/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate14/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate7/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate21/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate4/gate2/gate0/gate6/gate3/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate12/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate4/gate2/gate0/gate2/gate3/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate11/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate7/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: WC.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate22/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate32/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate2/gate5/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate5/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate32/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate17/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate21/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate24/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate4/gate2/gate0/gate6/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate4/gate2/gate0/gate2/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate31/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate16/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate0/gate2/gate2/Q1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate32/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate23/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate24/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate15/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate31/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate32/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: SDM.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate36/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate22/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate23/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate24/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate13/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate14/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate30/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate31/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate36/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate20/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate21/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate22/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate23/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate12/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate13/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate30/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate31/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate35/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate36/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate20/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate21/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate22/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate12/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate29/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate30/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate35/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate36/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate20/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate29/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate30/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate9/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate34/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate35/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate28/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate29/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate2/gate6/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate34/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate35/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate8/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate28/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate29/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate33/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate34/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate27/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate28/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate5/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate0/gate2/gate1/Q1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate33/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate34/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate28/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate10/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate33/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate2/gate1/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate19/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate26/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate24/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate33/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate18/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate19/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate8/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate23/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate24/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate10/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate17/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate18/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate19/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate35/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate21/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate9/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate22/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate25/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate23/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate4/gate2/gate0/gate3/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate16/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate17/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate18/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate32/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate5/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate20/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate35/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate8/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate21/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate22/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate15/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate16/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate32/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate20/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate35/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate8/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate21/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate24/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate14/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate15/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate29/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate32/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate6/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate5/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate20/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate35/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate8/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate14/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate29/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate32/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate35/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate8/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate23/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate7/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate26/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate0/gate2/gate6/Q1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate29/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate32/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate6/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate35/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate6/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate11/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate13/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate5/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate22/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate5/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate12/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate13/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate14/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate6/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate9/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: iadr<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate11/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate12/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: CF.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate19/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate9/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: iadr<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate10/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate11/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate32/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate17/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate18/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate19/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: iadr<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate9/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate10/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate32/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate27/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate16/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate2/gate2/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate19/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate17/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate6/D0<3>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate30/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate18/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate19/D0<5>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate33/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate36/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate0/gate4/gate0/gate0/Q1.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: iadr<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate31/D0<4>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate15/D0<2>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate27/D0<1>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate1/gate18/D0<0>.
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: gate2/gate0/gate16/D0<3>.
+WARNING:Xst:2042 - Unit smicro: 6 internal tristates are replaced by logic (pull-up yes): N2, N3, N4, N5, N6, N7.
+WARNING:Xst:2040 - Unit smicro: 12 multi-source signals are replaced by logic (pull-up yes): gate2/gate0/DA<0>, gate2/gate0/DA<1>, gate2/gate0/DA<2>, gate2/gate0/DA<3>, gate2/gate0/DA<4>, gate2/gate0/DA<5>, gate2/gate1/DA<0>, gate2/gate1/DA<1>, gate2/gate1/DA<2>, gate2/gate1/DA<3>, gate2/gate1/DA<4>, gate2/gate1/DA<5>.
+WARNING:Xst:2040 - Unit ea6bit64word: 6 multi-source signals are replaced by logic (pull-up yes): z<0>, z<1>, z<2>, z<3>, z<4>, z<5>.
+
+Optimizing unit <smicro> ...
+
+Optimizing unit <ea6bit64word> ...
+
+Mapping all equations...
+WARNING:Xst:2170 - Unit smicro : the following signal(s) form a combinatorial loop: N0.
+WARNING:Xst:1492 - Inserting OBUF on port <mdat<5>> driven by tristates located in different units having KEEP_HIERARCHY constraints. Possible simulation mismatch.
+WARNING:Xst:1492 - Inserting OBUF on port <mdat<4>> driven by tristates located in different units having KEEP_HIERARCHY constraints. Possible simulation mismatch.
+WARNING:Xst:1492 - Inserting OBUF on port <mdat<3>> driven by tristates located in different units having KEEP_HIERARCHY constraints. Possible simulation mismatch.
+WARNING:Xst:1492 - Inserting OBUF on port <mdat<2>> driven by tristates located in different units having KEEP_HIERARCHY constraints. Possible simulation mismatch.
+WARNING:Xst:1492 - Inserting OBUF on port <mdat<1>> driven by tristates located in different units having KEEP_HIERARCHY constraints. Possible simulation mismatch.
+WARNING:Xst:1492 - Inserting OBUF on port <mdat<0>> driven by tristates located in different units having KEEP_HIERARCHY constraints. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <output<5>> driven by black box <eaIOlatch>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <output<4>> driven by black box <eaIOlatch>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <output<3>> driven by black box <eaIOlatch>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <output<2>> driven by black box <eaIOlatch>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <output<1>> driven by black box <eaIOlatch>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <output<0>> driven by black box <eaIOlatch>. Possible simulation mismatch.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block smicro, actual ratio is 11.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : smicro.ngr
+Top Level Output File Name         : smicro
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 64
+
+Cell Usage :
+# BELS                             : 1206
+#      GND                         : 1
+#      INV                         : 5
+#      LUT2                        : 21
+#      LUT3                        : 469
+#      LUT4                        : 462
+#      MUXCY                       : 220
+#      MUXF5                       : 27
+#      VCC                         : 1
+# Tri-States                       : 24
+#      BUFT                        : 24
+# IO Buffers                       : 64
+#      IBUF                        : 8
+#      OBUF                        : 56
+# Others                           : 2
+#      eaIOlatch                   : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     538  out of   4656    11%  
+ Number of 4 input LUTs:               957  out of   9312    10%  
+ Number of IOs:                         64
+ Number of bonded IOBs:                 64  out of    232    27%  
+ Number of TBUFs:                       24  out of      0        (*) 
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 108.988ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 407488793009 / 69
+-------------------------------------------------------------------------
+Delay:               108.988ns (Levels of Logic = 89)
+  Source:            clock (PAD)
+  Destination:       mdat<5> (PAD)
+
+  Data Path: clock to mdat<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            36   1.218   1.438  clock_IBUF (clock_IBUF)
+     LUT4:I0->O            2   0.704   0.526  gate0/gate4/gate0/gate0/gate1/gate1/gate3/z1 (gate0/gate4/gate0/gate0/Q1)
+     LUT3:I1->O           27   0.704   1.340  gate0/gate4/gate0/gate0/gate3/gate1/gate3/z1 (gate0/gate4/A1)
+     LUT3:I1->O            3   0.704   0.706  gate0/gate4/gate2/gate0/gate2/gate1/gate1/M01 (gate0/gate4/gate2/gate0/gate2/gate1/gate1/M0)
+     LUT4:I0->O            4   0.704   0.762  gate0/gate4/gate2/gate0/gate2/gate3/gate1/gate1/z1 (gate0/gate4/gate2/gate0/gate2/gate3/gate1/M0)
+     LUT3:I0->O           11   0.704   1.012  gate0/gate2/gate1/gate3/gate1/gate3/z11 (N31)
+     LUT2:I1->O            2   0.704   0.482  gate0/gate2/gate6/gate1/gate1/M01 (gate0/gate2/gate6/gate1/gate1/M0)
+     LUT3:I2->O            9   0.704   0.820  gate0/gate2/gate6/gate3/gate1/gate3/z1 (TEST_0_OBUF)
+     BUFT:I->O            68   0.000   1.278  gate0/gate3/gate6/z_a_1 (N2)
+     LUT4:I3->O            1   0.704   0.000  gate0/gate7/gate4/gate5/gate7/z_F (N1783)
+     MUXF5:I0->O           5   0.321   0.808  gate0/gate7/gate4/gate5/gate7/z (gate0/gate7/gate4/X5)
+     LUT4:I0->O            1   0.704   0.000  gate0/gate7/gate4/gate3/gate7/z681 (N1799)
+     MUXF5:I1->O           1   0.321   0.424  gate0/gate7/gate4/gate3/gate7/z68_f5 (gate0/gate7/gate4/gate3/gate7/z_map19)
+     LUT4:I3->O            1   0.704   0.455  gate0/gate7/gate4/gate3/gate7/z91 (gate0/gate7/gate4/gate3/gate7/z_map26)
+     LUT4:I2->O            3   0.704   0.566  gate0/gate7/gate4/gate3/gate7/z108 (gate0/gate7/gate4/X3)
+     LUT3:I2->O            1   0.704   0.455  gate0/gate6/gate1/gate1/gate3/z20_SW0 (N1771)
+     LUT3:I2->O            1   0.704   0.000  gate0/gate6/gate1/gate1/gate3/z391 (N1805)
+     MUXF5:I0->O           2   0.321   0.526  gate0/gate6/gate1/gate1/gate3/z39_f5 (gate0/gate6/Q1)
+     LUT3:I1->O            8   0.704   0.761  gate0/gate6/gate3/gate1/gate3/z1 (CF_OBUF)
+     LUT4:I3->O            5   0.704   0.712  gate0/gate0/gate2/gate1/gate1/gate1/gate3/z31 (N36)
+     LUT4:I1->O            1   0.704   0.595  gate0/gate0/gate2/gate4/gate1/gate1/gate3/z22 (gate0/gate0/gate2/gate4/gate1/gate1/gate3/z_map8)
+     LUT4:I0->O            2   0.704   0.526  gate0/gate0/gate2/gate4/gate1/gate1/gate3/z63 (gate0/gate0/gate2/gate4/Q1)
+     LUT3:I1->O           59   0.704   1.275  gate0/gate0/gate2/gate4/gate3/gate1/gate3/z1 (iadr_2_OBUF)
+     LUT4:I3->O            3   0.704   0.706  gate1/gate1/gate39/z1 (gate1/DEOUT<39>)
+     LUT4:I0->O          111   0.704   1.366  gate1/gate2/z<1>LogicTrst30 (gate1/WORD<1>)
+     LUT4:I1->O            3   0.704   0.706  gate0/gate0/gate3/gate5/gate7/z (gate0/gate0/gate3/X5)
+     LUT4:I0->O            3   0.704   0.706  gate0/gate0/gate3/gate4/gate7/z1 (gate0/gate0/gate3/X4)
+     LUT4:I0->O            3   0.704   0.706  gate0/gate0/gate3/gate3/gate7/z1 (gate0/gate0/gate3/X3)
+     LUT4:I0->O            2   0.704   0.526  gate0/gate0/gate3/gate2/gate7/z1 (gate0/gate0/gate3/X2)
+     LUT4:I1->O            1   0.704   0.000  gate0/gate0/gate2/gate1/gate1/gate1/gate3/z421 (N1811)
+     MUXF5:I1->O           2   0.321   0.451  gate0/gate0/gate2/gate1/gate1/gate1/gate3/z42_f5 (gate0/gate0/gate2/gate1/gate1/gate1/gate3/z_map16)
+     LUT4:I3->O            1   0.704   0.000  gate0/gate0/gate2/gate1/gate1/gate1/gate3/z481 (N1812)
+     MUXF5:I1->O           1   0.321   0.455  gate0/gate0/gate2/gate1/gate1/gate1/gate3/z48_f5 (gate0/gate0/gate2/gate1/gate1/gate1/gate3/z_map17)
+     LUT3:I2->O            2   0.704   0.526  gate0/gate0/gate2/gate1/gate1/gate1/gate3/z62 (gate0/gate0/gate2/gate1/Q1)
+     LUT3:I1->O           59   0.704   1.306  gate0/gate0/gate2/gate1/gate3/gate1/gate3/z1 (iadr_5_OBUF)
+     LUT3:I2->O            1   0.704   0.000  gate1/gate2/z<1>LogicTrst1112521 (N1822)
+     MUXF5:I1->O           1   0.321   0.455  gate1/gate2/z<1>LogicTrst111252_f5 (gate1/gate2/z<1>LogicTrst111_map81)
+     LUT3:I2->O            1   0.704   0.424  gate1/gate2/z<1>LogicTrst111262 (gate1/gate2/z<1>LogicTrst111_map82)
+     LUT4:I3->O            1   0.704   0.595  gate1/gate2/z<1>LogicTrst111276 (gate1/gate2/z<1>LogicTrst111_map83)
+     LUT2:I0->O            1   0.704   0.455  gate1/gate2/z<1>LogicTrst111412 (gate1/gate2/z<1>LogicTrst111_map121)
+     LUT3:I2->O            2   0.704   0.451  gate1/gate2/z<1>LogicTrst111425 (N1746)
+     LUT4:I3->O            1   0.704   0.499  gate1/gate2/z<1>LogicTrst11145 (gate1/gate2/z<1>LogicTrst11_map8)
+     LUT2:I1->O            1   0.704   0.499  gate1/gate2/z<1>LogicTrst11151 (gate1/gate2/z<1>LogicTrst11_map9)
+     LUT2:I1->O            6   0.704   0.748  gate1/gate2/z<1>LogicTrst1122 (N1766)
+     LUT3:I1->O           15   0.704   1.096  gate1/gate2/z<4>LogicTrst28 (gate1/WORD<4>)
+     LUT3:I1->O            1   0.704   0.424  gate0/gate0/gate2/gate2/gate1/gate1/gate3/z34 (gate0/gate0/gate2/gate2/gate1/gate1/gate3/z_map14)
+     LUT4:I3->O            1   0.704   0.424  gate0/gate0/gate2/gate2/gate1/gate1/gate3/z43 (gate0/gate0/gate2/gate2/gate1/gate1/gate3/z_map16)
+     LUT4:I3->O            2   0.704   0.526  gate0/gate0/gate2/gate2/gate1/gate1/gate3/z63 (gate0/gate0/gate2/gate2/Q1)
+     LUT3:I1->O           13   0.704   1.158  gate0/gate0/gate2/gate2/gate3/gate1/gate3/z1 (iadr_4_OBUF)
+     LUT3:I0->O            8   0.704   0.932  gate1/gate1/gate0/z11 (N35)
+     LUT4:I0->O            2   0.704   0.622  gate1/gate1/gate36/z1 (gate1/DEOUT<36>)
+     LUT3:I0->O            6   0.704   0.844  gate1/gate2/z<3>LogicTrst221 (gate1/gate2/N12)
+     LUT3:I0->O           15   0.704   1.192  gate1/gate2/z<0>LogicTrst28 (gate1/WORD<0>)
+     LUT2:I0->O            1   0.704   0.000  gate0/gate0/gate2/gate6/gate1/gate1/gate3/z201 (N1803)
+     MUXF5:I1->O           1   0.321   0.455  gate0/gate0/gate2/gate6/gate1/gate1/gate3/z20_f5 (gate0/gate0/gate2/gate6/gate1/gate1/gate3/z_map8)
+     LUT3:I2->O            2   0.704   0.526  gate0/gate0/gate2/gate6/gate1/gate1/gate3/z25 (gate0/gate0/gate2/gate6/Q1)
+     LUT3:I1->O           15   0.704   1.192  gate0/gate0/gate2/gate6/gate3/gate1/gate3/z1 (iadr_0_OBUF)
+     LUT4:I0->O            1   0.704   0.455  gate0/gate0/gate2/gate5/gate1/gate1/gate3/z2_SW0 (N994)
+     LUT4:I2->O            1   0.704   0.455  gate0/gate0/gate2/gate5/gate1/gate1/gate3/z2 (N13)
+     LUT4:I2->O            2   0.704   0.526  gate0/gate0/gate2/gate5/gate1/gate1/gate3/z1 (gate0/gate0/gate2/gate5/Q1)
+     LUT3:I1->O           13   0.704   1.158  gate0/gate0/gate2/gate5/gate3/gate1/gate3/z1 (iadr_1_OBUF)
+     LUT3:I0->O            7   0.704   0.883  gate1/gate1/gate16/z11 (N34)
+     LUT3:I0->O            1   0.704   0.000  gate1/gate2/z<0>LogicTrst22 (N1802)
+     MUXF5:I0->O           5   0.321   0.712  gate1/gate2/z<0>LogicTrst2_f5 (gate1/gate2/N7)
+     LUT4:I1->O          144   0.704   1.473  gate1/gate2/z<3>LogicTrst (gate1/WORD<3>)
+     LUT4:I0->O            2   0.704   0.622  gate0/gate0/gate2/gate3/gate1/gate1/gate3/z36 (gate0/gate0/gate2/gate3/gate1/gate1/gate3/z_map15)
+     LUT3:I0->O            1   0.704   0.000  gate0/gate0/gate2/gate3/gate1/gate1/gate3/z482 (N1810)
+     MUXF5:I0->O           1   0.321   0.455  gate0/gate0/gate2/gate3/gate1/gate1/gate3/z48_f5 (gate0/gate0/gate2/gate3/gate1/gate1/gate3/z_map17)
+     LUT3:I2->O            2   0.704   0.526  gate0/gate0/gate2/gate3/gate1/gate1/gate3/z62 (gate0/gate0/gate2/gate3/Q1)
+     LUT3:I1->O           61   0.704   1.446  gate0/gate0/gate2/gate3/gate3/gate1/gate3/z1 (iadr_3_OBUF)
+     LUT4:I0->O            2   0.704   0.622  gate1/gate1/gate41/z1 (gate1/DEOUT<41>)
+     LUT3:I0->O            4   0.704   0.762  gate1/gate2/z<0>LogicTrst31 (gate1/gate2/N9)
+     LUT4:I0->O           10   0.704   0.917  gate1/gate2/z<5>LogicTrst (gate1/WORD<5>)
+     LUT4:I2->O           28   0.704   1.340  gate2/gate0/gate4/gate1/e_inv1 (gate2/gate0/gate4/gate1/e_inv)
+     LUT2:I1->O           12   0.704   1.136  gate2/gate0/gate11/gate2/gate1/e_inv11 (N48)
+     LUT4:I0->O            7   0.704   0.787  gate2/gate0/gate20/gate2/gate1/e_inv1 (gate2/gate0/gate20/gate2/gate1/e_inv)
+     LUT4:I1->O            1   0.704   0.000  gate2/gate0/DA<0>LogicTrst1_wg_lut<2> (N253)
+     MUXCY:S->O            1   0.464   0.000  gate2/gate0/DA<0>LogicTrst1_wg_cy<2> (gate2/gate0/DA<0>LogicTrst1_wg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  gate2/gate0/DA<0>LogicTrst1_wg_cy<3> (gate2/gate0/DA<0>LogicTrst1_wg_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  gate2/gate0/DA<0>LogicTrst1_wg_cy<4> (gate2/gate0/DA<0>LogicTrst1_wg_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  gate2/gate0/DA<0>LogicTrst1_wg_cy<5> (gate2/gate0/DA<0>LogicTrst1_wg_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  gate2/gate0/DA<0>LogicTrst1_wg_cy<6> (gate2/gate0/DA<0>LogicTrst1_wg_cy<6>)
+     MUXCY:CI->O           6   0.459   0.748  gate2/gate0/DA<0>LogicTrst1_wg_cy<7> (N27)
+     LUT3:I1->O            1   0.704   0.000  gate2/gate0/gate4/gate6/z_not0001_wg_lut<14> (N155)
+     MUXCY:S->O            1   0.464   0.000  gate2/gate0/gate4/gate6/z_not0001_wg_cy<14> (gate2/gate0/gate4/gate6/z_not0001_wg_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  gate2/gate0/gate4/gate6/z_not0001_wg_cy<15> (gate2/gate0/gate4/gate6/z_not0001_wg_cy<15>)
+     MUXCY:CI->O           1   0.459   0.420  gate2/gate0/gate4/gate6/z_not0001_wg_cy<16> (gate2/gate0/gate4/gate6/z_not0001)
+     BUFT:I->O             1   0.000   0.420  gate2/gate0/gate4/gate6/z (mdat_0_OBUF)
+     OBUF:I->O                 3.272          mdat_0_OBUF (mdat<0>)
+    ----------------------------------------
+    Total                    108.988ns (56.688ns logic, 52.300ns route)
+                                       (52.0% logic, 48.0% route)
+
+=========================================================================
+CPU : 14.86 / 15.01 s | Elapsed : 15.00 / 15.00 s
+ 
+--> 
+
+Total memory usage is 222868 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  522 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,93 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : loll23.ant
+// /___/   /\     Timestamp : Tue Oct 02 15:15:15 2012
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: loll23
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module loll23;
+    reg [5:0] A = 6'b000000;
+    reg CLK = 1'b0;
+    wire [5:0] Q;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 100;
+
+    initial    // Clock process for CLK
+    begin
+        #OFFSET;
+        forever
+        begin
+            CLK = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) CLK = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    ea6Flip UUT (
+        .A(A),
+        .CLK(CLK),
+        .Q(Q));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process for clock CLK
+        #0;
+        ANNOTATE_Q;
+        #OFFSET;
+        forever begin
+            #115;
+            ANNOTATE_Q;
+            #85;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("C:\\Users\\ERIK\\Dropbox\\cmpen471\\projects\\pj3Omega\\loll23.ano");
+        #10200 // Final time:  10200 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  185ns
+        #185;
+        A = 6'b010000;
+        // -------------------------------------
+        // -------------  Current Time:  985ns
+        #800;
+        A = 6'b010100;
+        // -------------------------------------
+        // -------------  Current Time:  1985ns
+        #1000;
+        A = 6'b010110;
+        // -------------------------------------
+    end
+
+    task ANNOTATE_Q;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,Q,%b]", $time, Q);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

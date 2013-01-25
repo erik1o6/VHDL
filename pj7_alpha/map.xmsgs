@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="LIT" num="243" delta="unknown" >Logical network <arg fmt="%s" index="1">input&lt;5&gt;</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="395" delta="unknown" >The above <arg fmt="%s" index="1">warning</arg> message <arg fmt="%s" index="2">base_net_load_rule</arg> is repeated <arg fmt="%d" index="3">5</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="4">input&lt;4&gt;,
+input&lt;3&gt;,
+input&lt;2&gt;,
+input&lt;1&gt;,
+input&lt;0&gt;</arg>
+To see the details of these <arg fmt="%s" index="5">warning</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate1/z_not0001_wg_lut&lt;10&gt;&quot; (output signal=N126)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate9/gate1/gate1/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate1/z_not0001_wg_lut&lt;8&gt;&quot; (output signal=N124)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate13/gate1/gate1/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate1/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N125)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate8/gate1/gate1/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate1/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N125)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate12/gate1/gate1/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate2/z_not0001_wg_lut&lt;10&gt;&quot; (output signal=N113)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate9/gate1/gate2/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate2/z_not0001_wg_lut&lt;8&gt;&quot; (output signal=N111)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate13/gate1/gate2/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate2/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N112)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate8/gate1/gate2/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate2/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N112)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate12/gate1/gate2/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate3/z_not0001_wg_lut&lt;10&gt;&quot; (output signal=N100)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate9/gate1/gate3/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate3/z_not0001_wg_lut&lt;8&gt;&quot; (output signal=N98)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate13/gate1/gate3/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate3/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N99)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate8/gate1/gate3/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate3/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N99)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate12/gate1/gate3/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate4/z_not0001_wg_lut&lt;10&gt;&quot; (output signal=N87)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate9/gate1/gate4/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate4/z_not0001_wg_lut&lt;8&gt;&quot; (output signal=N85)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate13/gate1/gate4/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate4/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N86)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate8/gate1/gate4/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate4/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N86)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate12/gate1/gate4/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate5/z_not0001_wg_lut&lt;10&gt;&quot; (output signal=N74)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate9/gate1/gate5/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate5/z_not0001_wg_lut&lt;8&gt;&quot; (output signal=N72)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate13/gate1/gate5/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate5/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N73)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate8/gate1/gate5/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate5/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N73)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate12/gate1/gate5/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate6/z_not0001_wg_lut&lt;10&gt;&quot; (output signal=N61)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate9/gate1/gate6/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate6/z_not0001_wg_lut&lt;8&gt;&quot; (output signal=N59)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate13/gate1/gate6/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate6/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N60)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate8/gate1/gate6/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="error" file="MapLib" num="661" delta="unknown" ><arg fmt="%s" index="1">LUT4 symbol &quot;RAM/gate65/gate6/z_not0001_wg_lut&lt;9&gt;&quot; (output signal=N60)</arg> has input signal &quot;<arg fmt="%s" index="2">RAM/gate12/gate1/gate6/gate3/gate1/M0</arg>&quot; which will be trimmed. See the trim report for details about why the input signal will become undriven.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">output&lt;5&gt;</arg> connected to top level port <arg fmt="%s" index="2">output&lt;5&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">output&lt;4&gt;</arg> connected to top level port <arg fmt="%s" index="2">output&lt;4&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">output&lt;3&gt;</arg> connected to top level port <arg fmt="%s" index="2">output&lt;3&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">output&lt;2&gt;</arg> connected to top level port <arg fmt="%s" index="2">output&lt;2&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">output&lt;1&gt;</arg> connected to top level port <arg fmt="%s" index="2">output&lt;1&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">output&lt;0&gt;</arg> connected to top level port <arg fmt="%s" index="2">output&lt;0&gt;</arg> has been removed.
+</msg>
+
+</messages>
+

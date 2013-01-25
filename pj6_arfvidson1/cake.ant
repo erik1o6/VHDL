@@ -1,0 +1,451 @@
+--------------------------------------------------------------------------------
+-- Copyright (c) 1995-2007 Xilinx, Inc.
+-- All Right Reserved.
+--------------------------------------------------------------------------------
+--   ____  ____ 
+--  /   /\/   / 
+-- /___/  \  /    Vendor: Xilinx 
+-- \   \   \/     Version : 9.2i
+--  \   \         Application : ISE
+--  /   /         Filename : cake.ant
+-- /___/   /\     Timestamp : Wed Nov 14 18:14:08 2012
+-- \   \  /  \ 
+--  \___\/\___\ 
+--
+--Command: 
+--Design Name: cake
+--Device: Xilinx
+--
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+USE IEEE.STD_LOGIC_TEXTIO.ALL;
+USE STD.TEXTIO.ALL;
+
+ENTITY cake IS
+END cake;
+
+ARCHITECTURE testbench_arch OF cake IS
+    FILE RESULTS: TEXT OPEN WRITE_MODE IS "C:\Users\ERIK\Dropbox\cmpen471\projects\pj6_Be\cake.ano";
+
+    COMPONENT r2s8mt
+        PORT (
+            resetb : In std_logic;
+            clock : In std_logic;
+            asb : Out std_logic;
+            rw : Out std_logic;
+            iadr : Out std_logic_vector (5 DownTo 0);
+            madr : Out std_logic_vector (5 DownTo 0);
+            mdat : Out std_logic_vector (5 DownTo 0);
+            input : In std_logic_vector (5 DownTo 0);
+            output : Out std_logic_vector (5 DownTo 0);
+            RIR : Out std_logic;
+            WIR : Out std_logic;
+            RPC : Out std_logic;
+            CPC : Out std_logic;
+            SDM0 : Out std_logic;
+            SDM1 : Out std_logic;
+            WDR : Out std_logic;
+            DOE : Out std_logic;
+            SPC : Out std_logic;
+            WC : Out std_logic;
+            CF : Out std_logic
+        );
+    END COMPONENT;
+
+    SIGNAL resetb : std_logic := '0';
+    SIGNAL clock : std_logic := '0';
+    SIGNAL asb : std_logic := '0';
+    SIGNAL rw : std_logic := '0';
+    SIGNAL iadr : std_logic_vector (5 DownTo 0) := "000000";
+    SIGNAL madr : std_logic_vector (5 DownTo 0) := "000000";
+    SIGNAL mdat : std_logic_vector (5 DownTo 0) := "000000";
+    SIGNAL input : std_logic_vector (5 DownTo 0) := "000000";
+    SIGNAL output : std_logic_vector (5 DownTo 0) := "000000";
+    SIGNAL RIR : std_logic := '0';
+    SIGNAL WIR : std_logic := '0';
+    SIGNAL RPC : std_logic := '0';
+    SIGNAL CPC : std_logic := '0';
+    SIGNAL SDM0 : std_logic := '0';
+    SIGNAL SDM1 : std_logic := '0';
+    SIGNAL WDR : std_logic := '0';
+    SIGNAL DOE : std_logic := '0';
+    SIGNAL SPC : std_logic := '0';
+    SIGNAL WC : std_logic := '0';
+    SIGNAL CF : std_logic := '0';
+
+    SHARED VARIABLE TX_ERROR : INTEGER := 0;
+    SHARED VARIABLE TX_OUT : LINE;
+
+    constant PERIOD : time := 200 ns;
+    constant DUTY_CYCLE : real := 0.5;
+    constant OFFSET : time := 100 ns;
+
+    BEGIN
+        UUT : r2s8mt
+        PORT MAP (
+            resetb => resetb,
+            clock => clock,
+            asb => asb,
+            rw => rw,
+            iadr => iadr,
+            madr => madr,
+            mdat => mdat,
+            input => input,
+            output => output,
+            RIR => RIR,
+            WIR => WIR,
+            RPC => RPC,
+            CPC => CPC,
+            SDM0 => SDM0,
+            SDM1 => SDM1,
+            WDR => WDR,
+            DOE => DOE,
+            SPC => SPC,
+            WC => WC,
+            CF => CF
+        );
+
+        PROCESS    -- clock process for clock
+        BEGIN
+            WAIT for OFFSET;
+            CLOCK_LOOP : LOOP
+                clock <= '0';
+                WAIT FOR (PERIOD - (PERIOD * DUTY_CYCLE));
+                clock <= '1';
+                WAIT FOR (PERIOD * DUTY_CYCLE);
+            END LOOP CLOCK_LOOP;
+        END PROCESS;
+
+        PROCESS    -- Annotation process for clock
+            VARIABLE TX_TIME : INTEGER := 0;
+
+            PROCEDURE ANNOTATE_asb(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", asb, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, asb);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_rw(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", rw, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, rw);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_iadr(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", iadr, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, iadr);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_madr(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", madr, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, madr);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_mdat(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", mdat, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, mdat);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_output(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", output, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, output);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_RIR(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", RIR, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, RIR);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_WIR(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", WIR, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, WIR);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_RPC(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", RPC, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, RPC);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_CPC(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", CPC, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, CPC);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_SDM0(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", SDM0, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, SDM0);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_SDM1(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", SDM1, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, SDM1);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_WDR(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", WDR, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, WDR);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_DOE(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", DOE, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, DOE);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_SPC(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", SPC, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, SPC);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_WC(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", WC, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, WC);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_CF(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", CF, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, CF);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+        BEGIN
+            WAIT for 1 fs;
+            ANNOTATE_asb(0);
+            ANNOTATE_rw(0);
+            ANNOTATE_iadr(0);
+            ANNOTATE_madr(0);
+            ANNOTATE_mdat(0);
+            ANNOTATE_output(0);
+            ANNOTATE_RIR(0);
+            ANNOTATE_WIR(0);
+            ANNOTATE_RPC(0);
+            ANNOTATE_CPC(0);
+            ANNOTATE_SDM0(0);
+            ANNOTATE_SDM1(0);
+            ANNOTATE_WDR(0);
+            ANNOTATE_DOE(0);
+            ANNOTATE_SPC(0);
+            ANNOTATE_WC(0);
+            ANNOTATE_CF(0);
+            WAIT for OFFSET;
+            TX_TIME := TX_TIME + 100;
+            ANNO_LOOP : LOOP
+                --Rising Edge
+                WAIT for 115 ns;
+                TX_TIME := TX_TIME + 115;
+                ANNOTATE_asb(TX_TIME);
+                ANNOTATE_rw(TX_TIME);
+                ANNOTATE_iadr(TX_TIME);
+                ANNOTATE_madr(TX_TIME);
+                ANNOTATE_mdat(TX_TIME);
+                ANNOTATE_output(TX_TIME);
+                ANNOTATE_RIR(TX_TIME);
+                ANNOTATE_WIR(TX_TIME);
+                ANNOTATE_RPC(TX_TIME);
+                ANNOTATE_CPC(TX_TIME);
+                ANNOTATE_SDM0(TX_TIME);
+                ANNOTATE_SDM1(TX_TIME);
+                ANNOTATE_WDR(TX_TIME);
+                ANNOTATE_DOE(TX_TIME);
+                ANNOTATE_SPC(TX_TIME);
+                ANNOTATE_WC(TX_TIME);
+                ANNOTATE_CF(TX_TIME);
+                WAIT for 85 ns;
+                TX_TIME := TX_TIME + 85;
+            END LOOP ANNO_LOOP;
+        END PROCESS;
+
+        PROCESS
+            BEGIN
+                -- -------------  Current Time:  385ns
+                WAIT FOR 385 ns;
+                resetb <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  785ns
+                WAIT FOR 400 ns;
+                resetb <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  1185ns
+                WAIT FOR 400 ns;
+                resetb <= '1';
+                -- -------------------------------------
+                WAIT FOR 9015 ns;
+
+                STD.TEXTIO.write(TX_OUT, string'("Total[]"));
+                STD.TEXTIO.writeline(RESULTS, TX_OUT);
+                ASSERT (FALSE) REPORT
+                    "Success! Simulation for annotation completed"
+                    SEVERITY FAILURE;
+            END PROCESS;
+
+    END testbench_arch;
+

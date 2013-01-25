@@ -1,0 +1,3 @@
+--Verilog project file split out from loros_beh.prj
+verilog work "C:\Users\ERIK\Dropbox\cmpen471\projects\pj6_best2/loros.tfw"
+verilog work "C:/Xilinx92i/verilog/src/glbl.v"

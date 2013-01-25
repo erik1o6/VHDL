@@ -1,0 +1,3 @@
+MODULE testfinal
+SUBMODULE eaUltraMultiplier
+INSTANCE UUT

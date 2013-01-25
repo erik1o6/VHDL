@@ -1,0 +1,25 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+ngdbuild -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "eaRisc.ngc" eaRisc.ngd
+map -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o eaRisc_map.ncd eaRisc.ngd eaRisc.pcf
+par -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -w -intstyle ise -ol std -t 1 eaRisc_map.ncd eaRisc.ncd eaRisc.pcf
+trce -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -e 3 -s 4 -xml eaRisc eaRisc.ncd -o eaRisc.twr eaRisc.pcf
+netgen -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -s 4 -pcf eaRisc.pcf -rpw 100 -tpw 0 -ar Structure -tm eaRisc -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim eaRisc.ncd eaRisc_timesim.vhd
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+ngdbuild -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "eaRisc.ngc" eaRisc.ngd
+map -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o eaRisc_map.ncd eaRisc.ngd eaRisc.pcf
+map -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o eaRisc_map.ncd eaRisc.ngd eaRisc.pcf
+map -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o eaRisc_map.ncd eaRisc.ngd eaRisc.pcf
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise" -intstyle ise -ifn eaRisc.xst -ofn eaRisc.syr

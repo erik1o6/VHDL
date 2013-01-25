@@ -1,0 +1,12 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -ifn ufm6bit.xst -ofn ufm6bit.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -ifn ufm6bit.xst -ofn ufm6bit.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -ifn ufm6bit.xst -ofn ufm6bit.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -ifn ufm6bit.xst -ofn ufm6bit.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -ifn ufm6bit.xst -ofn ufm6bit.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -ifn ufm6bit.xst -ofn ufm6bit.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -ifn ufm6bit.xst -ofn ufm6bit.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -ifn ufm6bit.xst -ofn ufm6bit.syr
+ngdbuild -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "ufm6bit.ngc" ufm6bit.ngd
+map -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o ufm6bit_map.ncd ufm6bit.ngd ufm6bit.pcf
+par -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -w -intstyle ise -ol std -t 1 ufm6bit_map.ncd ufm6bit.ncd ufm6bit.pcf
+trce -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/pj3Omega.ise" -intstyle ise -e 3 -s 4 -xml ufm6bit ufm6bit.ncd -o ufm6bit.twr ufm6bit.pcf

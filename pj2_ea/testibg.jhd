@@ -1,0 +1,3 @@
+MODULE testibg
+SUBMODULE eaDlatch
+INSTANCE UUT

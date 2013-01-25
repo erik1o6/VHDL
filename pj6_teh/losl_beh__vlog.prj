@@ -1,0 +1,3 @@
+--Verilog project file split out from losl_beh.prj
+verilog work "C:\Users\ERIK\Dropbox\cmpen471\projects\pj6_teh/losl.tfw"
+verilog work "C:/Xilinx92i/verilog/src/glbl.v"

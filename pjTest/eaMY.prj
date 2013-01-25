@@ -1,0 +1,3 @@
+vhdl work "eaOR.vhd"
+vhdl work "../hw1_arfvidson/eaAND2.vhd"
+vhdl work "eaMY.vhd"

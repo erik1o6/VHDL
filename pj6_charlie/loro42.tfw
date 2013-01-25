@@ -1,0 +1,80 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : loro42.tfw
+// /___/   /\     Timestamp : Sun Nov 11 02:55:34 2012
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: loro42
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module loro42;
+    reg resetb = 1'b0;
+    reg clock = 1'b0;
+    wire asb;
+    wire rw;
+    wire [5:0] iadr;
+    wire [5:0] idat;
+    wire [5:0] madr;
+    wire [5:0] mdat;
+    wire RIR;
+    wire WIR;
+    wire RPC;
+    wire CPC;
+    wire SDM;
+    wire WDR;
+    wire [5:0] TEST;
+    wire DOE;
+
+    parameter PERIOD = 2000;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 100;
+
+    initial    // Clock process for clock
+    begin
+        #OFFSET;
+        forever
+        begin
+            clock = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) clock = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    smicro UUT (
+        .resetb(resetb),
+        .clock(clock),
+        .asb(asb),
+        .rw(rw),
+        .iadr(iadr),
+        .idat(idat),
+        .madr(madr),
+        .mdat(mdat),
+        .RIR(RIR),
+        .WIR(WIR),
+        .RPC(RPC),
+        .CPC(CPC),
+        .SDM(SDM),
+        .WDR(WDR),
+        .TEST(TEST),
+        .DOE(DOE));
+
+    initial begin
+        // -------------  Current Time:  7085ns
+        #7085;
+        resetb = 1'b1;
+        // -------------------------------------
+    end
+
+endmodule
+

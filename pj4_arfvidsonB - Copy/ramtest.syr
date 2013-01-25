@@ -1,0 +1,738 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.09 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.09 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: ramtest.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ramtest.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ramtest"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : ramtest
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : ramtest.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea2NAND.vhd" in Library work.
+Entity <ea2NAND> compiled.
+Entity <ea2NAND> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/eaINVERT.vhd" in Library work.
+Entity <eaINVERT> compiled.
+Entity <eaINVERT> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea2to1MUX.vhd" in Library work.
+Entity <ea2to1MUX> compiled.
+Entity <ea2to1MUX> (Architecture <struct>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/eainvbuf.vhd" in Library work.
+Entity <eainvbuf> compiled.
+Entity <eainvbuf> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/eaDLatch.vhd" in Library work.
+Entity <eaDlatch> compiled.
+Entity <eaDlatch> (Architecture <struc>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea6Dlatch.vhd" in Library work.
+Entity <ea6Dlatch> compiled.
+Entity <ea6Dlatch> (Architecture <struct>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/eainv6buf.vhd" in Library work.
+Entity <eainv6buf> compiled.
+Entity <eainv6buf> (Architecture <struct>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea2AND.vhd" in Library work.
+Entity <ea2AND> compiled.
+Entity <ea2AND> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea6AND.vhd" in Library work.
+Entity <ea6AND> compiled.
+Entity <ea6AND> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea5to32Decoder.vhd" in Library work.
+Entity <ea5to32Decoder> compiled.
+Entity <ea5to32Decoder> (Architecture <struct>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea3NOR.vhd" in Library work.
+Entity <ea3NOR> compiled.
+Entity <ea3NOR> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/eaOutputBuf.vhd" in Library work.
+Entity <eaOutputBuf> compiled.
+Entity <eaOutputBuf> (Architecture <struct>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea6Ram.vhd" in Library work.
+Entity <ea6Ram> compiled.
+Entity <ea6Ram> (Architecture <struc>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea32x6Ram.vhd" in Library work.
+Entity <ea32x6Ram> compiled.
+Entity <ea32x6Ram> (Architecture <struct>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea2OR.vhd" in Library work.
+Entity <ea2OR> compiled.
+Entity <ea2OR> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea64x6Ram.vhd" in Library work.
+Entity <ea64x6Ram> compiled.
+Entity <ea64x6Ram> (Architecture <struct>) compiled.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ramtest.vhd" in Library work.
+Entity <ramtest> compiled.
+Entity <ramtest> (Architecture <struct>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ramtest> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <eaOutputBuf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea64x6Ram> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ea32x6Ram> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ea2OR> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ea5to32Decoder> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ea3NOR> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <eaOutputBuf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6Ram> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <ea6AND> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ea6Dlatch> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eainv6buf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2AND> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ea2to1MUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ramtest> in library <work> (Architecture <struct>).
+Entity <ramtest> analyzed. Unit <ramtest> generated.
+
+Analyzing Entity <eaINVERT> in library <work> (Architecture <Behavioral>).
+Entity <eaINVERT> analyzed. Unit <eaINVERT> generated.
+
+Analyzing Entity <eaOutputBuf> in library <work> (Architecture <struct>).
+Entity <eaOutputBuf> analyzed. Unit <eaOutputBuf> generated.
+
+Analyzing Entity <eainvbuf> in library <work> (Architecture <Behavioral>).
+Entity <eainvbuf> analyzed. Unit <eainvbuf> generated.
+
+Analyzing Entity <ea64x6Ram> in library <work> (Architecture <struct>).
+WARNING:Xst:754 - "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea64x6Ram.vhd" line 62: Unconnected inout port 'D' of component 'ea32x6Ram'.
+WARNING:Xst:754 - "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea64x6Ram.vhd" line 63: Unconnected inout port 'D' of component 'ea32x6Ram'.
+Entity <ea64x6Ram> analyzed. Unit <ea64x6Ram> generated.
+
+Analyzing Entity <ea32x6Ram> in library <work> (Architecture <struct>).
+Entity <ea32x6Ram> analyzed. Unit <ea32x6Ram> generated.
+
+Analyzing Entity <ea5to32Decoder> in library <work> (Architecture <struct>).
+Entity <ea5to32Decoder> analyzed. Unit <ea5to32Decoder> generated.
+
+Analyzing Entity <ea6AND> in library <work> (Architecture <Behavioral>).
+Entity <ea6AND> analyzed. Unit <ea6AND> generated.
+
+Analyzing Entity <ea3NOR> in library <work> (Architecture <Behavioral>).
+Entity <ea3NOR> analyzed. Unit <ea3NOR> generated.
+
+Analyzing Entity <ea6Ram> in library <work> (Architecture <struc>).
+Entity <ea6Ram> analyzed. Unit <ea6Ram> generated.
+
+Analyzing Entity <ea6Dlatch> in library <work> (Architecture <struct>).
+Entity <ea6Dlatch> analyzed. Unit <ea6Dlatch> generated.
+
+Analyzing Entity <eaDlatch> in library <work> (Architecture <struc>).
+Entity <eaDlatch> analyzed. Unit <eaDlatch> generated.
+
+Analyzing Entity <ea2to1MUX> in library <work> (Architecture <struct>).
+Entity <ea2to1MUX> analyzed. Unit <ea2to1MUX> generated.
+
+Analyzing Entity <ea2NAND> in library <work> (Architecture <Behavioral>).
+Entity <ea2NAND> analyzed. Unit <ea2NAND> generated.
+
+Analyzing Entity <eainv6buf> in library <work> (Architecture <struct>).
+Entity <eainv6buf> analyzed. Unit <eainv6buf> generated.
+
+Analyzing Entity <ea2AND> in library <work> (Architecture <Behavioral>).
+Entity <ea2AND> analyzed. Unit <ea2AND> generated.
+
+Analyzing Entity <ea2OR> in library <work> (Architecture <Behavioral>).
+Entity <ea2OR> analyzed. Unit <ea2OR> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <eaINVERT>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/eaINVERT.vhd".
+Unit <eaINVERT> synthesized.
+
+
+Synthesizing Unit <eainvbuf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/eainvbuf.vhd".
+    Found 1-bit tristate buffer for signal <z>.
+    Summary:
+	inferred   1 Tristate(s).
+Unit <eainvbuf> synthesized.
+
+
+Synthesizing Unit <ea2OR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea2OR.vhd".
+Unit <ea2OR> synthesized.
+
+
+Synthesizing Unit <ea3NOR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea3NOR.vhd".
+Unit <ea3NOR> synthesized.
+
+
+Synthesizing Unit <ea6AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea6AND.vhd".
+Unit <ea6AND> synthesized.
+
+
+Synthesizing Unit <ea2AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea2AND.vhd".
+Unit <ea2AND> synthesized.
+
+
+Synthesizing Unit <ea2NAND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea2NAND.vhd".
+Unit <ea2NAND> synthesized.
+
+
+Synthesizing Unit <eaOutputBuf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/eaOutputBuf.vhd".
+Unit <eaOutputBuf> synthesized.
+
+
+Synthesizing Unit <ea5to32Decoder>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea5to32Decoder.vhd".
+WARNING:Xst:1780 - Signal <AN<5>> is never used or assigned.
+Unit <ea5to32Decoder> synthesized.
+
+
+Synthesizing Unit <eainv6buf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/eainv6buf.vhd".
+Unit <eainv6buf> synthesized.
+
+
+Synthesizing Unit <ea2to1MUX>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea2to1MUX.vhd".
+Unit <ea2to1MUX> synthesized.
+
+
+Synthesizing Unit <eaDlatch>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/eaDLatch.vhd".
+Unit <eaDlatch> synthesized.
+
+
+Synthesizing Unit <ea6Dlatch>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea6Dlatch.vhd".
+Unit <ea6Dlatch> synthesized.
+
+
+Synthesizing Unit <ea6Ram>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea6Ram.vhd".
+Unit <ea6Ram> synthesized.
+
+
+Synthesizing Unit <ea32x6Ram>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea32x6Ram.vhd".
+WARNING:Xst:1780 - Signal <DB> is never used or assigned.
+WARNING:Xst:1780 - Signal <A1> is never used or assigned.
+Unit <ea32x6Ram> synthesized.
+
+
+Synthesizing Unit <ea64x6Ram>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ea64x6Ram.vhd".
+WARNING:Xst:2563 - Inout <D<0>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <D<1>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <D<2>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <D<3>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <D<4>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <D<5>> is never assigned. Tied to value Z.
+    Found 1-bit tristate buffer for signal <D<5>>.
+    Found 1-bit tristate buffer for signal <D<4>>.
+    Found 1-bit tristate buffer for signal <D<3>>.
+    Found 1-bit tristate buffer for signal <D<2>>.
+    Found 1-bit tristate buffer for signal <D<1>>.
+    Found 1-bit tristate buffer for signal <D<0>>.
+    Summary:
+	inferred   6 Tristate(s).
+Unit <ea64x6Ram> synthesized.
+
+
+Synthesizing Unit <ramtest>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonB/ramtest.vhd".
+Unit <ramtest> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Tristates                                            : 408
+ 1-bit tristate buffer                                 : 408
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx92i.
+WARNING:Xst:1290 - Hierarchical block <gate0> is unconnected in block <gate7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate2> is unconnected in block <gate7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate3> is unconnected in block <gate7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate5> is unconnected in block <gate7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate6> is unconnected in block <gate7>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate10/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate17/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate24/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate24/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate5/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate27/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate9/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate28/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate30/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate33/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate23/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate28/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate22/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate11/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate16/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate31/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate15/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate21/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate25/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate36/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate10/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate14/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate36/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate17/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate25/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate5/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate9/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate30/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate28/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate12/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate13/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate22/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate11/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate16/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate31/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate15/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate36/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate10/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate36/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate18/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate26/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate29/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate27/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate9/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate30/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate13/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate22/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate11/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate31/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate10/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate36/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate17/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate23/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate18/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate29/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate35/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate28/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate33/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate12/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate7/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate13/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate31/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate8/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate10/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate18/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate26/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate29/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate21/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate35/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate5/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate23/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate27/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate9/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate12/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate20/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate7/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate13/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate22/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate8/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate15/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate34/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate10/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate14/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate29/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate25/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate35/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate5/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate28/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate12/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate20/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate7/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate22/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate6/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate14/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate8/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate14/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate21/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate26/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate29/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate21/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate35/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate27/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate9/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate12/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate7/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate13/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate6/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate8/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate19/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate20/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate31/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate34/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate26/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate11/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate21/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate25/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate35/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate32/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate27/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate20/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate7/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate6/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate19/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate15/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate34/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate6/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate14/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate17/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate24/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate11/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate18/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate32/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate5/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate33/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate12/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate7/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate6/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate8/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate19/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate36/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate15/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate34/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate24/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate26/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate18/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate21/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate25/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate23/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate32/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate35/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate30/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate33/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate16/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate8/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate20/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate34/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate19/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate17/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate24/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate18/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate29/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate32/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate32/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate23/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate27/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate30/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate33/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate28/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate22/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate6/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate16/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate16/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate19/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate20/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate34/D0<5>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate14/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate17/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate24/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate26/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate25/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate32/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate5/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate9/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate30/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate33/D0<4>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate23/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate13/D0<0>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate11/D0<3>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate16/D0<2>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate19/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate31/D0<1>.
+WARNING:Xst:2170 - Unit ea32x6Ram : the following signal(s) form a combinatorial loop: gate15/D0<3>.
+WARNING:Xst:2042 - Unit ea32x6Ram: 6 internal tristates are replaced by logic (pull-up yes): D<0>, D<1>, D<2>, D<3>, D<4>, D<5>.
+WARNING:Xst:2040 - Unit ea32x6Ram: 6 multi-source signals are replaced by logic (pull-up yes): DA<0>, DA<1>, DA<2>, DA<3>, DA<4>, DA<5>.
+
+Optimizing unit <ramtest> ...
+
+Optimizing unit <ea32x6Ram> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ramtest, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ramtest.ngr
+Top Level Output File Name         : ramtest
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 22
+
+Cell Usage :
+# BELS                             : 1
+#      INV                         : 1
+# IO Buffers                       : 13
+#      IBUF                        : 7
+#      OBUFT                       : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       1  out of   4656     0%  
+ Number of 4 input LUTs:                 1  out of   9312     0%  
+ Number of IOs:                         22
+ Number of bonded IOBs:                 13  out of    232     5%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 6.283ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 12 / 6
+-------------------------------------------------------------------------
+Delay:               6.283ns (Levels of Logic = 3)
+  Source:            joe (PAD)
+  Destination:       d<5> (PAD)
+
+  Data Path: joe to d<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  joe_IBUF (joe_IBUF)
+     INV:I->O              6   0.704   0.669  gate6/gate1/e_inv1_INV_0 (gate6/gate1/e_inv)
+     OBUFT:T->O                3.272          d_5_OBUFT (d<5>)
+    ----------------------------------------
+    Total                      6.283ns (5.194ns logic, 1.089ns route)
+                                       (82.7% logic, 17.3% route)
+
+=========================================================================
+CPU : 5.05 / 5.16 s | Elapsed : 5.00 / 5.00 s
+ 
+--> 
+
+Total memory usage is 198460 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  212 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

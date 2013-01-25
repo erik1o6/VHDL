@@ -1,0 +1,23 @@
+V3 11
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/hw1_arfvidson/eaAND2.vhd 2012/09/17.07:38:13 J.36
+EN work/eaAND 1347893119 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/hw1_arfvidson/eaAND2.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaAND/Behavioral 1347893120 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/hw1_arfvidson/eaAND2.vhd \
+      EN work/eaAND 1347893119
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaMY.vhd 2012/09/17.07:42:18 J.36
+EN work/eaMY 1347893812 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaMY.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaMY/Structural 1347893813 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaMY.vhd EN work/eaMY 1347893812 \
+      CP eaAND CP eaOR
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaOR.vhd 2012/09/17.07:44:59 J.36
+EN work/eaOR 1347893107 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaOR.vhd \
+      PB ieee/std_logic_1164 1177545575
+AR work/eaOR/OR_beh 1347893108 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaOR.vhd EN work/eaOR 1347893107

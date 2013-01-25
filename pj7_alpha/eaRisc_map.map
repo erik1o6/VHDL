@@ -1,0 +1,121 @@
+Release 9.2i Map J.36
+Xilinx Map Application Log File for Design 'eaRisc'
+
+Design Information
+------------------
+Command Line   : C:\Xilinx92i\bin\nt\map.exe -ise
+C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/pj7_alpha.ise -intstyle ise -p
+xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o eaRisc_map.ncd eaRisc.ngd
+eaRisc.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.36 $
+Mapped Date    : Thu Dec 06 02:09:14 2012
+
+Mapping design into LUTs...
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate1/z_not0001_wg_lut<10>" (output
+   signal=N126) has input signal "RAM/gate9/gate1/gate1/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate1/z_not0001_wg_lut<8>" (output
+   signal=N124) has input signal "RAM/gate13/gate1/gate1/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate1/z_not0001_wg_lut<9>" (output
+   signal=N125) has input signal "RAM/gate8/gate1/gate1/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate1/z_not0001_wg_lut<9>" (output
+   signal=N125) has input signal "RAM/gate12/gate1/gate1/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate2/z_not0001_wg_lut<10>" (output
+   signal=N113) has input signal "RAM/gate9/gate1/gate2/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate2/z_not0001_wg_lut<8>" (output
+   signal=N111) has input signal "RAM/gate13/gate1/gate2/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate2/z_not0001_wg_lut<9>" (output
+   signal=N112) has input signal "RAM/gate8/gate1/gate2/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate2/z_not0001_wg_lut<9>" (output
+   signal=N112) has input signal "RAM/gate12/gate1/gate2/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate3/z_not0001_wg_lut<10>" (output
+   signal=N100) has input signal "RAM/gate9/gate1/gate3/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate3/z_not0001_wg_lut<8>" (output
+   signal=N98) has input signal "RAM/gate13/gate1/gate3/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate3/z_not0001_wg_lut<9>" (output
+   signal=N99) has input signal "RAM/gate8/gate1/gate3/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate3/z_not0001_wg_lut<9>" (output
+   signal=N99) has input signal "RAM/gate12/gate1/gate3/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate4/z_not0001_wg_lut<10>" (output
+   signal=N87) has input signal "RAM/gate9/gate1/gate4/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate4/z_not0001_wg_lut<8>" (output
+   signal=N85) has input signal "RAM/gate13/gate1/gate4/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate4/z_not0001_wg_lut<9>" (output
+   signal=N86) has input signal "RAM/gate8/gate1/gate4/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate4/z_not0001_wg_lut<9>" (output
+   signal=N86) has input signal "RAM/gate12/gate1/gate4/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate5/z_not0001_wg_lut<10>" (output
+   signal=N74) has input signal "RAM/gate9/gate1/gate5/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate5/z_not0001_wg_lut<8>" (output
+   signal=N72) has input signal "RAM/gate13/gate1/gate5/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate5/z_not0001_wg_lut<9>" (output
+   signal=N73) has input signal "RAM/gate8/gate1/gate5/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate5/z_not0001_wg_lut<9>" (output
+   signal=N73) has input signal "RAM/gate12/gate1/gate5/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate6/z_not0001_wg_lut<10>" (output
+   signal=N61) has input signal "RAM/gate9/gate1/gate6/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate6/z_not0001_wg_lut<8>" (output
+   signal=N59) has input signal "RAM/gate13/gate1/gate6/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate6/z_not0001_wg_lut<9>" (output
+   signal=N60) has input signal "RAM/gate8/gate1/gate6/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+ERROR:MapLib:661 - LUT4 symbol "RAM/gate65/gate6/z_not0001_wg_lut<9>" (output
+   signal=N60) has input signal "RAM/gate12/gate1/gate6/gate3/gate1/M0" which
+   will be trimmed. See the trim report for details about why the input signal
+   will become undriven.
+
+Error found in mapping process, exiting...
+Errors found during the mapping phase.  Please see map report file for more
+details.  Output files will not be written.
+
+Design Summary
+--------------
+Number of errors   :  24
+Number of warnings :   8

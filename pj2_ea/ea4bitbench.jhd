@@ -1,0 +1,3 @@
+MODULE ea4bitbench
+SUBMODULE ea4bitMUX
+INSTANCE UUT

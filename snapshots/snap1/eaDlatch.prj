@@ -1,0 +1,3 @@
+vhdl work "ea2NAND.vhd"
+vhdl work "ea2to1MUX.vhd"
+vhdl work "eaDLatch.vhd"

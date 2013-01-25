@@ -1,0 +1,101 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : dasqw.ant
+// /___/   /\     Timestamp : Thu Oct 04 05:51:17 2012
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: dasqw
+//Device: Xilinx
+//
+`timescale 1ps/1fs
+
+module dasqw;
+    reg ckm = 1'b0;
+    reg rb = 1'b0;
+    reg [5:0] b = 6'b000000;
+    reg [1:0] s = 2'b00;
+    wire [5:0] d;
+
+    parameter PERIOD = 2000;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 100;
+
+    initial    // Clock process for ckm
+    begin
+        #OFFSET;
+        forever
+        begin
+            ckm = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) ckm = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    ufm6bit UUT (
+        .ckm(ckm),
+        .rb(rb),
+        .b(b),
+        .s(s),
+        .d(d));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process for clock ckm
+        #0;
+        ANNOTATE_d;
+        #OFFSET;
+        forever begin
+            #1015;
+            ANNOTATE_d;
+            #985;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("C:\\Users\\ERIK\\Dropbox\\cmpen471\\projects\\pj3Omega\\dasqw.ano");
+        #1.002e+006 // Final time:  1.002e+006 ps
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  69085ps
+        #69085;
+        rb = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  91085ps
+        #22000;
+        rb = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  143085ps
+        #52000;
+        rb = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  171085ps
+        #28000;
+        b = 6'b000001;
+        // -------------------------------------
+    end
+
+    task ANNOTATE_d;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,d,%b]", $time, d);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

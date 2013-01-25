@@ -1,0 +1,50 @@
+ command line:
+   ./test2_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  52729
+
+Tue Oct 23 13:57:33 2012
+
+Total Line Count : 50112
+WARNING:Simulator:406 - This is a limited version of the ISE Simulator. The
+   current design has exceeded the design size limit for this version and the
+   performance of the simulation will be derated.
+
+ Elaboration time : 0.046875 sec.
+
+ Estimate current memory usage : 174.027 Meg. 
+
+ Total Signals          : 15258
+ Total Nets             : 3185
+ Total Signal Drivers   : 3436
+ Total Blocks           : 4118
+ Total Primitive Blocks : 2944
+ Total Processes        : 3440
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 3331
+ntrace select -o on -n /test2/rw 
+ntrace select -o on -n /test2/resetb 
+ntrace select -o on -n /test2/mdat 
+ntrace select -o on -n /test2/madr 
+ntrace select -o on -n /test2/idat 
+ntrace select -o on -n /test2/iadr 
+ntrace select -o on -n /test2/clock 
+ntrace select -o on -n /test2/asb 
+ntrace select -o on -n /test2/WIR 
+ntrace select -o on -n /test2/WDR 
+ntrace select -o on -n /test2/TEST 
+ntrace select -o on -n /test2/SDM 
+ntrace select -o on -n /test2/RPC 
+ntrace select -o on -n /test2/RIR 
+ntrace select -o on -n /test2/PERIOD 
+ntrace select -o on -n /test2/OFFSET 
+ntrace select -o on -n /test2/DUTY_CYCLE 
+ntrace select -o on -n /test2/DOE 
+ntrace select -o on -n /test2/CPC 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 100000 ns 
+isimrun 100000 ns 

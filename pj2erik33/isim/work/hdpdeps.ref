@@ -1,0 +1,176 @@
+V3 77
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/dfl.vhw 2012/09/18.12:59:22 J.36
+EN work/dfl 1347998390 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/dfl.vhw \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/dfl/testbench_arch 1347998391 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/dfl.vhw EN work/dfl 1347998390 \
+      CP eaFlipFlop
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea1bitadder.vhd 2012/09/13.12:05:26 J.36
+EN work/ea1bitadder 1347994659 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea1bitadder.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/ea1bitadder/Behavioral 1347994660 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea1bitadder.vhd \
+      EN work/ea1bitadder 1347994659 CP eaINVERT CP ea2NAND CP ea3NAND CP ea4NAND
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea2NAND.vhd 2012/09/17.08:46:11 J.36
+EN work/ea2NAND 1347994649 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea2NAND.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/ea2NAND/Behavioral 1347994650 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea2NAND.vhd \
+      EN work/ea2NAND 1347994649
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea2to1MUX.vhd 2012/09/17.09:12:16 J.36
+EN work/ea2to1MUX 1347994657 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea2to1MUX.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/ea2to1MUX/Behavioral 1347994658 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea2to1MUX.vhd \
+      EN work/ea2to1MUX 1347994657 CP ea2NAND CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea3NAND.vhd 2012/09/13.20:41:59 J.36
+EN work/ea3NAND 1347994653 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea3NAND.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/ea3NAND/Behavioral 1347994654 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea3NAND.vhd \
+      EN work/ea3NAND 1347994653
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4bitMUX.vhd 2012/09/13.14:11:08 J.36
+EN work/ea4bitMUX 1347994663 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4bitMUX.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/ea4bitMUX/struct 1347994664 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4bitMUX.vhd \
+      EN work/ea4bitMUX 1347994663 CP ea2to1MUX
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4Dlatch.vhd 2012/09/13.12:56:18 J.36
+EN work/ea4Dlatch 1347994665 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4Dlatch.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/ea4Dlatch/Behavioral 1347994666 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4Dlatch.vhd \
+      EN work/ea4Dlatch 1347994665 CP eaDlatch
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4Flip.vhd 2012/09/19.12:31:16 J.36
+EN work/ea4Flip 1348083519 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4Flip.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/ea4Flip/Behavioral 1348083520 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4Flip.vhd \
+      EN work/ea4Flip 1348083519 CP eaFlipFlop
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4NAND.vhd 2012/09/13.20:25:29 J.36
+EN work/ea4NAND 1347994655 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4NAND.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/ea4NAND/Behavioral 1347994656 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/ea4NAND.vhd \
+      EN work/ea4NAND 1347994655
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaadd4bit.vhd 2012/09/13.12:04:23 J.36
+EN work/eaadd4bit 1347994667 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaadd4bit.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/eaadd4bit/Behavioral 1347994668 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaadd4bit.vhd \
+      EN work/eaadd4bit 1347994667 CP ea1bitadder
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaDLatch.vhd 2012/09/17.11:32:13 J.36
+EN work/eaDlatch 1347994661 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaDLatch.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/eaDlatch/struc 1347994662 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaDLatch.vhd \
+      EN work/eaDlatch 1347994661 CP ea2to1MUX
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaFlipFlop.vhd 2012/09/18.12:57:28 J.36
+EN work/eaFlipFlop 1347998388 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaFlipFlop.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/eaFlipFlop/Behavioral 1347998389 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaFlipFlop.vhd \
+      EN work/eaFlipFlop 1347998388 CP eaDlatch CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaINVERT.vhd 2012/09/13.20:41:46 J.36
+EN work/eaINVERT 1347994651 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaINVERT.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/eaINVERT/Behavioral 1347994652 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaINVERT.vhd \
+      EN work/eaINVERT 1347994651
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaPC.vhd 2012/09/18.11:54:19 J.36
+EN work/eaPC 1347994669 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaPC.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/eaPC/Behavioral 1347994670 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaPC.vhd EN work/eaPC 1347994669 \
+      CP ea4bitMUX CP ea4Dlatch CP eaadd4bit
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaPCf.vhd 2012/09/19.12:33:48 J.36
+EN work/eaPCf 1348083521 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaPCf.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/eaPCf/Behavioral 1348083522 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/eaPCf.vhd \
+      EN work/eaPCf 1348083521 CP ea4bitMUX CP ea4Flip CP eaadd4bit
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/kkkk.vhw 2012/09/18.12:26:38 J.36
+EN work/kkkk 1347996421 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/kkkk.vhw \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/kkkk/testbench_arch 1347996422 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/kkkk.vhw EN work/kkkk 1347996421 \
+      CP eaPC
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/lolol.vhw 2012/09/19.12:37:45 J.36
+EN work/lolol 1348083523 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/lolol.vhw \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/lolol/testbench_arch 1348083524 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/lolol.vhw \
+      EN work/lolol 1348083523 CP eaPCf
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/lolz.vhw 2012/09/18.11:59:29 J.36
+EN work/lolz 1347994781 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/lolz.vhw \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/lolz/testbench_arch 1347994782 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/lolz.vhw EN work/lolz 1347994781 \
+      CP eaPC
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/mmm.vhw 2012/09/18.12:21:13 J.36
+EN work/mmm 1347996100 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/mmm.vhw \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/mmm/testbench_arch 1347996101 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/mmm.vhw EN work/mmm 1347996100 \
+      CP eaPC
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/nnn.vhw 2012/09/18.12:10:45 J.36
+EN work/nnn 1347995552 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/nnn.vhw \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/nnn/testbench_arch 1347995553 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/nnn.vhw EN work/nnn 1347995552 \
+      CP eaPC
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/tes.vhw 2012/09/19.11:56:00 J.36
+EN work/tes 1348080977 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/tes.vhw \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/tes/testbench_arch 1348080978 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj2erik33/tes.vhw EN work/tes 1348080977 \
+      CP eaFlipFlop

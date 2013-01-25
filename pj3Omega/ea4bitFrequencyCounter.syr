@@ -1,0 +1,470 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.06 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.06 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: ea4bitFrequencyCounter.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ea4bitFrequencyCounter.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ea4bitFrequencyCounter"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : ea4bitFrequencyCounter
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : ea4bitFrequencyCounter.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea2NAND.vhd" in Library work.
+Architecture behavioral of Entity ea2nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/eaINVERT.vhd" in Library work.
+Architecture behavioral of Entity eainvert is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea2to1MUX.vhd" in Library work.
+Architecture behavioral of Entity ea2to1mux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/eaDLatch.vhd" in Library work.
+Architecture struc of Entity eadlatch is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea3AND.vhd" in Library work.
+Architecture behavioral of Entity ea3and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea2OR.vhd" in Library work.
+Architecture behavioral of Entity ea2or is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/eaFlipFlop.vhd" in Library work.
+Architecture behavioral of Entity eaflipflop is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/DFFeaCERES.vhd" in Library work.
+Architecture struct of Entity dffeaceres is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/eaSINVERTER.vhd" in Library work.
+Architecture behavioral of Entity easinverter is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/eaTFlipFlop.vhd" in Library work.
+Architecture struct of Entity eatflipflop is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea2AND.vhd" in Library work.
+Architecture behavioral of Entity ea2and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea4bitFrequencyCounter.vhd" in Library work.
+Entity <ea4bitfrequencycounter> compiled.
+Entity <ea4bitfrequencycounter> (Architecture <struct>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ea4bitFrequencyCounter> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaTFlipFlop> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea3AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaFlipFlop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2OR> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2to1MUX> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DFFeaCERES> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaSINVERTER> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea3AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2OR> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaFlipFlop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2to1MUX> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2to1MUX> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ea4bitFrequencyCounter> in library <work> (Architecture <struct>).
+Entity <ea4bitFrequencyCounter> analyzed. Unit <ea4bitFrequencyCounter> generated.
+
+Analyzing Entity <eaTFlipFlop> in library <work> (Architecture <struct>).
+Entity <eaTFlipFlop> analyzed. Unit <eaTFlipFlop> generated.
+
+Analyzing Entity <DFFeaCERES> in library <work> (Architecture <struct>).
+Entity <DFFeaCERES> analyzed. Unit <DFFeaCERES> generated.
+
+Analyzing Entity <eaSINVERTER> in library <work> (Architecture <behavioral>).
+Entity <eaSINVERTER> analyzed. Unit <eaSINVERTER> generated.
+
+Analyzing Entity <ea2AND> in library <work> (Architecture <behavioral>).
+Entity <ea2AND> analyzed. Unit <ea2AND> generated.
+
+Analyzing Entity <ea3AND> in library <work> (Architecture <behavioral>).
+Entity <ea3AND> analyzed. Unit <ea3AND> generated.
+
+Analyzing Entity <eaFlipFlop> in library <work> (Architecture <behavioral>).
+Entity <eaFlipFlop> analyzed. Unit <eaFlipFlop> generated.
+
+Analyzing Entity <eaDlatch> in library <work> (Architecture <struc>).
+Entity <eaDlatch> analyzed. Unit <eaDlatch> generated.
+
+Analyzing Entity <eaINVERT> in library <work> (Architecture <behavioral>).
+Entity <eaINVERT> analyzed. Unit <eaINVERT> generated.
+
+Analyzing Entity <ea2OR> in library <work> (Architecture <behavioral>).
+Entity <ea2OR> analyzed. Unit <ea2OR> generated.
+
+Analyzing Entity <ea2to1MUX> in library <work> (Architecture <behavioral>).
+Entity <ea2to1MUX> analyzed. Unit <ea2to1MUX> generated.
+
+Analyzing Entity <ea2NAND> in library <work> (Architecture <behavioral>).
+Entity <ea2NAND> analyzed. Unit <ea2NAND> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ea2AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea2AND.vhd".
+Unit <ea2AND> synthesized.
+
+
+Synthesizing Unit <ea3AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea3AND.vhd".
+Unit <ea3AND> synthesized.
+
+
+Synthesizing Unit <eaINVERT>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/eaINVERT.vhd".
+Unit <eaINVERT> synthesized.
+
+
+Synthesizing Unit <ea2OR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea2OR.vhd".
+Unit <ea2OR> synthesized.
+
+
+Synthesizing Unit <eaSINVERTER>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/eaSINVERTER.vhd".
+Unit <eaSINVERTER> synthesized.
+
+
+Synthesizing Unit <ea2NAND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea2NAND.vhd".
+Unit <ea2NAND> synthesized.
+
+
+Synthesizing Unit <ea2to1MUX>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea2to1MUX.vhd".
+Unit <ea2to1MUX> synthesized.
+
+
+Synthesizing Unit <eaDlatch>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/eaDLatch.vhd".
+Unit <eaDlatch> synthesized.
+
+
+Synthesizing Unit <eaFlipFlop>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/eaFlipFlop.vhd".
+Unit <eaFlipFlop> synthesized.
+
+
+Synthesizing Unit <DFFeaCERES>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/DFFeaCERES.vhd".
+Unit <DFFeaCERES> synthesized.
+
+
+Synthesizing Unit <eaTFlipFlop>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/eaTFlipFlop.vhd".
+Unit <eaTFlipFlop> synthesized.
+
+
+Synthesizing Unit <ea4bitFrequencyCounter>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3Omega/ea4bitFrequencyCounter.vhd".
+WARNING:Xst:1780 - Signal <AND2OO> is never used or assigned.
+WARNING:Xst:646 - Signal <DO<3>> is assigned but never used.
+Unit <ea4bitFrequencyCounter> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:524 - All outputs of the instance <gate3> of the block <eaTFlipFlop> are unconnected in block <ea4bitFrequencyCounter>.
+   This instance will be removed from the design along with all underlying logic
+WARNING:Xst:524 - All outputs of the instance <gate4> of the block <eaTFlipFlop> are unconnected in block <ea4bitFrequencyCounter>.
+   This instance will be removed from the design along with all underlying logic
+WARNING:Xst:524 - All outputs of the instance <gate5> of the block <ea2AND> are unconnected in block <ea4bitFrequencyCounter>.
+   This instance will be removed from the design along with all underlying logic
+WARNING:Xst:524 - All outputs of the instance <gate6> of the block <ea3AND> are unconnected in block <ea4bitFrequencyCounter>.
+   This instance will be removed from the design along with all underlying logic
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx92i.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate2> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate2> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate2> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate1>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: DO<0>.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: gate2/gate1/gate6/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: C.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: gate9/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: gate8/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: gate1/gate1/gate6/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: DIV5.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: DIV10.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: A.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: gate18/gate1/gate6/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: DO<1>.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: gate7/gate1/gate1/M0.
+WARNING:Xst:2170 - Unit ea4bitFrequencyCounter : the following signal(s) form a combinatorial loop: B.
+
+Optimizing unit <ea4bitFrequencyCounter> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ea4bitFrequencyCounter, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ea4bitFrequencyCounter.ngr
+Top Level Output File Name         : ea4bitFrequencyCounter
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 11
+#      LUT2                        : 5
+#      LUT3                        : 5
+#      LUT4                        : 1
+# IO Buffers                       : 5
+#      IBUF                        : 1
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       6  out of   4656     0%  
+ Number of 4 input LUTs:                11  out of   9312     0%  
+ Number of IOs:                          6
+ Number of bonded IOBs:                  5  out of    232     2%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 11.940ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 19 / 4
+-------------------------------------------------------------------------
+Delay:               11.940ns (Levels of Logic = 7)
+  Source:            ck (PAD)
+  Destination:       d<3> (PAD)
+
+  Data Path: ck to d<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.218   0.995  ck_IBUF (ck_IBUF)
+     LUT2:I0->O            2   0.704   0.622  gate8/gate1/gate1/M01 (gate8/gate1/gate1/M0)
+     LUT3:I0->O            2   0.704   0.482  gate8/gate3/gate1/gate3/z1 (B)
+     LUT4:I2->O            4   0.704   0.762  gate17/z1 (DIV5)
+     LUT2:I0->O            2   0.704   0.622  gate18/gate1/gate6/gate1/gate1/M01 (gate18/gate1/gate6/gate1/gate1/M0)
+     LUT3:I0->O            2   0.704   0.447  gate18/gate1/gate6/gate3/gate1/gate3/z1 (DIV10)
+     OBUF:I->O                 3.272          d_3_OBUF (d<3>)
+    ----------------------------------------
+    Total                     11.940ns (8.010ns logic, 3.930ns route)
+                                       (67.1% logic, 32.9% route)
+
+=========================================================================
+CPU : 2.92 / 3.00 s | Elapsed : 3.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 191676 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   26 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

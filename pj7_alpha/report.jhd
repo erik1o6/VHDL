@@ -1,0 +1,3 @@
+MODULE report
+SUBMODULE eaRisc
+INSTANCE UUT

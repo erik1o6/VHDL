@@ -1,0 +1,5 @@
+vhdl work "eaINVERT.vhd"
+vhdl work "ea4NAND.vhd"
+vhdl work "ea3NAND.vhd"
+vhdl work "ea4to1MUX.vhd"
+vhdl work "lols2s.vhw"

@@ -1,0 +1,236 @@
+--------------------------------------------------------------------------------
+-- Copyright (c) 1995-2007 Xilinx, Inc.
+-- All Right Reserved.
+--------------------------------------------------------------------------------
+--   ____  ____ 
+--  /   /\/   / 
+-- /___/  \  /    Vendor: Xilinx 
+-- \   \   \/     Version : 9.2i
+--  \   \         Application : ISE
+--  /   /         Filename : lolz.ant
+-- /___/   /\     Timestamp : Tue Sep 18 11:59:29 2012
+-- \   \  /  \ 
+--  \___\/\___\ 
+--
+--Command: 
+--Design Name: lolz
+--Device: Xilinx
+--
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+USE IEEE.STD_LOGIC_TEXTIO.ALL;
+USE STD.TEXTIO.ALL;
+
+ENTITY lolz IS
+END lolz;
+
+ARCHITECTURE testbench_arch OF lolz IS
+    FILE RESULTS: TEXT OPEN WRITE_MODE IS "C:\Users\ERIK\Dropbox\cmpen471\projects\pj2erik33\lolz.ano";
+
+    COMPONENT eaPC
+        PORT (
+            CLK : In std_logic;
+            RESET : In std_logic;
+            Cin : In std_logic;
+            B : In std_logic_vector (3 DownTo 0);
+            A : Out std_logic_vector (3 DownTo 0);
+            C : Out std_logic_vector (3 DownTo 0);
+            SUM : Out std_logic_vector (3 DownTo 0);
+            Cout : Out std_logic
+        );
+    END COMPONENT;
+
+    SIGNAL CLK : std_logic := '0';
+    SIGNAL RESET : std_logic := '0';
+    SIGNAL Cin : std_logic := '0';
+    SIGNAL B : std_logic_vector (3 DownTo 0) := "0000";
+    SIGNAL A : std_logic_vector (3 DownTo 0) := "0000";
+    SIGNAL C : std_logic_vector (3 DownTo 0) := "0000";
+    SIGNAL SUM : std_logic_vector (3 DownTo 0) := "0000";
+    SIGNAL Cout : std_logic := '0';
+
+    SHARED VARIABLE TX_ERROR : INTEGER := 0;
+    SHARED VARIABLE TX_OUT : LINE;
+
+    BEGIN
+        UUT : eaPC
+        PORT MAP (
+            CLK => CLK,
+            RESET => RESET,
+            Cin => Cin,
+            B => B,
+            A => A,
+            C => C,
+            SUM => SUM,
+            Cout => Cout
+        );
+
+        PROCESS    -- Annotation process
+            VARIABLE TX_TIME : INTEGER := 0;
+
+            PROCEDURE ANNOTATE_A(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", A, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, A);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_C(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", C, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, C);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_SUM(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", SUM, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, SUM);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_Cout(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", Cout, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, Cout);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+        BEGIN
+            WAIT for 1 fs;
+            ANNOTATE_A(0);
+            ANNOTATE_C(0);
+            ANNOTATE_SUM(0);
+            ANNOTATE_Cout(0);
+            ANNO_LOOP : LOOP
+                WAIT for 50 ns;
+                TX_TIME := TX_TIME + 50;
+                ANNOTATE_A(TX_TIME);
+                ANNOTATE_C(TX_TIME);
+                ANNOTATE_SUM(TX_TIME);
+                ANNOTATE_Cout(TX_TIME);
+                WAIT for 50 ns;
+                TX_TIME := TX_TIME + 50;
+            END LOOP ANNO_LOOP;
+        END PROCESS;
+
+        PROCESS
+            BEGIN
+                -- -------------  Current Time:  200ns
+                WAIT FOR 200 ns;
+                CLK <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  300ns
+                WAIT FOR 100 ns;
+                CLK <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  400ns
+                WAIT FOR 100 ns;
+                CLK <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  500ns
+                WAIT FOR 100 ns;
+                CLK <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  600ns
+                WAIT FOR 100 ns;
+                CLK <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  700ns
+                WAIT FOR 100 ns;
+                CLK <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  800ns
+                WAIT FOR 100 ns;
+                CLK <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  900ns
+                WAIT FOR 100 ns;
+                CLK <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  1000ns
+                WAIT FOR 100 ns;
+                CLK <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  1100ns
+                WAIT FOR 100 ns;
+                CLK <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  1200ns
+                WAIT FOR 100 ns;
+                CLK <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  1300ns
+                WAIT FOR 100 ns;
+                CLK <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  1400ns
+                WAIT FOR 100 ns;
+                CLK <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  1500ns
+                WAIT FOR 100 ns;
+                CLK <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  1600ns
+                WAIT FOR 100 ns;
+                CLK <= '1';
+                -- -------------------------------------
+                -- -------------  Current Time:  1700ns
+                WAIT FOR 100 ns;
+                CLK <= '0';
+                -- -------------------------------------
+                -- -------------  Current Time:  2300ns
+                WAIT FOR 600 ns;
+                B <= "1000";
+                -- -------------------------------------
+                -- -------------  Current Time:  3400ns
+                WAIT FOR 1100 ns;
+                B <= "1010";
+                -- -------------------------------------
+                WAIT FOR 6600 ns;
+
+                STD.TEXTIO.write(TX_OUT, string'("Total[]"));
+                STD.TEXTIO.writeline(RESULTS, TX_OUT);
+                ASSERT (FALSE) REPORT
+                    "Success! Simulation for annotation completed"
+                    SEVERITY FAILURE;
+            END PROCESS;
+
+    END testbench_arch;
+

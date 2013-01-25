@@ -1,0 +1,44 @@
+ command line:
+   ./easdasd_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  61617
+
+Tue Oct 02 01:04:31 2012
+
+Total Line Count : 10260
+
+ Elaboration time : 0.0156 sec.
+
+ Estimate current memory usage : 152.867 Meg. 
+
+ Total Signals          : 3097
+ Total Nets             : 752
+ Total Signal Drivers   : 722
+ Total Blocks           : 832
+ Total Primitive Blocks : 681
+ Total Processes        : 720
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 752
+ntrace select -o on -m / -l this 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+
+ Simulation time 0.2028 sec.
+
+ Estimate current memory usage : 164.332 Meg. 
+
+Tue Oct 02 01:10:05 2012
+

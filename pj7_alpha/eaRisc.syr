@@ -1,0 +1,1159 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: eaRisc.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "eaRisc.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "eaRisc"
+Output Format                      : NGC
+Target Device                      : Automotive CoolRunner2
+
+---- Source Options
+Top Module Name                    : eaRisc
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : eaRisc.lso
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea2NAND.vhd" in Library work.
+Architecture behavioral of Entity ea2nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaINVERT.vhd" in Library work.
+Architecture behavioral of Entity eainvert is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea2to1MUX.vhd" in Library work.
+Architecture struct of Entity ea2to1mux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaDLatch.vhd" in Library work.
+Architecture struc of Entity eadlatch is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea3NAND.vhd" in Library work.
+Architecture behavioral of Entity ea3nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea4NAND.vhd" in Library work.
+Architecture behavioral of Entity ea4nand is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eainvbuf.vhd" in Library work.
+Architecture behavioral of Entity eainvbuf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaFlipFlop.vhd" in Library work.
+Architecture struct of Entity eaflipflop is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea1bitadder.vhd" in Library work.
+Architecture behavioral of Entity ea1bitadder is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaXOR.vhd" in Library work.
+Architecture behavioral of Entity eaxor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea7AND.vhd" in Library work.
+Architecture behavioral of Entity ea7and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6Flip.vhd" in Library work.
+Architecture struct of Entity ea6flip is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eainv6buf.vhd" in Library work.
+Architecture struct of Entity eainv6buf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea2AND.vhd" in Library work.
+Architecture behavioral of Entity ea2and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eainv18buf.vhd" in Library work.
+Architecture struct of Entity eainv18buf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea4to1MUX.vhd" in Library work.
+Architecture struct of Entity ea4to1mux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea2OR.vhd" in Library work.
+Architecture behavioral of Entity ea2or is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea3AND.vhd" in Library work.
+Architecture behavioral of Entity ea3and is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6XOR.vhd" in Library work.
+Architecture struct of Entity ea6xor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaadd6bit.vhd" in Library work.
+Architecture struct of Entity eaadd6bit is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6bitMUX.vhd" in Library work.
+Architecture struct of Entity ea6bitmux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6Ram.vhd" in Library work.
+Architecture struc of Entity ea6ram is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaOutputBuf.vhd" in Library work.
+Architecture struct of Entity eaoutputbuf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6bitto64decoder.vhd" in Library work.
+Architecture struct of Entity ea6bitto64decoder is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea2NOR.vhd" in Library work.
+Architecture behavioral of Entity ea2nor is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea18bit64word.vhd" in Library work.
+Architecture struct of Entity ea18bit64word is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea64Rom.vhd" in Library work.
+Architecture struct of Entity ea64rom is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea64x6Ram.vhd" in Library work.
+Architecture struct of Entity ea64x6ram is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6PCf.vhd" in Library work.
+Architecture struct of Entity ea6pcf is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6SUB.vhd" in Library work.
+Architecture struct of Entity ea6sub is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaSM.vhd" in Library work.
+Architecture struct of Entity easm is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaID.vhd" in Library work.
+Architecture struct of Entity eaid is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaBGMUX.vhd" in Library work.
+Architecture struct of Entity eabgmux is up to date.
+Compiling vhdl file "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaRisc.vhd" in Library work.
+Architecture struct of Entity earisc is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <eaRisc> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea64Rom> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea64x6Ram> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6bitMUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6PCf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6SUB> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaSM> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaID> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaBGMUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6Flip> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaFlipFlop> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6bitto64decoder> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2NOR> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea18bit64word> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaOutputBuf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6Ram> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <ea2to1MUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6bitMUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaadd6bit> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea6XOR> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaXOR> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2OR> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea3AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea4to1MUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <ea7AND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eainv18buf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea6Flip> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eainv6buf> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2to1MUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea1bitadder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea3NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea4NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaFlipFlop> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <eainvbuf> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaDlatch> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ea2to1MUX> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <ea2NAND> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <eaINVERT> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <eaRisc> in library <work> (Architecture <struct>).
+WARNING:Xst:753 - "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaRisc.vhd" line 156: Unconnected output port 'SUM' of component 'ea6PCf'.
+WARNING:Xst:753 - "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaRisc.vhd" line 156: Unconnected output port 'C' of component 'ea6PCf'.
+Entity <eaRisc> analyzed. Unit <eaRisc> generated.
+
+Analyzing Entity <ea64Rom> in library <work> (Architecture <struct>).
+Entity <ea64Rom> analyzed. Unit <ea64Rom> generated.
+
+Analyzing Entity <ea6bitto64decoder> in library <work> (Architecture <struct>).
+Entity <ea6bitto64decoder> analyzed. Unit <ea6bitto64decoder> generated.
+
+Analyzing Entity <ea7AND> in library <work> (Architecture <behavioral>).
+Entity <ea7AND> analyzed. Unit <ea7AND> generated.
+
+Analyzing Entity <eaINVERT> in library <work> (Architecture <behavioral>).
+Entity <eaINVERT> analyzed. Unit <eaINVERT> generated.
+
+Analyzing Entity <ea2NOR> in library <work> (Architecture <behavioral>).
+Entity <ea2NOR> analyzed. Unit <ea2NOR> generated.
+
+Analyzing Entity <ea18bit64word> in library <work> (Architecture <struct>).
+Entity <ea18bit64word> analyzed. Unit <ea18bit64word> generated.
+
+Analyzing Entity <eainv18buf> in library <work> (Architecture <struct>).
+Entity <eainv18buf> analyzed. Unit <eainv18buf> generated.
+
+Analyzing Entity <eainvbuf> in library <work> (Architecture <behavioral>).
+Entity <eainvbuf> analyzed. Unit <eainvbuf> generated.
+
+Analyzing Entity <eaOutputBuf> in library <work> (Architecture <struct>).
+Entity <eaOutputBuf> analyzed. Unit <eaOutputBuf> generated.
+
+Analyzing Entity <ea64x6Ram> in library <work> (Architecture <struct>).
+Entity <ea64x6Ram> analyzed. Unit <ea64x6Ram> generated.
+
+Analyzing Entity <ea6Ram> in library <work> (Architecture <struc>).
+Entity <ea6Ram> analyzed. Unit <ea6Ram> generated.
+
+Analyzing Entity <eainv6buf> in library <work> (Architecture <struct>).
+Entity <eainv6buf> analyzed. Unit <eainv6buf> generated.
+
+Analyzing Entity <ea2AND> in library <work> (Architecture <behavioral>).
+Entity <ea2AND> analyzed. Unit <ea2AND> generated.
+
+Analyzing Entity <ea6bitMUX> in library <work> (Architecture <struct>).
+Entity <ea6bitMUX> analyzed. Unit <ea6bitMUX> generated.
+
+Analyzing Entity <ea2to1MUX> in library <work> (Architecture <struct>).
+Entity <ea2to1MUX> analyzed. Unit <ea2to1MUX> generated.
+
+Analyzing Entity <ea2NAND> in library <work> (Architecture <behavioral>).
+Entity <ea2NAND> analyzed. Unit <ea2NAND> generated.
+
+Analyzing Entity <ea6PCf> in library <work> (Architecture <struct>).
+Entity <ea6PCf> analyzed. Unit <ea6PCf> generated.
+
+Analyzing Entity <eaadd6bit> in library <work> (Architecture <struct>).
+Entity <eaadd6bit> analyzed. Unit <eaadd6bit> generated.
+
+Analyzing Entity <ea1bitadder> in library <work> (Architecture <behavioral>).
+Entity <ea1bitadder> analyzed. Unit <ea1bitadder> generated.
+
+Analyzing Entity <ea3NAND> in library <work> (Architecture <behavioral>).
+Entity <ea3NAND> analyzed. Unit <ea3NAND> generated.
+
+Analyzing Entity <ea4NAND> in library <work> (Architecture <behavioral>).
+Entity <ea4NAND> analyzed. Unit <ea4NAND> generated.
+
+Analyzing Entity <ea6SUB> in library <work> (Architecture <struct>).
+Entity <ea6SUB> analyzed. Unit <ea6SUB> generated.
+
+Analyzing Entity <ea6XOR> in library <work> (Architecture <struct>).
+Entity <ea6XOR> analyzed. Unit <ea6XOR> generated.
+
+Analyzing Entity <eaXOR> in library <work> (Architecture <behavioral>).
+Entity <eaXOR> analyzed. Unit <eaXOR> generated.
+
+Analyzing Entity <eaSM> in library <work> (Architecture <struct>).
+Entity <eaSM> analyzed. Unit <eaSM> generated.
+
+Analyzing Entity <eaID> in library <work> (Architecture <struct>).
+Entity <eaID> analyzed. Unit <eaID> generated.
+
+Analyzing Entity <ea2OR> in library <work> (Architecture <behavioral>).
+Entity <ea2OR> analyzed. Unit <ea2OR> generated.
+
+Analyzing Entity <ea3AND> in library <work> (Architecture <behavioral>).
+Entity <ea3AND> analyzed. Unit <ea3AND> generated.
+
+Analyzing Entity <eaBGMUX> in library <work> (Architecture <struct>).
+Entity <eaBGMUX> analyzed. Unit <eaBGMUX> generated.
+
+Analyzing Entity <ea4to1MUX> in library <work> (Architecture <struct>).
+Entity <ea4to1MUX> analyzed. Unit <ea4to1MUX> generated.
+
+Analyzing Entity <ea6Flip> in library <work> (Architecture <struct>).
+Entity <ea6Flip> analyzed. Unit <ea6Flip> generated.
+
+Analyzing Entity <eaFlipFlop> in library <work> (Architecture <struct>).
+Entity <eaFlipFlop> analyzed. Unit <eaFlipFlop> generated.
+
+Analyzing Entity <eaDlatch> in library <work> (Architecture <struc>).
+Entity <eaDlatch> analyzed. Unit <eaDlatch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ea2NOR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea2NOR.vhd".
+Unit <ea2NOR> synthesized.
+
+
+Synthesizing Unit <ea7AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea7AND.vhd".
+Unit <ea7AND> synthesized.
+
+
+Synthesizing Unit <eaINVERT>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaINVERT.vhd".
+Unit <eaINVERT> synthesized.
+
+
+Synthesizing Unit <eainvbuf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eainvbuf.vhd".
+    Found 1-bit tristate buffer for signal <z>.
+    Summary:
+	inferred   1 Tristate(s).
+Unit <eainvbuf> synthesized.
+
+
+Synthesizing Unit <ea2AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea2AND.vhd".
+Unit <ea2AND> synthesized.
+
+
+Synthesizing Unit <ea2NAND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea2NAND.vhd".
+Unit <ea2NAND> synthesized.
+
+
+Synthesizing Unit <ea3NAND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea3NAND.vhd".
+Unit <ea3NAND> synthesized.
+
+
+Synthesizing Unit <ea4NAND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea4NAND.vhd".
+Unit <ea4NAND> synthesized.
+
+
+Synthesizing Unit <eaXOR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaXOR.vhd".
+    Found 1-bit xor2 for signal <z>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <eaXOR> synthesized.
+
+
+Synthesizing Unit <ea2OR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea2OR.vhd".
+Unit <ea2OR> synthesized.
+
+
+Synthesizing Unit <ea3AND>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea3AND.vhd".
+Unit <ea3AND> synthesized.
+
+
+Synthesizing Unit <eaID>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaID.vhd".
+WARNING:Xst:647 - Input <t> is never used.
+WARNING:Xst:647 - Input <op<0>> is never used.
+Unit <eaID> synthesized.
+
+
+Synthesizing Unit <ea6bitto64decoder>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6bitto64decoder.vhd".
+Unit <ea6bitto64decoder> synthesized.
+
+
+Synthesizing Unit <eaOutputBuf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaOutputBuf.vhd".
+Unit <eaOutputBuf> synthesized.
+
+
+Synthesizing Unit <eainv18buf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eainv18buf.vhd".
+Unit <eainv18buf> synthesized.
+
+
+Synthesizing Unit <eainv6buf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eainv6buf.vhd".
+Unit <eainv6buf> synthesized.
+
+
+Synthesizing Unit <ea2to1MUX>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea2to1MUX.vhd".
+Unit <ea2to1MUX> synthesized.
+
+
+Synthesizing Unit <ea1bitadder>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea1bitadder.vhd".
+Unit <ea1bitadder> synthesized.
+
+
+Synthesizing Unit <ea6XOR>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6XOR.vhd".
+Unit <ea6XOR> synthesized.
+
+
+Synthesizing Unit <ea4to1MUX>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea4to1MUX.vhd".
+Unit <ea4to1MUX> synthesized.
+
+
+Synthesizing Unit <ea6bitMUX>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6bitMUX.vhd".
+WARNING:Xst:1780 - Signal <M2> is never used or assigned.
+WARNING:Xst:1780 - Signal <M3> is never used or assigned.
+WARNING:Xst:1780 - Signal <M4> is never used or assigned.
+Unit <ea6bitMUX> synthesized.
+
+
+Synthesizing Unit <eaBGMUX>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaBGMUX.vhd".
+Unit <eaBGMUX> synthesized.
+
+
+Synthesizing Unit <ea18bit64word>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea18bit64word.vhd".
+Unit <ea18bit64word> synthesized.
+
+
+Synthesizing Unit <eaadd6bit>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaadd6bit.vhd".
+Unit <eaadd6bit> synthesized.
+
+
+Synthesizing Unit <eaDlatch>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaDLatch.vhd".
+Unit <eaDlatch> synthesized.
+
+
+Synthesizing Unit <ea64Rom>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea64Rom.vhd".
+Unit <ea64Rom> synthesized.
+
+
+Synthesizing Unit <ea6SUB>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6SUB.vhd".
+Unit <ea6SUB> synthesized.
+
+
+Synthesizing Unit <eaFlipFlop>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaFlipFlop.vhd".
+Unit <eaFlipFlop> synthesized.
+
+
+Synthesizing Unit <eaSM>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaSM.vhd".
+Unit <eaSM> synthesized.
+
+
+Synthesizing Unit <ea6Flip>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6Flip.vhd".
+Unit <ea6Flip> synthesized.
+
+
+Synthesizing Unit <ea6PCf>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6PCf.vhd".
+WARNING:Xst:647 - Input <Cin> is never used.
+WARNING:Xst:646 - Signal <FA> is assigned but never used.
+Unit <ea6PCf> synthesized.
+
+
+Synthesizing Unit <ea6Ram>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea6Ram.vhd".
+WARNING:Xst:1780 - Signal <A1> is never used or assigned.
+Unit <ea6Ram> synthesized.
+
+
+Synthesizing Unit <ea64x6Ram>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/ea64x6Ram.vhd".
+WARNING:Xst:1780 - Signal <AN> is never used or assigned.
+WARNING:Xst:1780 - Signal <A0> is never used or assigned.
+WARNING:Xst:1780 - Signal <A1> is never used or assigned.
+WARNING:Xst:1780 - Signal <A2> is never used or assigned.
+WARNING:Xst:1780 - Signal <A3> is never used or assigned.
+Unit <ea64x6Ram> synthesized.
+
+
+Synthesizing Unit <eaRisc>.
+    Related source file is "C:/Users/ERIK/Dropbox/cmpen471/projects/pj7_alpha/eaRisc.vhd".
+Unit <eaRisc> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Tristates                                            : 1950
+ 1-bit tristate buffer                                 : 1950
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate5> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate6> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate7> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <sm> is unconnected in block <eaRisc>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate70> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate2> is unconnected in block <ROM>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate70> is unconnected in block <gate67>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate70> is unconnected in block <gate68>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate70> is unconnected in block <gate69>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate1> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate4> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate6> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate8> is unconnected in block <gate6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gate11> is unconnected in block <gate6>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit ea7AND is merged (low complexity)
+WARNING:Xst:1355 - Unit eaINVERT is merged (low complexity)
+WARNING:Xst:1355 - Unit ea2AND is merged (low complexity)
+WARNING:Xst:1355 - Unit ea2NAND is merged (low complexity)
+WARNING:Xst:1355 - Unit ea3NAND is merged (low complexity)
+WARNING:Xst:1355 - Unit ea4NAND is merged (low complexity)
+WARNING:Xst:1355 - Unit ea2OR is merged (low complexity)
+WARNING:Xst:1355 - Unit ea3AND is merged (low complexity)
+WARNING:Xst:1348 - Unit eainvbuf is merged (output interface has tristates)
+WARNING:Xst:1348 - Unit eaOutputBuf is merged (output interface has tristates)
+WARNING:Xst:1348 - Unit ea64x6Ram is merged (output interface has tristates)
+WARNING:Xst:1348 - Unit ea64Rom is merged (output interface has tristates)
+WARNING:Xst:2183 - Unit eainv6buf: the following tristate(s) are NOT replaced by logic (Please refer to Answer Record 20048 for more information): z<0>, z<1>, z<2>, z<3>, z<4>, z<5>.
+WARNING:Xst:2183 - Unit eainv18buf: the following tristate(s) are NOT replaced by logic (Please refer to Answer Record 20048 for more information): z<0>, z<10>, z<11>, z<12>, z<13>, z<14>, z<15>, z<16>, z<17>, z<1>, z<2>, z<3>, z<4>, z<5>, z<6>, z<7>, z<8>, z<9>.
+
+Optimizing unit <eaRisc> ...
+
+Optimizing unit <ea2NOR> ...
+
+Optimizing unit <eaXOR> ...
+
+Optimizing unit <eaID> ...
+
+Optimizing unit <ea6bitto64decoder> ...
+
+Optimizing unit <ea2to1MUX> ...
+
+Optimizing unit <ea1bitadder> ...
+
+Optimizing unit <ea4to1MUX> ...
+
+Optimizing unit <eainv18buf> ...
+
+Optimizing unit <eainv6buf> ...
+
+Optimizing unit <ea6XOR> ...
+
+Optimizing unit <ea6bitMUX> ...
+
+Optimizing unit <eaBGMUX> ...
+
+Optimizing unit <eaadd6bit> ...
+
+Optimizing unit <eaDlatch> ...
+
+Optimizing unit <ea18bit64word> ...
+
+Optimizing unit <ea6SUB> ...
+
+Optimizing unit <eaFlipFlop> ...
+
+Optimizing unit <eaSM> ...
+
+Optimizing unit <ea6Flip> ...
+
+Optimizing unit <ea6PCf> ...
+
+Optimizing unit <ea6Ram> ...
+WARNING:Xst:1290 - Hierarchical block <sm> is unconnected in block <eaRisc>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <ROM/gate2> is unconnected in block <eaRisc>.
+   It will be removed from the design.
+WARNING:Xst:2170 - Unit id : the following signal(s) form a combinatorial loop: gate1/Q, DFF/Q, bx, eaRisc/cf, DFF/Q1, gate3/Din, gate3/Q, cf, gate1/Z3, gate1/D0, gate1/Z, gate1/Z, gate1/Z1, gate1/D1.
+WARNING:Xst:2170 - Unit ROM/gate1 : the following signal(s) form a combinatorial loop: gate1/s12, gate1/Q1, gate3/a<5>, gate2/A<5>, gate1/a, gate1/Din, gate3/Q, gate1/Z, A<5>, pc/A5, pc/C5, gate1/Q, gate1/Z, gate3/s<5>, gate1/Z, gate1/D, gate2/Q<5>, gate1/D1, gate1/s, gate1/Z1, gate1/Q, eaRisc/iadr<5>, pc/SUM5, Z<63>, gate1/D1<5>, gate1/D1, gate1/D1, gate1/Z<5>, gate1/Z1, gate3/Din.
+WARNING:Xst:2170 - Unit ROM/gate1 : the following signal(s) form a combinatorial loop: gate2/s, gate1/D1, gate2/Q1, pc/A4, pc/C4, A<4>, gate2/A<4>, gate1/Z, gate1/Din, gate3/Q, gate1/Z<4>, gate2/a, gate2/Z, gate3/a<4>, gate1/D1<4>, gate1/Q, gate1/Z, gate2/D, pc/SUM4, gate2/D1, gate3/Din, gate1/D1, gate1/Z1, gate2/Q<4>, gate62/z, eaRisc/iadr<4>, Z<62>, gate2/s12, gate2/Q, gate3/s<4>, gate1/Z1.
+WARNING:Xst:2170 - Unit ROM/gate1 : the following signal(s) form a combinatorial loop: gate2/Q<3>, gate1/Q, pc/A3, gate3/Q1, gate3/Din, pc/C3, gate3/s, gate1/Din, gate1/D1, gate1/D1, gate1/D1<3>, gate3/Z, gate2/A<3>, gate3/a<3>, gate3/s12, gate3/s<3>, pc/SUM3, gate3/Q, gate1/Z1, Z<61>, gate1/Z, eaRisc/iadr<3>, gate3/Q, A<3>, gate1/Z1, gate3/D, gate3/a, gate1/Z, gate3/D1, gate1/Z<3>, gate61/z.
+WARNING:Xst:2170 - Unit ROM/gate1 : the following signal(s) form a combinatorial loop: gate4/D1, pc/A2, gate4/Q1, gate1/D1, gate4/a, gate4/Q, gate1/Z1, A<2>, gate60/z, gate1/Z, gate3/Q, gate4/s, gate2/Q<2>, gate4/Z, gate1/Z, gate3/a<2>, gate1/Q, pc/C2, gate4/D, pc/SUM2, gate1/Z1, Z<60>, gate2/A<2>, gate3/Din, eaRisc/iadr<2>, gate4/s12, gate1/D1, gate3/s<2>, gate1/Z<2>, gate1/D1<2>, gate1/Din.
+WARNING:Xst:2170 - Unit ROM/gate1 : the following signal(s) form a combinatorial loop: gate2/A<1>, gate5/a, gate1/Z, gate5/Q, gate3/a<1>, Z<59>, gate5/D, gate1/Q, gate1/Z, gate3/Q, pc/C1, gate1/Z1, gate3/s<1>, pc/SUM1, gate59/z, gate2/Q<1>, gate5/Z, gate3/Din, gate5/Q1, gate1/Z1, gate1/Z<1>, gate1/D1, gate1/Din, eaRisc/iadr<1>, gate1/D1, gate1/D1<1>, gate5/s12, gate5/s, pc/A1, gate5/D1, A<1>.
+WARNING:Xst:2170 - Unit ROM/gate1 : the following signal(s) form a combinatorial loop: gate1/Q, gate6/s, gate58/z2, gate1/Z1, A<0>, gate3/Din, gate6/Q1, gate6/D1, gate1/Din, eaRisc/iadr<0>, gate58/z3, gate1/Z<0>, gate2/A<0>, gate3/s<0>, gate1/D1, pc/C0, pc/SUM0, gate6/Q, gate1/D1, gate6/a, gate1/Z, gate6/Z, Z<58>, gate1/Z1, gate3/a<0>, gate1/Z, gate2/Q<0>, gate1/D1<0>, pc/A0, gate3/Q, gate6/D.
+WARNING:Xst:2170 - Unit gate1 : the following signal(s) form a combinatorial loop: Z, Z1, gate6/Q1, Q, gate3/Din, Z3, Z, D1, D0.
+WARNING:Xst:2170 - Unit gate6 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/D0, gate1/Z3, gate3/Q, Q.
+WARNING:Xst:2170 - Unit gate1 : the following signal(s) form a combinatorial loop: Z1, Z3, gate5/Q1, Q, Z, gate3/Din, D0, D1, Z.
+WARNING:Xst:2170 - Unit gate5 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Z3, gate3/Q, Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate1 : the following signal(s) form a combinatorial loop: gate4/Q1, D0, Z1, D1, Q, Z, Z3, gate3/Din, Z.
+WARNING:Xst:2170 - Unit gate4 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Z3, gate3/Q, Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate1 : the following signal(s) form a combinatorial loop: Z, gate3/Din, Z1, gate3/Q1, D0, Z3, Z, D1, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/Z, gate1/D0, gate1/Z3, Q.
+WARNING:Xst:2170 - Unit gate1 : the following signal(s) form a combinatorial loop: gate3/Din, Q, Z, Z3, Z, gate2/Q1, D1, Z1, D0.
+WARNING:Xst:2170 - Unit gate2 : the following signal(s) form a combinatorial loop: Q, gate3/Q, gate1/Z, gate1/Z3, gate1/D0.
+WARNING:Xst:2170 - Unit gate1 : the following signal(s) form a combinatorial loop: Z, Z, D1, Q, D0, Z3, gate3/Din, Q1, Z1.
+WARNING:Xst:2170 - Unit gate1 : the following signal(s) form a combinatorial loop: Z, Q, gate3/Q, D0, Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<0>, gate1/Z, gate6/Q1, gate6/z_not0001, gate1/Z1, RAM/gate0/D0<0>, Q, gate1/Z3, gate1/Q, gate1/Z, gate1/Q<0>, Din, gate1/D1, gate6/Q, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, Din, gate5/Q, RAM/gate0/D0<1>, Q, gate1/Q<1>, gate1/Z, gate1/Z3, gate5/z_not0001, gate1/Q, gate1/D1, a<1>, gate5/Q1, gate1/Z1, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/z_not0001, a<2>, gate1/D0, gate1/Q<2>, gate1/Z3, RAM/gate0/D0<2>, gate4/Q1, gate1/Z1, Din, Q, gate1/Z, gate4/Q, gate1/D1, gate1/Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/Z, RAM/gate0/D0<3>, Q1, Q, gate1/Z1, a<3>, Q, gate1/Z, gate3/z_not0001, gate1/D0, Din, gate1/Z3, gate1/Q<3>, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate0/D0<4>, gate1/Q, Din, gate1/Z, gate1/Z, a<4>, gate1/Q<4>, gate1/Z3, gate1/D1, gate1/D0, gate2/Q1, gate1/Z1, Q, gate2/Q, gate2/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, a<5>, gate1/Z, Q, gate1/Q1, gate1/Z3, gate1/Q, gate1/z_not0001, gate1/Q<5>, gate1/Z, gate1/D1, gate1/Z1, Din, gate1/Q, RAM/gate0/D0<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, a<0>, gate6/Q1, gate1/Q, gate6/z_not0001, gate1/D1, RAM/gate1/D0<0>, gate1/Z, gate1/Z1, gate1/D0, Din, gate6/Q, gate1/Q<0>, Q, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<1>, gate1/Q, gate1/Z, gate1/D0, RAM/gate1/D0<1>, Din, gate5/Q, gate1/Q<1>, Q, gate5/z_not0001, gate1/Z3, gate5/Q1, gate1/Z, gate1/Z1, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/D0, Din, gate4/Q1, RAM/gate1/D0<2>, Q, gate4/z_not0001, gate1/D1, gate1/Z, gate1/Z1, gate4/Q, gate1/Q<2>, gate1/Q, gate1/Z, a<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<3>, gate1/Q, Din, Q, gate3/z_not0001, gate1/Z, gate1/Z1, gate1/Z, gate1/Z3, gate1/D0, Q, Q1, a<3>, RAM/gate1/D0<3>, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, RAM/gate1/D0<4>, gate1/Q<4>, gate1/Q, Din, gate1/D0, gate2/z_not0001, gate1/D1, gate1/Z, a<4>, gate2/Q, gate2/Q1, Q, gate1/Z1, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/D0, gate1/Z, gate1/D1, gate1/Q1, gate1/Z, gate1/Z3, gate1/Q<5>, Din, RAM/gate1/D0<5>, a<5>, gate1/Q, gate1/z_not0001, Q, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<0>, gate6/Q, Q, gate6/Q1, gate1/Z, gate6/z_not0001, gate1/Z1, gate1/Z3, gate1/Q, gate1/D1, RAM/gate2/D0<0>, gate1/Z, gate1/Q<0>, gate1/D0, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Q, gate1/D1, gate5/z_not0001, gate1/Z, RAM/gate2/D0<1>, gate1/Z3, gate1/D0, Din, gate5/Q, Q, gate5/Q1, gate1/Q<1>, a<1>, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Z, gate1/Z1, gate1/D0, Din, RAM/gate2/D0<2>, gate4/z_not0001, Q, gate1/Z3, gate1/Z, gate1/Q<2>, a<2>, gate4/Q, gate4/Q1, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, Din, Q, RAM/gate2/D0<3>, gate1/Z, gate1/Z3, gate3/z_not0001, Q, Q1, gate1/Q, gate1/Q<3>, gate1/D1, a<3>, gate1/Z1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<4>, gate1/Z, RAM/gate2/D0<4>, gate2/Q, gate2/Q1, gate1/Q, gate1/D1, gate1/Z, gate2/z_not0001, gate1/Q<4>, gate1/D0, Din, gate1/Z1, Q, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Q, gate1/Q1, gate1/D1, RAM/gate2/D0<5>, gate1/Z, a<5>, gate1/Q<5>, gate1/Q, gate1/D0, Din, gate1/Z3, Q, gate1/z_not0001, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<0>, gate1/Q, Din, gate6/z_not0001, Q, gate1/Z3, gate1/D0, gate6/Q, gate6/Q1, gate1/D1, RAM/gate3/D0<0>, gate1/Z, gate1/Z, a<0>, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate5/z_not0001, gate5/Q, Q, gate5/Q1, gate1/D1, gate1/Z, gate1/Z3, gate1/Z1, gate1/Z, RAM/gate3/D0<1>, gate1/Q, Din, a<1>, gate1/Q<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate4/Q1, gate1/D1, gate1/Z, gate1/Z, gate4/z_not0001, gate1/Z3, gate1/Q, RAM/gate3/D0<2>, a<2>, gate1/Q<2>, gate1/D0, Din, gate1/Z1, gate4/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Q, gate1/Z1, gate3/z_not0001, gate1/Z, RAM/gate3/D0<3>, gate1/D0, Din, a<3>, Q, Q, Q1, gate1/Q<3>, gate1/D1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/D0, Din, RAM/gate3/D0<4>, gate2/Q, Q, gate2/z_not0001, gate2/Q1, a<4>, gate1/Z, gate1/Q<4>, gate1/Z3, gate1/Z1, gate1/Q, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, Din, gate1/Q, Q, gate1/Z1, gate1/Q1, gate1/Z3, RAM/gate3/D0<5>, gate1/Z, a<5>, gate1/z_not0001, gate1/Q<5>, gate1/Q, gate1/D1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/D1, gate6/z_not0001, gate1/Z, gate1/Q<0>, gate1/D0, Din, RAM/gate4/D0<0>, gate6/Q, Q, gate6/Q1, gate1/Z, gate1/Z1, gate1/Z3, a<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Z3, gate1/Q<1>, gate1/D0, Din, gate5/z_not0001, Q, gate1/Z1, gate1/Z, RAM/gate4/D0<1>, gate5/Q, gate5/Q1, gate1/Q, gate1/D1, a<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, Din, gate1/Z1, Q, gate1/Q<2>, gate1/Z, gate4/z_not0001, RAM/gate4/D0<2>, gate4/Q, gate4/Q1, gate1/Q, gate1/D1, gate1/Z, gate1/Z3, a<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<3>, Q, Q1, gate1/Q, gate1/D1, gate3/z_not0001, gate1/Z, gate1/Z1, gate1/D0, Din, a<3>, Q, gate1/Z3, RAM/gate4/D0<3>, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/Q1, gate1/Q<4>, gate1/D1, RAM/gate4/D0<4>, gate1/Z, gate1/Q, gate1/D0, Din, Q, gate2/z_not0001, gate1/Z1, a<4>, gate1/Z, gate1/Z3, gate2/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, Din, RAM/gate4/D0<5>, Q, gate1/Z1, gate1/Z, gate1/Q, gate1/Q1, a<5>, gate1/z_not0001, gate1/D1, gate1/Q, gate1/Z, gate1/Q<5>, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, Q, gate1/Q, gate6/Q, gate1/Z3, gate6/z_not0001, gate1/D0, gate6/Q1, gate1/D1, gate1/Z, a<0>, RAM/gate5/D0<0>, Din, gate1/Q<0>, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/D1, gate5/Q1, gate1/D0, gate5/Q, gate1/Q, Din, a<1>, Q, gate1/Z, RAM/gate5/D0<1>, gate5/z_not0001, gate1/Q<1>, gate1/Z3, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/Q1, RAM/gate5/D0<2>, gate1/Z, gate1/Z1, gate1/Z3, gate1/D1, gate1/Q, gate1/Z, gate4/z_not0001, Q, gate1/Q<2>, a<2>, gate1/D0, Din, gate4/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q1, RAM/gate5/D0<3>, gate1/Q, Din, gate1/Z1, Q, a<3>, gate1/D0, gate1/Q<3>, gate3/z_not0001, gate1/D1, gate1/Z, gate1/Z3, gate1/Z, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/Q, gate2/Q1, gate1/Z, gate1/Z, gate1/Z3, Din, gate1/Z1, Q, gate1/Q, gate2/z_not0001, gate1/Q<4>, a<4>, gate1/D0, gate1/D1, RAM/gate5/D0<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/z_not0001, gate1/Q1, gate1/Z, gate1/Z, gate1/Z1, Din, Q, gate1/Q<5>, gate1/Q, a<5>, gate1/Z3, RAM/gate5/D0<5>, gate1/D0, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Q<0>, gate1/Z, Din, Q, gate1/Q, gate1/Z1, gate1/Z3, RAM/gate6/D0<0>, gate6/z_not0001, gate1/D0, gate1/D1, a<0>, gate6/Q, gate6/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate5/Q1, gate1/Z, gate1/Z, Din, Q, gate1/Q, RAM/gate6/D0<1>, gate1/Z1, gate5/z_not0001, a<1>, gate1/D0, gate1/D1, gate5/Q, gate1/Q<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, RAM/gate6/D0<2>, gate1/D1, gate1/Q<2>, gate1/Z, gate1/Z3, gate1/D0, gate4/Q, gate4/Q1, a<2>, Din, gate1/Z, Q, gate1/Z1, gate4/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Z1, gate1/Z, gate1/Z, Din, Q, gate1/Q, gate1/Q<3>, Q, a<3>, RAM/gate6/D0<3>, Q1, gate3/z_not0001, gate1/D0, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate2/z_not0001, gate2/Q, gate2/Q1, gate1/Z3, gate1/Z, gate1/Z, Din, Q, gate1/Q<4>, gate1/Q, a<4>, RAM/gate6/D0<4>, gate1/Z1, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/z_not0001, gate1/Z3, RAM/gate6/D0<5>, gate1/Q<5>, gate1/Q, gate1/D0, Din, gate1/D1, a<5>, Q, gate1/Z, gate1/Z1, gate1/Q, gate1/Q1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Z, a<0>, gate1/Z, Din, RAM/gate7/D0<0>, gate6/Q, Q, gate6/Q1, gate1/Z1, gate6/z_not0001, gate1/Q, gate1/Z3, gate1/Q<0>, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<1>, gate5/Q, gate1/D1, gate5/Q1, gate1/Z, gate5/z_not0001, gate1/Q, gate1/Z3, gate1/D0, Din, Q, gate1/Z1, RAM/gate7/D0<1>, gate1/Q<1>, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<2>, gate1/Q, a<2>, gate1/Z3, gate4/z_not0001, Din, gate1/D0, Q, gate1/Z1, RAM/gate7/D0<2>, gate1/Z, gate1/D1, gate4/Q, gate4/Q1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, Q, gate1/D0, Q1, gate1/Z1, gate1/Q, gate3/z_not0001, a<3>, Q, gate1/D1, Din, gate1/Q<3>, gate1/Z, gate1/Z, RAM/gate7/D0<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/D0, gate1/Q<4>, Din, a<4>, gate2/z_not0001, gate2/Q, gate1/Q, gate1/Z1, Q, gate1/D1, gate1/Z, RAM/gate7/D0<4>, gate2/Q1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Q<5>, gate1/Q, gate1/Q, gate1/Z, Q, gate1/z_not0001, gate1/D0, a<5>, gate1/Q1, Din, gate1/D1, gate1/Z1, gate1/Z3, RAM/gate7/D0<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<0>, gate1/Z, gate1/D0, gate1/Z1, RAM/gate8/D0<0>, gate1/Z, gate1/Q<0>, gate6/Q, gate6/Q1, gate1/Q, Din, gate1/Z3, gate6/z_not0001, gate1/D1, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/Z3, gate5/Q1, gate1/D1, gate5/Q, Din, Q, RAM/gate8/D0<1>, gate1/Q<1>, gate1/Z1, gate1/D0, gate1/Z, gate1/Z, gate5/z_not0001, a<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<2>, RAM/gate8/D0<2>, gate1/D1, gate1/Z1, gate1/D0, gate1/Z3, gate1/Z, gate1/Z, Q, gate4/z_not0001, gate1/Q, gate4/Q, gate4/Q1, gate1/Q<2>, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, Q, gate1/Q<3>, gate1/Z, gate1/Q, Din, RAM/gate8/D0<3>, Q1, gate1/Z, gate3/z_not0001, gate1/D1, Q, gate1/Z3, a<3>, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Q<4>, a<4>, gate2/Q, gate1/D0, gate1/Q, RAM/gate8/D0<4>, Din, gate1/Z, gate2/z_not0001, gate1/D1, Q, gate1/Z1, gate2/Q1, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/D1, Q, gate1/Q1, gate1/D0, gate1/Z3, RAM/gate8/D0<5>, gate1/Q, gate1/Z, gate1/Z1, gate1/z_not0001, Din, a<5>, gate1/Q, gate1/Q<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/Q, gate1/Z, gate1/Q<0>, gate1/Z, gate1/Z1, a<0>, RAM/gate9/D0<0>, gate6/z_not0001, gate6/Q, gate6/Q1, gate1/Z3, gate1/D0, Din, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/Q, gate1/Q<1>, gate5/Q1, gate1/Z, gate1/Z, a<1>, Din, RAM/gate9/D0<1>, Q, gate1/Z3, gate1/Q, gate1/Z1, gate5/z_not0001, gate1/D0, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Q<2>, gate4/Q, gate1/Z1, gate4/Q1, a<2>, gate1/Z, gate1/Z, RAM/gate9/D0<2>, Din, Q, gate1/Q, gate4/z_not0001, gate1/Z3, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, Q, a<3>, gate1/Z1, Q1, RAM/gate9/D0<3>, gate1/D0, gate1/D1, gate1/Z, gate1/Z, gate3/z_not0001, Din, Q, gate1/Q<3>, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<4>, gate1/Q, RAM/gate9/D0<4>, gate1/D0, gate1/D1, gate1/Z1, gate2/Q, gate2/Q1, gate1/Z, gate1/Z, gate1/Z3, gate1/Q<4>, Din, gate2/z_not0001, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/z_not0001, RAM/gate9/D0<5>, gate1/Q, gate1/Q1, gate1/Z, gate1/Z, gate1/Z3, gate1/D0, Din, gate1/D1, Q, gate1/Z1, gate1/Q<5>, gate1/Q, a<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Z3, gate1/D1, a<0>, gate6/Q, RAM/gate10/D0<0>, gate1/Z1, gate6/Q1, gate1/Z, gate1/Q<0>, gate1/Z, gate6/z_not0001, Din, Q, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, a<1>, gate1/Q, gate5/Q, RAM/gate10/D0<1>, gate1/Q<1>, gate5/Q1, gate5/z_not0001, gate1/D0, gate1/D1, gate1/Z, gate1/Z3, gate1/Z, gate1/Z1, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate10/D0<2>, gate1/Q<2>, Din, Q, gate1/D0, gate1/Z3, gate4/Q, gate1/D1, gate1/Z1, gate4/Q1, gate4/z_not0001, gate1/Z, gate1/Z, gate1/Q, a<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, RAM/gate10/D0<3>, gate1/Q<3>, gate3/z_not0001, gate1/D1, gate1/D0, gate1/Z, Q, Q1, gate1/Z, Din, Q, gate1/Z1, gate1/Z3, a<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<4>, gate1/Z3, gate1/D0, gate2/Q, gate2/z_not0001, gate1/D1, gate2/Q1, gate1/Z, gate1/Z, gate1/Z1, Din, gate1/Q, Q, a<4>, RAM/gate10/D0<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Z, gate1/Z, gate1/z_not0001, gate1/Q, gate1/Z1, gate1/Q1, Din, gate1/Z3, Q, a<5>, gate1/D0, RAM/gate10/D0<5>, gate1/Q<5>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate6/Q, a<0>, gate6/Q1, Din, gate1/D0, gate1/Q, gate6/z_not0001, Q, RAM/gate11/D0<0>, gate1/Z3, gate1/Z, gate1/Q<0>, gate1/D1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/Q, a<1>, gate1/Q<1>, gate5/Q1, gate1/Z1, gate1/D0, gate1/Q, gate1/Z, gate5/z_not0001, gate1/Z3, RAM/gate11/D0<1>, gate1/D1, Q, Din, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate1/Z, gate1/Q<2>, gate1/Z, RAM/gate11/D0<2>, gate1/D0, gate1/Q, gate4/Q1, a<2>, gate4/z_not0001, gate1/D1, gate4/Q, gate1/Z3, gate1/Z1, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, Q, gate1/D1, gate1/Q<3>, RAM/gate11/D0<3>, gate1/Z1, a<3>, gate1/D0, gate1/Q, gate1/Z3, Q, Din, gate3/z_not0001, Q1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Z1, gate1/Z, RAM/gate11/D0<4>, a<4>, gate1/Q<4>, gate1/D0, gate1/Q, gate1/D1, Q, gate1/Z3, gate2/Q, gate2/z_not0001, Din, gate2/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, Din, a<5>, Q, gate1/Q<5>, gate1/Q, gate1/Z, RAM/gate11/D0<5>, gate1/D0, gate1/D1, gate1/z_not0001, gate1/Z1, gate1/Q, gate1/Z3, gate1/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/z_not0001, gate1/Q, gate1/Z, gate1/Z3, gate1/Z1, Din, gate1/Q<0>, a<0>, Q, gate1/D1, RAM/gate12/D0<0>, gate1/Z, gate1/D0, gate6/Q, gate6/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/z_not0001, a<1>, gate1/Q<1>, gate5/Q, Din, Q, gate5/Q1, gate1/D1, gate1/D0, gate1/Z, gate1/Z, gate1/Z3, RAM/gate12/D0<1>, gate1/Q, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/D0, Din, gate1/Q, a<2>, gate4/Q, gate1/Z3, gate4/Q1, gate1/Z, gate1/D1, gate1/Q<2>, gate1/Z, RAM/gate12/D0<2>, gate4/z_not0001, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate12/D0<3>, Q1, gate1/Q<3>, gate3/z_not0001, Q, a<3>, gate1/Z, gate1/Q, gate1/Z3, gate1/Z1, gate1/D0, Din, gate1/D1, Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Z, Q, gate2/Q1, gate1/Q<4>, a<4>, gate1/Z, gate2/z_not0001, gate1/D0, Din, gate1/Z3, gate1/Q, RAM/gate12/D0<4>, gate2/Q, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/Q1, RAM/gate12/D0<5>, gate1/Z3, gate1/Z, gate1/Q<5>, gate1/D1, gate1/Z1, a<5>, gate1/Z, Q, gate1/D0, Din, gate1/z_not0001, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, Din, gate6/Q, RAM/gate13/D0<0>, gate6/z_not0001, a<0>, gate1/Z1, gate1/D1, gate6/Q1, gate1/Z, Q, gate1/Z3, gate1/Z, gate1/Q<0>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/Q1, gate1/Z, gate1/Z3, gate1/Q, a<1>, RAM/gate13/D0<1>, gate1/D0, gate1/Z1, gate1/Z, gate5/Q, gate5/z_not0001, Q, gate1/Q<1>, Din, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Q, Din, gate1/Z, gate1/Z1, gate1/Z, gate1/D1, a<2>, gate4/z_not0001, gate1/D0, gate4/Q, gate1/Q<2>, gate4/Q1, RAM/gate13/D0<2>, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, a<3>, Q, gate1/Z, gate1/Z3, gate1/Z, RAM/gate13/D0<3>, Q, gate1/Q, Q1, Din, gate3/z_not0001, gate1/D0, gate1/Q<3>, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate13/D0<4>, gate1/Z, gate1/Z1, gate2/Q, Q, gate2/Q1, gate2/z_not0001, a<4>, gate1/D0, Din, gate1/Z, gate1/Q, gate1/D1, gate1/Z3, gate1/Q<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate13/D0<5>, gate1/Q, gate1/D1, gate1/Q, gate1/Z, gate1/Z3, gate1/Z1, gate1/Z, Q, gate1/Q<5>, gate1/D0, gate1/Q1, a<5>, Din, gate1/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Q, gate6/Q, gate1/Z, gate1/D0, Q, RAM/gate14/D0<0>, gate1/Z1, Din, gate1/Z3, gate6/Q1, gate6/z_not0001, gate1/D1, gate1/Q<0>, a<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate5/z_not0001, gate1/D1, gate1/Q<1>, gate1/D0, Din, Q, gate1/Z, a<1>, gate5/Q1, RAM/gate14/D0<1>, gate5/Q, gate1/Z, gate1/Z1, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/Q, gate1/Z, a<2>, gate1/Z3, gate1/Q<2>, gate1/Z1, RAM/gate14/D0<2>, gate4/Q1, gate1/Q, gate4/z_not0001, gate1/Z, Din, Q, gate1/D0, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/Z, Q, gate1/Z, gate1/Z1, gate1/Z3, gate1/Q<3>, gate1/D1, Q1, gate1/D0, RAM/gate14/D0<3>, gate3/z_not0001, Q, Din, a<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<4>, gate1/Q, a<4>, gate1/Z3, gate1/D0, Din, gate1/D1, Q, gate1/Z1, gate1/Z, gate2/Q1, gate1/Z, RAM/gate14/D0<4>, gate2/z_not0001, gate2/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<5>, gate1/Q, gate1/Z, gate1/D1, gate1/Q1, Din, gate1/Q<5>, gate1/D0, gate1/Q, RAM/gate14/D0<5>, gate1/Z3, gate1/z_not0001, gate1/Z, gate1/Z1, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate6/z_not0001, gate6/Q, gate6/Q1, gate1/Z3, gate1/Q<0>, a<0>, RAM/gate15/D0<0>, gate1/Z, gate1/D1, gate1/D0, Din, Q, gate1/Z, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/Q, gate1/D1, gate5/z_not0001, gate5/Q, gate5/Q1, gate1/Z, gate1/Z1, gate1/Q<1>, gate1/Z, a<1>, gate1/D0, Din, gate1/Z3, RAM/gate15/D0<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/Q1, gate4/z_not0001, gate1/D1, gate1/D0, gate1/Z1, Din, gate1/Z3, gate1/Q<2>, Q, gate1/Z, gate1/Q, RAM/gate15/D0<2>, a<2>, gate1/Z, gate4/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/D0, Q, gate1/Z, gate3/z_not0001, gate1/Q, gate1/Z, Q, gate1/Q<3>, Din, gate1/Z3, Q1, RAM/gate15/D0<3>, a<3>, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate2/z_not0001, gate1/Z, gate1/D0, Q, gate1/Q, gate1/Q<4>, gate1/Z3, gate2/Q, RAM/gate15/D0<4>, gate1/D1, a<4>, gate2/Q1, gate1/Z, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, a<5>, gate1/Q, gate1/Q1, gate1/Q<5>, RAM/gate15/D0<5>, gate1/z_not0001, gate1/Z3, gate1/Z, gate1/D1, gate1/Z1, gate1/D0, Din, Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/Q1, a<0>, gate1/D1, gate1/Q, gate1/Q<0>, gate1/Z1, Din, gate1/Z, gate1/D0, Q, gate1/Z, RAM/gate16/D0<0>, gate1/Z3, gate6/z_not0001, gate6/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/Q<1>, gate1/Z, gate1/Z3, gate1/Z1, gate1/Q, gate1/D1, gate5/Q, RAM/gate16/D0<1>, gate5/Q1, gate1/Z, gate1/D0, a<1>, Din, gate5/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<2>, gate4/z_not0001, gate4/Q, gate1/Q, gate1/D1, gate4/Q1, gate1/Z3, gate1/Z, gate1/Z1, RAM/gate16/D0<2>, gate1/D0, Din, Q, gate1/Z, a<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/Q, gate3/z_not0001, RAM/gate16/D0<3>, gate1/Z3, gate1/Z1, gate1/Z, gate1/Z, a<3>, gate1/D0, gate1/D1, Q, Din, gate1/Q<3>, Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Z, gate1/D0, gate1/D1, gate2/z_not0001, RAM/gate16/D0<4>, Din, Q, gate1/Q, gate1/Z3, a<4>, gate2/Q1, gate1/Z1, gate2/Q, gate1/Q<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate16/D0<5>, gate1/D0, gate1/Q, gate1/Q1, Din, gate1/Z, Q, a<5>, gate1/Z, gate1/Z3, gate1/D1, gate1/Q<5>, gate1/Q, gate1/Z1, gate1/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/Q1, gate1/Z3, gate1/Q<0>, gate1/Z1, gate6/Q, a<0>, gate1/Q, Q, gate1/Z, gate1/D1, gate1/D0, Din, gate6/z_not0001, gate1/Z, RAM/gate17/D0<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, Din, gate5/Q, a<1>, gate5/Q1, gate1/Q, gate1/Z1, gate1/D1, gate1/Z, RAM/gate17/D0<1>, gate1/Z3, gate1/Z, gate1/D0, gate1/Q<1>, gate5/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<2>, gate1/Z, gate1/D1, gate1/Z, gate1/Z3, Din, gate1/D0, gate4/Q1, Q, gate4/Q, a<2>, gate1/Q, RAM/gate17/D0<2>, gate1/Z1, gate4/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<3>, Q, Din, gate1/Z, Q, gate1/Q, gate1/D1, gate1/Z3, gate1/Q<3>, gate1/Z1, gate1/Z, RAM/gate17/D0<3>, gate3/z_not0001, Q1, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, a<4>, gate2/Q1, RAM/gate17/D0<4>, gate1/D1, gate2/z_not0001, gate2/Q, gate1/Z, gate1/Q<4>, gate1/Z3, Q, gate1/D0, gate1/Z1, Din, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<5>, gate1/Q, gate1/Z, gate1/Z1, RAM/gate17/D0<5>, gate1/z_not0001, gate1/Q1, Q, gate1/Z3, gate1/Z, gate1/Q<5>, gate1/Q, Din, gate1/D0, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/z_not0001, gate1/Z3, gate1/Z, gate1/Q<0>, RAM/gate18/D0<0>, gate1/D0, gate1/D1, gate1/Q, gate1/Z, Q, gate6/Q, Din, a<0>, gate6/Q1, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate5/Q1, gate1/Q<1>, gate5/z_not0001, gate1/Z, Q, gate1/Z1, gate1/Z3, gate1/Z, gate1/Q, gate1/D0, Din, a<1>, gate5/Q, RAM/gate18/D0<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, RAM/gate18/D0<2>, gate1/Z3, gate1/Z, gate4/z_not0001, Q, gate1/Q<2>, gate1/Z, gate1/Z1, gate1/D0, Din, gate1/Q, a<2>, gate4/Q, gate4/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<3>, gate1/Z1, Q, gate1/D0, Din, RAM/gate18/D0<3>, gate1/Q, gate3/z_not0001, Q, gate1/Z3, a<3>, Q1, gate1/Z, gate1/D1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Z3, Q, RAM/gate18/D0<4>, gate1/Z, gate1/Q<4>, gate2/z_not0001, gate1/D0, Din, a<4>, gate2/Q, gate1/Z1, gate1/Q, gate1/D1, gate2/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Z, gate1/Q, gate1/Q1, gate1/D1, gate1/Z3, RAM/gate18/D0<5>, a<5>, gate1/Q, gate1/z_not0001, gate1/Z, Q, Din, gate1/Q<5>, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/Q1, gate1/Z3, gate1/Z, a<0>, gate6/z_not0001, gate1/Z1, gate1/D0, gate1/Z, RAM/gate19/D0<0>, Q, gate1/Q, gate1/D1, Din, gate6/Q, gate1/Q<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate5/Q1, gate1/Q<1>, gate1/Q, gate1/Z3, gate1/Z, gate5/Q, Din, gate5/z_not0001, gate1/D0, gate1/Z, a<1>, RAM/gate19/D0<1>, gate1/D1, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/Z3, a<2>, gate1/D1, gate1/Z, gate4/Q, gate1/Q<2>, gate4/Q1, gate4/z_not0001, gate1/Q, gate1/Z, gate1/D0, RAM/gate19/D0<2>, Din, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, Q1, gate1/Q<3>, gate1/Z1, RAM/gate19/D0<3>, gate1/D1, gate1/Z, a<3>, gate1/D0, gate3/z_not0001, gate1/Z3, Din, gate1/Z, Q, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<4>, Din, gate1/Z1, gate1/Q, gate2/z_not0001, gate1/Z3, gate1/Z, gate1/D1, gate1/Q<4>, gate2/Q1, RAM/gate19/D0<4>, gate1/Z, Q, gate2/Q, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate19/D0<5>, gate1/Z3, Din, gate1/Q<5>, gate1/Z1, gate1/Z, gate1/D1, gate1/Z, gate1/Q, gate1/Q, gate1/D0, Q, gate1/z_not0001, a<5>, gate1/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/Z1, RAM/gate20/D0<0>, gate6/Q1, Q, gate1/D0, gate6/z_not0001, a<0>, gate1/Z, gate6/Q, gate1/Z3, gate1/Z, Din, gate1/D1, gate1/Q<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate20/D0<1>, gate1/Z3, gate1/D1, gate1/D0, Din, gate1/Z1, Q, gate5/Q1, gate1/Z, gate1/Z, gate1/Q, a<1>, gate5/Q, gate5/z_not0001, gate1/Q<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, a<2>, gate4/z_not0001, Din, gate1/Q<2>, gate1/Z, gate1/Z, RAM/gate20/D0<2>, gate4/Q, Q, gate4/Q1, gate1/D0, gate1/Z3, gate1/Q, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<3>, gate1/D1, Q, RAM/gate20/D0<3>, Q, gate1/Z1, gate1/Z, gate1/D0, gate1/Z3, gate3/z_not0001, gate1/Q, Din, gate1/Z, a<3>, Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, a<4>, gate2/z_not0001, gate1/Z, gate2/Q, RAM/gate20/D0<4>, gate1/D0, Din, gate2/Q1, gate1/Q, gate1/Z3, gate1/D1, gate1/Z1, gate1/Z, gate1/Q<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate20/D0<5>, gate1/Z3, gate1/Z, gate1/Z1, gate1/D1, gate1/D0, Din, Q, gate1/Z, gate1/Q, gate1/Q, a<5>, gate1/Q1, gate1/Q<5>, gate1/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Z1, RAM/gate21/D0<0>, gate1/D1, gate1/D0, gate6/Q, gate1/Q<0>, gate1/Z, gate6/Q1, gate1/Z, gate6/z_not0001, Din, a<0>, gate1/Q, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, RAM/gate21/D0<1>, gate1/Z1, gate1/D0, gate5/Q, gate1/Q<1>, gate5/Q1, gate1/Z, gate1/D1, gate1/Z, gate1/Z3, a<1>, gate1/Q, gate5/z_not0001, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/z_not0001, gate1/D0, gate4/Q, gate1/Q<2>, gate4/Q1, gate1/Z, gate1/D1, gate1/Z3, gate1/Z1, gate1/Z, gate1/Q, a<2>, Din, Q, RAM/gate21/D0<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate3/z_not0001, gate1/D0, Q, gate1/Q<3>, Q1, gate1/Z, gate1/D1, gate1/Z, gate1/Q, a<3>, gate1/Z1, Din, Q, RAM/gate21/D0<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/Q<4>, gate2/z_not0001, gate1/Z3, gate1/Z1, gate1/D0, gate2/Q, gate2/Q1, gate1/Z, gate1/D1, a<4>, gate1/Z, RAM/gate21/D0<4>, gate1/Q, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Q<5>, gate1/D0, Din, Q, gate1/Z1, gate1/z_not0001, gate1/Z, gate1/D1, a<5>, gate1/Q, gate1/Z, gate1/Q1, RAM/gate21/D0<5>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/Q1, RAM/gate22/D0<0>, gate1/Z1, gate1/Q, gate1/Q<0>, gate1/Z, gate1/Z3, gate1/D0, Din, a<0>, Q, gate1/Z, gate6/z_not0001, gate1/D1, gate6/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/D1, RAM/gate22/D0<1>, gate1/Q<1>, gate1/Z, gate1/D0, Din, gate1/Z3, gate1/Z1, a<1>, Q, gate1/Z, gate5/Q, gate5/Q1, gate5/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/z_not0001, gate1/Q<2>, gate1/Z, gate1/Z3, RAM/gate22/D0<2>, gate1/Q, gate1/D0, Din, Q, a<2>, gate1/Z, gate1/Z1, gate4/Q, gate4/Q1, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/Z, gate3/z_not0001, RAM/gate22/D0<3>, Din, gate1/Z3, gate1/Z1, Q, a<3>, gate1/D0, Q, Q1, gate1/Z, gate1/D1, gate1/Q<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, Q, gate1/Z3, gate2/z_not0001, a<4>, gate1/D0, gate2/Q, gate2/Q1, gate1/Z, gate1/Z1, gate1/D1, gate1/Z, RAM/gate22/D0<4>, gate1/Q<4>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, RAM/gate22/D0<5>, a<5>, gate1/D0, gate1/z_not0001, gate1/Z1, gate1/Q, gate1/Q1, gate1/Z, gate1/D1, gate1/Z3, gate1/Z, gate1/Q<5>, gate1/Q, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<0>, gate6/z_not0001, gate1/D1, gate1/Z3, gate6/Q1, gate1/Z1, gate1/D0, RAM/gate23/D0<0>, gate1/Z, gate1/Q, gate1/Z, Din, gate6/Q, Q, gate1/Q<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<1>, gate5/z_not0001, RAM/gate23/D0<1>, a<1>, gate1/Z3, gate1/D0, gate1/Z, gate1/Q, Q, gate1/D1, Din, gate5/Q, gate1/Z1, gate5/Q1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/Q, gate1/Z, Q, gate1/Z3, RAM/gate23/D0<2>, gate1/Q, gate1/Z, gate4/z_not0001, a<2>, gate1/Z1, gate1/Q<2>, Din, gate1/D1, gate1/D0, gate4/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Z, RAM/gate23/D0<3>, gate3/z_not0001, gate1/Z1, gate1/D1, Q1, Q, Din, a<3>, gate1/Q<3>, gate1/Z, Q, gate1/Q, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/z_not0001, RAM/gate23/D0<4>, gate2/Q1, gate1/Q, a<4>, gate1/Q<4>, gate1/Z, Din, gate1/Z3, Q, gate1/Z1, gate1/D0, gate1/D1, gate2/Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Z3, RAM/gate23/D0<5>, gate1/z_not0001, gate1/D1, a<5>, gate1/Q, gate1/Z, gate1/Q<5>, Q, Din, gate1/Z1, gate1/Q, gate1/Z, gate1/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<0>, a<0>, Din, gate6/Q1, RAM/gate24/D0<0>, gate1/D1, gate1/Z1, gate1/Z, gate6/z_not0001, gate1/Q, gate6/Q, gate1/Z, gate1/D0, Q, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate1/Q<1>, gate1/Z, gate5/Q1, gate5/z_not0001, gate5/Q, RAM/gate24/D0<1>, gate1/Z, gate1/Q, gate1/D1, Q, gate1/Z1, gate1/D0, gate1/Z3, a<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate24/D0<2>, gate4/Q1, gate1/Q, a<2>, gate1/Z, Din, Q, gate1/D0, gate1/D1, gate4/z_not0001, gate4/Q, gate1/Z, gate1/Z3, gate1/Z1, gate1/Q<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, Q1, gate1/Z, gate1/Q<3>, Q, gate3/z_not0001, Q, RAM/gate24/D0<3>, Din, gate1/Q, gate1/D0, gate1/Z, gate1/Z1, a<3>, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate2/z_not0001, gate1/Q, gate1/Q<4>, a<4>, Din, Q, gate1/Z, RAM/gate24/D0<4>, gate1/D1, gate1/Z1, gate2/Q, gate1/D0, gate1/Z, gate2/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/D1, gate1/Z3, a<5>, gate1/Q, gate1/z_not0001, RAM/gate24/D0<5>, gate1/Q<5>, gate1/Z, Q, gate1/D0, gate1/Q1, gate1/Q, Din, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/D0, gate1/D1, gate6/Q, gate1/Z, RAM/gate25/D0<0>, gate6/z_not0001, gate6/Q1, gate1/Q, a<0>, gate1/Q<0>, gate1/Z, Din, gate1/Z1, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/Q, gate1/Z1, gate1/Z, gate1/Z3, a<1>, gate1/Q, gate1/D0, gate5/z_not0001, gate1/D1, Q, gate5/Q1, gate1/Z, gate1/Q<1>, Din, RAM/gate25/D0<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/Z, gate1/Q<2>, gate1/D1, a<2>, gate4/Q, gate1/D0, gate1/Z, gate4/z_not0001, RAM/gate25/D0<2>, gate4/Q1, gate1/Z1, gate1/Q, gate1/Z3, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, a<3>, Q, gate1/D0, Din, RAM/gate25/D0<3>, Q1, Q, gate3/z_not0001, gate1/Z, gate1/Z1, gate1/D1, gate1/Z3, gate1/Q, gate1/Q<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate2/z_not0001, RAM/gate25/D0<4>, Din, gate1/Q<4>, a<4>, Q, gate2/Q1, gate1/Z, gate2/Q, gate1/D0, gate1/Z, gate1/Z3, gate1/Z1, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<5>, gate1/D1, gate1/Q, gate1/Z, gate1/Q<5>, RAM/gate25/D0<5>, gate1/Q, gate1/Q1, gate1/Z, Q, gate1/D0, gate1/z_not0001, gate1/Z3, gate1/Z1, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate26/D0<0>, gate1/Z1, gate1/Q, gate6/z_not0001, a<0>, Din, gate1/Z, Q, gate1/Z3, gate1/D1, gate1/Q<0>, gate6/Q, gate1/D0, gate6/Q1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate5/Q1, gate5/Q, gate1/Z, RAM/gate26/D0<1>, gate1/Z3, gate1/D1, gate5/z_not0001, gate1/Q<1>, gate1/Q, gate1/Z1, a<1>, gate1/Z, Q, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate4/Q1, RAM/gate26/D0<2>, gate1/Z, gate1/Z3, gate1/Z1, gate4/Q, gate1/D0, gate1/Z, gate1/D1, gate1/Q, gate4/z_not0001, a<2>, gate1/Q<2>, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate3/z_not0001, Q, gate1/Z, Q1, RAM/gate26/D0<3>, gate1/D1, gate1/D0, gate1/Z1, a<3>, Din, gate1/Q<3>, gate1/Z3, gate1/Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/z_not0001, Q, gate1/Z1, gate1/D0, Din, gate1/Z, gate2/Q1, gate1/Z3, gate2/Q, gate1/Z, gate1/Q<4>, gate1/Q, gate1/D1, a<4>, RAM/gate26/D0<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Q<5>, gate1/Q, gate1/z_not0001, gate1/Q, gate1/Z, gate1/D0, Q, RAM/gate26/D0<5>, gate1/Z3, Din, gate1/Q1, a<5>, gate1/Z1, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate6/z_not0001, gate1/Z, gate1/D1, a<0>, RAM/gate27/D0<0>, Din, gate1/Z, Q, gate6/Q1, gate1/D0, gate1/Z3, gate1/Z1, gate1/Q<0>, gate6/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/D0, gate1/Z3, gate5/z_not0001, RAM/gate27/D0<1>, Din, gate1/Q, gate1/Z, gate1/Z1, a<1>, gate5/Q, Q, gate1/Z, gate1/Q<1>, gate5/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, Din, gate1/Q<2>, gate1/Z1, gate4/z_not0001, gate1/D0, RAM/gate27/D0<2>, gate1/Z, gate4/Q, gate1/D1, a<2>, gate4/Q1, gate1/Z3, Q, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, Q, gate1/D0, Din, RAM/gate27/D0<3>, gate3/z_not0001, Q, gate1/Q<3>, gate1/Z, gate1/Z, gate1/Q, gate1/Z1, Q1, a<3>, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, Q, gate1/Q, a<4>, gate2/z_not0001, RAM/gate27/D0<4>, gate1/Z1, Din, gate1/Z3, gate2/Q1, gate1/D1, gate2/Q, gate1/Q<4>, gate1/D0, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<5>, gate1/Q1, gate1/Z3, RAM/gate27/D0<5>, gate1/Q, gate1/D0, gate1/Z, Q, gate1/Z, gate1/Z1, gate1/Q, gate1/D1, Din, gate1/z_not0001, gate1/Q<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Q<0>, a<0>, RAM/gate28/D0<0>, gate1/Z3, gate1/Q, gate6/z_not0001, gate1/Z1, gate1/D1, gate1/Z, gate1/D0, Din, gate6/Q, gate6/Q1, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<1>, gate1/Z, RAM/gate28/D0<1>, gate1/D0, Din, gate5/Q, Q, gate5/Q1, gate5/z_not0001, gate1/Z, gate1/Z3, gate1/Q, gate1/Z1, gate1/D1, gate1/Q<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate28/D0<2>, gate1/Z, gate1/D0, gate1/Z3, Din, gate4/Q, Q, gate4/Q1, gate4/z_not0001, gate1/Z, gate1/Z1, gate1/Q, gate1/Q<2>, gate1/D1, a<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Z1, gate1/Q, gate1/D1, gate1/Z3, gate1/Z, gate3/z_not0001, gate1/D0, Din, Q, a<3>, Q1, Q, RAM/gate28/D0<3>, gate1/Q<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Z1, gate1/Q, gate1/D1, gate1/Z, gate2/z_not0001, a<4>, gate1/D0, Din, gate2/Q, RAM/gate28/D0<4>, gate1/Q<4>, gate2/Q1, Q, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Z3, gate1/D0, Din, gate1/Q, Q, gate1/Q1, gate1/Z, a<5>, gate1/z_not0001, gate1/Z1, RAM/gate28/D0<5>, gate1/Q<5>, gate1/Q, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate29/D0<0>, a<0>, Q, gate1/Z3, gate1/Z, gate1/D0, gate6/Q1, gate6/z_not0001, Din, gate1/Q<0>, gate1/Q, gate6/Q, gate1/D1, gate1/Z1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/D0, a<1>, gate1/Z1, gate1/Z, gate1/D1, Q, gate1/Z, gate5/Q1, gate1/Z3, gate5/z_not0001, gate1/Q<1>, RAM/gate29/D0<1>, Din, gate5/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, a<2>, Din, RAM/gate29/D0<2>, gate4/Q1, gate4/Q, gate1/Z, gate1/D1, gate1/Z1, gate1/Q, gate4/z_not0001, gate1/Z3, gate1/Z, gate1/Q<2>, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<3>, Din, Q, RAM/gate29/D0<3>, gate3/z_not0001, Q1, gate1/Z, Q, gate1/D0, gate1/Z, gate1/Z1, gate1/D1, gate1/Z3, gate1/Q<3>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate29/D0<4>, gate2/z_not0001, gate1/Q<4>, gate1/Z, Din, gate2/Q1, gate1/D0, gate2/Q, gate1/Z, gate1/D1, gate1/Z1, gate1/Q, Q, a<4>, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate1/Q, gate1/Z, gate1/Z3, RAM/gate29/D0<5>, gate1/Z1, gate1/Q<5>, gate1/Q, Q, gate1/Z, gate1/Q1, gate1/D1, gate1/D0, a<5>, gate1/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate6/z_not0001, gate1/Q, gate1/Q<0>, gate1/Z, Q, RAM/gate30/D0<0>, gate1/Z1, gate1/D0, Din, a<0>, gate6/Q1, gate6/Q, gate1/Z, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate30/D0<1>, gate1/Z, gate1/Q, gate1/D1, gate5/z_not0001, gate1/Z, gate1/Z3, gate5/Q, gate5/Q1, Din, gate1/D0, Q, a<1>, gate1/Q<1>, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate30/D0<2>, gate4/Q, gate1/Z, gate1/Z1, gate1/D1, gate1/Q, gate1/Z3, gate4/z_not0001, Q, a<2>, gate1/Z, Din, gate4/Q1, gate1/D0, gate1/Q<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, Q, gate1/Z, Q1, gate1/D1, gate1/D0, gate1/Z3, gate1/Z1, Din, gate1/Q, gate1/Z, gate1/Q<3>, gate3/z_not0001, RAM/gate30/D0<3>, a<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Q<4>, RAM/gate30/D0<4>, Din, gate1/Z3, gate2/z_not0001, gate1/Z, gate2/Q1, gate2/Q, gate1/Z, a<4>, gate1/Q, gate1/D1, gate1/Z1, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Q<5>, gate1/z_not0001, a<5>, RAM/gate30/D0<5>, gate1/Q1, gate1/Q, gate1/Z, Din, gate1/Z3, Q, gate1/D0, gate1/D1, gate1/Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<0>, Q, gate1/Z1, gate6/z_not0001, gate1/Z, Din, gate6/Q1, gate1/D0, gate6/Q, gate1/Z, a<0>, gate1/D1, RAM/gate31/D0<0>, gate1/Z3, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate5/z_not0001, Din, gate1/Q, gate1/Z, gate1/Q<1>, gate5/Q, Q, a<1>, gate5/Q1, gate1/Z1, gate1/Z, RAM/gate31/D0<1>, gate1/D0, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate4/Q1, gate4/z_not0001, gate1/Z3, gate4/Q, gate1/Z, gate1/Q, gate1/D1, gate1/Z1, gate1/Q<2>, Q, gate1/D0, Din, a<2>, RAM/gate31/D0<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, Din, gate3/z_not0001, Q, gate1/Q, gate1/D0, gate1/D1, gate1/Z, gate1/Q<3>, gate1/Z1, a<3>, RAM/gate31/D0<3>, Q1, gate1/Z, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, RAM/gate31/D0<4>, Q, gate1/Z, gate1/Z3, gate1/D1, gate2/Q, gate1/D0, gate1/Z, gate2/Q1, gate1/Z1, gate1/Q<4>, gate2/z_not0001, gate1/Q, a<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, RAM/gate31/D0<5>, gate1/Q, gate1/z_not0001, gate1/Q, gate1/Z, Q, gate1/Z3, gate1/D0, Din, gate1/Z, gate1/Q<5>, gate1/D1, gate1/Q1, a<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate6/z_not0001, Q, gate1/D0, a<0>, Din, gate1/Q<0>, RAM/gate32/D0<0>, gate1/Z, gate1/Z3, gate6/Q1, gate1/Z1, gate6/Q, gate1/Z, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, Q, a<1>, gate5/Q1, gate1/Z, gate1/Z1, Din, gate1/Q<1>, gate5/Q, gate1/Z, gate5/z_not0001, gate1/Q, gate1/D0, RAM/gate32/D0<1>, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/Q, gate1/D0, gate1/Z, RAM/gate32/D0<2>, gate4/Q1, gate4/z_not0001, gate1/Z1, gate1/Q<2>, gate1/Q, Din, a<2>, gate1/Z3, Q, gate1/Z, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, RAM/gate32/D0<3>, gate1/D1, gate1/Z1, Q1, gate1/Q, gate1/Z, Din, gate1/Q<3>, a<3>, Q, gate1/Z3, gate1/D0, Q, gate3/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/Q, gate1/Z, gate1/Z3, gate2/z_not0001, gate2/Q1, RAM/gate32/D0<4>, gate1/D0, gate1/D1, gate1/Q, gate1/Z1, a<4>, gate1/Z, gate1/Q<4>, Q, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/Z, gate1/Z3, gate1/Q1, gate1/D0, Din, gate1/Q, gate1/Z, gate1/Q, gate1/D1, gate1/Q<5>, RAM/gate32/D0<5>, gate1/Z1, gate1/z_not0001, a<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/z_not0001, RAM/gate33/D0<0>, a<0>, gate1/Q<0>, Din, gate6/Q1, Q, gate1/Z, gate1/Z3, gate1/D1, gate6/Q, gate1/Z1, gate1/D0, gate1/Z, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/z_not0001, gate5/Q, gate1/Z3, gate1/Z, Q, gate1/D0, RAM/gate33/D0<1>, a<1>, Din, gate1/Z, gate1/Q, gate1/Q<1>, gate1/D1, gate1/Z1, gate5/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/Q<2>, gate1/Z1, Q, gate1/D1, Din, gate1/Z3, gate4/Q1, gate4/z_not0001, a<2>, gate1/D0, gate1/Z, gate4/Q, RAM/gate33/D0<2>, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, Q, gate1/Z, gate1/Z3, gate1/Z1, gate1/Q<3>, gate1/Z, a<3>, Q, RAM/gate33/D0<3>, Q1, gate1/D0, Din, gate1/Q, gate3/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/Q1, gate1/Z3, gate1/Z, gate2/Q, gate1/Q, Q, Din, gate1/D0, gate1/Z, gate1/Z1, gate1/D1, a<4>, gate2/z_not0001, RAM/gate33/D0<4>, gate1/Q<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate33/D0<5>, Din, Q, gate1/Q, a<5>, gate1/Q, gate1/D1, gate1/Z, gate1/Z3, gate1/Q1, gate1/D0, gate1/Q<5>, gate1/z_not0001, gate1/Z1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate34/D0<0>, gate1/Q, gate6/z_not0001, gate1/Z, gate1/Z3, gate1/Q<0>, gate1/Z1, gate1/D0, Din, gate6/Q, Q, gate6/Q1, gate1/Z, gate1/D1, a<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/D1, gate5/z_not0001, gate1/Z, gate1/Q<1>, gate1/D0, gate1/Z1, gate1/Z3, Din, gate5/Q, Q, gate5/Q1, gate1/Z, a<1>, RAM/gate34/D0<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, Din, gate4/Q, gate4/Q1, Q, gate1/Z1, gate4/z_not0001, gate1/Z, gate1/Q<2>, gate1/D1, gate1/Z, gate1/Q, a<2>, RAM/gate34/D0<2>, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/D0, Din, Q, Q1, Q, gate1/Z3, gate1/Q<3>, gate1/Z, gate3/z_not0001, gate1/Q, a<3>, gate1/D1, RAM/gate34/D0<3>, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Z, gate1/Q, gate1/Q<4>, Din, gate2/z_not0001, a<4>, gate1/D0, gate1/Z1, gate2/Q, RAM/gate34/D0<4>, Q, gate2/Q1, gate1/Z, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<5>, gate1/Q, gate1/D1, gate1/Z, a<5>, gate1/Z3, gate1/z_not0001, RAM/gate34/D0<5>, gate1/D0, Din, gate1/Q, gate1/Q1, Q, gate1/Z1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate35/D0<0>, gate1/Z, gate1/Q<0>, Din, gate1/D0, gate1/Z, gate1/Q, gate1/D1, gate1/Z1, gate1/Z3, a<0>, gate6/Q1, Q, gate6/z_not0001, gate6/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<1>, gate5/Q, gate1/Q, gate1/Z3, a<1>, Din, Q, gate1/D1, gate5/Q1, gate1/Z, gate1/Z, gate1/Z1, RAM/gate35/D0<1>, gate1/D0, gate5/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/z_not0001, gate4/Q, gate1/Z3, gate1/Q, gate1/Q<2>, a<2>, gate1/Z, gate1/D1, gate1/Z1, Din, Q, gate1/D0, gate4/Q1, RAM/gate35/D0<2>, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate3/z_not0001, gate1/Z, gate1/Z3, Q, Din, a<3>, gate1/Z1, gate1/D1, Q, gate1/Q<3>, Q1, gate1/Z, RAM/gate35/D0<3>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate2/Q, Q, gate2/z_not0001, gate1/Z3, a<4>, gate1/Q, gate1/D0, gate1/D1, gate1/Q<4>, gate1/Z, gate1/Z, RAM/gate35/D0<4>, gate2/Q1, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<5>, gate1/Z, gate1/Q, Q, a<5>, gate1/z_not0001, gate1/Z, RAM/gate35/D0<5>, gate1/Q, gate1/D1, Din, gate1/Z1, gate1/Q1, gate1/Z3, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Q<0>, gate1/Z, gate1/Z, a<0>, gate1/D0, Din, RAM/gate36/D0<0>, Q, gate1/Q, gate1/D1, gate6/Q1, gate6/z_not0001, gate1/Z3, gate6/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/z_not0001, gate1/D1, gate5/Q1, gate1/Q, gate5/Q, gate1/Z3, a<1>, gate1/D0, gate1/Z, gate1/Q<1>, Din, gate1/Z1, Q, gate1/Z, RAM/gate36/D0<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate4/z_not0001, gate1/D1, gate4/Q1, gate1/Z, gate4/Q, gate1/Q<2>, a<2>, Din, gate1/D0, Q, gate1/Z3, gate1/Q, RAM/gate36/D0<2>, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate36/D0<3>, gate1/Z, Q1, gate1/Z1, Q, gate1/Z, gate3/z_not0001, gate1/D0, a<3>, gate1/Z3, gate1/D1, gate1/Q<3>, Q, gate1/Q, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Q, Q, a<4>, gate1/Z3, Din, gate2/z_not0001, gate1/Z, gate2/Q1, RAM/gate36/D0<4>, gate1/Z1, gate1/D1, gate2/Q, gate1/D0, gate1/Q<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q1, gate1/D0, Din, Q, a<5>, RAM/gate36/D0<5>, gate1/z_not0001, gate1/Z3, gate1/Z, gate1/Z1, gate1/Z, gate1/D1, gate1/Q<5>, gate1/Q, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/D1, gate1/Q, a<0>, gate1/Z3, gate1/Z, RAM/gate37/D0<0>, gate1/Z1, gate6/Q1, Q, gate6/Q, Din, gate6/z_not0001, gate1/D0, gate1/Q<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate1/D0, a<1>, gate1/D1, gate1/Z, gate1/Q, gate1/Q<1>, gate5/z_not0001, gate1/Z1, RAM/gate37/D0<1>, gate5/Q1, gate1/Z3, gate1/Z, Q, gate5/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/z_not0001, Q, Din, gate1/D0, gate1/Z1, gate4/Q, RAM/gate37/D0<2>, gate4/Q1, a<2>, gate1/Z, gate1/Z3, gate1/Q, gate1/D1, gate1/Z, gate1/Q<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/D0, gate3/z_not0001, gate1/Q, gate1/Z3, Q, gate1/Z, gate1/Q<3>, Q, RAM/gate37/D0<3>, Din, gate1/Z1, Q1, a<3>, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, RAM/gate37/D0<4>, Q, gate2/Q, gate1/Q, Din, gate1/Z, gate1/D0, gate1/Z1, gate1/Z3, gate1/Q<4>, gate2/z_not0001, a<4>, gate1/Z, gate2/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Z, gate1/Q<5>, gate1/Z3, Q, gate1/Q1, gate1/Z1, gate1/z_not0001, gate1/Z, gate1/Q, RAM/gate37/D0<5>, Din, gate1/D0, a<5>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/Q, gate1/Q<0>, gate1/D1, a<0>, gate1/Z, gate1/Z, gate1/Z1, gate1/Z3, RAM/gate38/D0<0>, gate1/Q, gate6/z_not0001, gate6/Q1, gate1/D0, Q, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/D0, gate1/Z3, gate1/Q<1>, gate1/Z1, gate1/Z, gate5/Q, Q, gate5/Q1, RAM/gate38/D0<1>, a<1>, Din, gate1/D1, gate1/Q, gate5/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, Din, gate1/Z1, gate1/D0, gate4/Q, gate1/Z3, gate1/Q, RAM/gate38/D0<2>, gate1/Z, gate1/Q<2>, gate4/z_not0001, Q, gate4/Q1, gate1/Z, a<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate3/z_not0001, gate1/Z, a<3>, gate1/Z1, Din, Q1, gate1/Q<3>, gate1/Z3, Q, Q, gate1/D0, gate1/D1, RAM/gate38/D0<3>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate38/D0<4>, gate1/D1, gate1/Z, a<4>, gate2/Q, gate2/z_not0001, gate1/Q, gate1/Q<4>, Din, Q, gate1/Z1, gate2/Q1, gate1/Z, gate1/D0, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Z3, gate1/Z, gate1/Q<5>, Din, gate1/Q1, RAM/gate38/D0<5>, gate1/z_not0001, gate1/Z, a<5>, gate1/D1, Q, gate1/Q, gate1/D0, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/Q1, gate6/Q, Q, Din, gate6/z_not0001, gate1/Z, gate1/Q<0>, gate1/D1, RAM/gate39/D0<0>, a<0>, gate1/Q, gate1/Z1, gate1/Z, gate1/Z3, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/D0, gate1/Z1, gate1/Q, gate1/Z, gate1/Z3, gate5/z_not0001, gate5/Q, gate1/Q<1>, gate1/D1, a<1>, RAM/gate39/D0<1>, gate1/Z, Din, gate5/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<2>, RAM/gate39/D0<2>, gate1/Z3, gate1/Q, gate4/z_not0001, gate4/Q, Din, gate1/D1, gate4/Q1, gate1/Z, Q, gate1/Z1, gate1/Q<2>, gate1/Z, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<3>, gate1/Z, RAM/gate39/D0<3>, gate1/Z3, Q1, Din, gate1/D0, gate1/Z1, gate1/D1, Q, gate1/Q<3>, gate1/Z, Q, gate1/Q, gate3/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/Q1, Din, gate2/Q, Q, a<4>, RAM/gate39/D0<4>, gate1/Z1, gate1/Q<4>, gate1/D1, gate1/Q, gate1/Z3, gate1/D0, gate2/z_not0001, gate1/Z, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Q, gate1/D1, gate1/Q, gate1/Q1, gate1/z_not0001, a<5>, RAM/gate39/D0<5>, Din, gate1/Z, gate1/Z1, gate1/Z3, Q, gate1/Q<5>, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/Q1, gate1/Z, gate6/Q, gate1/Z, gate1/D1, RAM/gate40/D0<0>, gate1/D0, gate1/Z1, gate1/Q<0>, gate1/Q, gate1/Z3, a<0>, gate6/z_not0001, Q, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/Q, gate1/D1, gate1/Q, gate1/Z1, gate1/Z, gate5/Q1, gate1/Z, gate1/Z3, Q, gate1/D0, Din, RAM/gate40/D0<1>, gate5/z_not0001, a<1>, gate1/Q<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/Q1, gate4/Q, gate1/D1, gate1/D0, RAM/gate40/D0<2>, gate4/z_not0001, gate1/Z, Q, gate1/Z, Din, gate1/Z1, gate1/Q<2>, gate1/Z3, a<2>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<3>, Q, Q1, gate1/Z1, gate1/Q, gate1/Z3, RAM/gate40/D0<3>, gate1/D0, gate3/z_not0001, Din, gate1/Z, gate1/Z, gate1/D1, gate1/Q<3>, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate40/D0<4>, a<4>, gate1/Z, gate2/z_not0001, Q, gate2/Q, Din, gate1/Z3, gate1/Z1, gate1/Q, gate2/Q1, gate1/D1, gate1/Z, gate1/Q<4>, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/D1, RAM/gate40/D0<5>, gate1/z_not0001, a<5>, gate1/Q, gate1/Q<5>, gate1/Q, gate1/D0, gate1/Z, Q, gate1/Z1, gate1/Z, gate1/Q1, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/Q, gate1/Z, Q, gate1/Q<0>, a<0>, gate1/Z3, gate1/Z1, gate1/D0, gate1/Q, gate1/D1, RAM/gate41/D0<0>, gate6/Q1, gate6/z_not0001, gate1/Z, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/Q1, gate5/Q, gate1/Z, Q, gate1/Z3, a<1>, RAM/gate41/D0<1>, gate1/Z1, Din, gate5/z_not0001, gate1/D0, gate1/Q<1>, gate1/D1, gate1/Z, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Q, gate1/Z1, gate1/Q<2>, gate1/Z3, Q, gate1/Z, a<2>, Din, gate4/Q1, gate4/Q, gate4/z_not0001, gate1/D0, RAM/gate41/D0<2>, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<3>, gate1/Z, gate1/Z3, gate1/Z, gate1/Z1, gate1/Q, gate1/D1, Din, RAM/gate41/D0<3>, Q, Q, gate3/z_not0001, Q1, a<3>, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Z3, gate2/Q, RAM/gate41/D0<4>, gate2/Q1, gate1/D0, gate2/z_not0001, a<4>, gate1/Z, gate1/Q<4>, gate1/Z, gate1/Z1, Din, gate1/Q, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<5>, gate1/Z3, Din, gate1/D0, Q, gate1/Q1, gate1/Z1, gate1/Z, RAM/gate41/D0<5>, a<5>, gate1/D1, gate1/Q, gate1/Z, gate1/Q, gate1/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate6/Q, gate1/Z3, gate1/D0, gate1/Q<0>, gate1/Z, gate1/Z1, gate1/D1, gate1/Q, gate1/Z, a<0>, RAM/gate42/D0<0>, gate6/z_not0001, gate6/Q1, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Z, gate1/Z3, Q, a<1>, Din, gate5/Q1, gate1/Q, gate1/Z1, gate5/z_not0001, gate5/Q, RAM/gate42/D0<1>, gate1/D0, gate1/Z, gate1/Q<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate4/Q, gate4/Q1, gate1/D0, gate1/Z3, gate1/Z, gate1/Q<2>, a<2>, gate1/Z, Din, gate1/Z1, gate4/z_not0001, gate1/D1, gate1/Q, RAM/gate42/D0<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, Q, gate1/Q<3>, gate1/D0, gate1/Z3, gate1/Z1, gate1/Z, Q1, gate1/Q, RAM/gate42/D0<3>, gate1/D1, a<3>, gate1/Z, Din, gate3/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, Din, a<4>, gate1/D0, gate1/Z1, gate1/Q, gate1/D1, gate1/Z, gate2/Q, Q, gate2/Q1, RAM/gate42/D0<4>, gate2/z_not0001, gate1/Q<4>, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Z1, gate1/Q<5>, a<5>, gate1/Z, gate1/Q, gate1/D1, gate1/Z, RAM/gate42/D0<5>, Din, gate1/Q1, gate1/Q, Q, gate1/z_not0001, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate43/D0<0>, gate1/Z, gate6/z_not0001, Din, Q, gate6/Q, gate6/Q1, gate1/Q<0>, gate1/Q, gate1/D1, gate1/Z3, gate1/D0, gate1/Z, gate1/Z1, a<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, RAM/gate43/D0<1>, a<1>, gate1/Z3, gate5/Q1, gate1/Q, gate1/D1, gate5/z_not0001, gate1/Z, Din, gate1/Q<1>, gate5/Q, Q, gate1/D0, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<2>, gate1/D0, gate1/Q, gate1/D1, gate1/Z3, gate1/Z, gate1/Z1, gate4/Q, Q, gate4/z_not0001, gate1/Z, Din, RAM/gate43/D0<2>, gate4/Q1, a<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, Q, gate1/Z, Q, Q1, gate1/Q<3>, gate1/Z3, gate3/z_not0001, gate1/D0, gate1/D1, gate1/Z, a<3>, RAM/gate43/D0<3>, gate1/Q, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/Q1, gate1/Q, gate1/D1, gate1/Z3, gate1/Z, gate1/Q<4>, Din, gate2/Q, Q, gate2/z_not0001, gate1/D0, a<4>, RAM/gate43/D0<4>, gate1/Z1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Q, gate1/D1, gate1/Z, gate1/Q, Q, gate1/Z1, gate1/Z, gate1/Z3, Din, a<5>, RAM/gate43/D0<5>, gate1/Q1, gate1/z_not0001, gate1/Q<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<0>, gate1/Q, gate1/Z1, gate1/D1, Din, Q, a<0>, gate1/Z3, RAM/gate44/D0<0>, gate1/D0, gate1/Z, gate6/z_not0001, gate1/Z, gate6/Q, gate6/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/Q, a<1>, gate1/Z3, gate1/D0, Din, Q, gate1/Q, gate1/Z1, gate5/Q1, RAM/gate44/D0<1>, gate1/Z, gate1/D1, gate5/z_not0001, gate1/Q<1>, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/D0, gate1/Q<2>, Din, gate4/z_not0001, gate1/Z3, Q, gate1/Q, a<2>, gate4/Q, gate1/Z, gate1/D1, gate1/Z1, RAM/gate44/D0<2>, gate4/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate3/z_not0001, Q, Din, Q, gate1/Z, gate1/Q<3>, Q1, gate1/Z3, gate1/Z1, gate1/D0, gate1/Z, gate1/Q, a<3>, gate1/D1, RAM/gate44/D0<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, a<4>, gate2/z_not0001, gate1/Q<4>, gate2/Q1, RAM/gate44/D0<4>, Q, gate1/Z1, gate1/Z3, gate1/D1, gate2/Q, Din, gate1/Z, gate1/Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, RAM/gate44/D0<5>, gate1/Z, gate1/Q, gate1/Z, gate1/Q<5>, gate1/z_not0001, gate1/D0, a<5>, gate1/Q1, gate1/Q, gate1/D1, Q, gate1/Z3, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Q, RAM/gate45/D0<0>, gate1/Q<0>, gate6/Q1, gate1/Z, gate6/z_not0001, Din, gate1/D0, a<0>, gate1/D1, Q, gate6/Q, gate1/Z1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/Q1, RAM/gate45/D0<1>, a<1>, gate1/Z, gate1/Z, gate1/D0, gate1/D1, gate5/Q, gate1/Z1, Din, gate5/z_not0001, gate1/Z3, Q, gate1/Q, gate1/Q<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<2>, gate1/Z1, RAM/gate45/D0<2>, gate1/Z, Din, gate1/D0, Q, gate1/Z3, gate4/Q1, gate1/Q<2>, gate4/z_not0001, gate1/Z, gate1/D1, gate1/Q, gate4/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Z, Din, gate1/D0, gate1/D1, Q, Q, RAM/gate45/D0<3>, gate1/Z3, gate1/Z1, gate3/z_not0001, gate1/Q, a<3>, Q1, gate1/Q<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate2/z_not0001, Q, gate1/Q, RAM/gate45/D0<4>, gate1/Z1, gate2/Q1, gate1/Z, gate1/Z, gate1/D0, a<4>, gate1/D1, gate1/Z3, gate2/Q, gate1/Q<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Q<5>, gate1/Q, gate1/Z1, RAM/gate45/D0<5>, gate1/Q1, a<5>, gate1/z_not0001, gate1/Z3, gate1/Z, gate1/Z, Din, gate1/Q, gate1/D1, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/z_not0001, gate6/Q1, a<0>, gate1/D0, Din, Q, gate1/Q, gate6/Q, RAM/gate46/D0<0>, gate1/Z3, gate1/Z, gate1/Z, gate1/Z1, gate1/Q<0>, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/Q, gate5/Q1, gate1/D1, a<1>, gate1/Q, gate1/D0, gate1/Z, gate1/Q<1>, gate5/z_not0001, gate1/Z1, Din, gate1/Z3, gate1/Z, RAM/gate46/D0<1>, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, Din, gate4/Q, Q, gate4/Q1, a<2>, gate1/Z, RAM/gate46/D0<2>, gate1/Z1, gate1/Q<2>, gate1/Q, gate1/D1, gate1/Z3, gate4/z_not0001, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate46/D0<3>, gate3/z_not0001, gate1/Z, gate1/Q<3>, Q1, Din, gate1/D0, a<3>, gate1/Q, gate1/Z, gate1/Z3, gate1/D1, Q, Q, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/D0, gate2/z_not0001, gate1/D1, gate2/Q, gate1/Z, a<4>, gate1/Q, gate1/Q<4>, RAM/gate46/D0<4>, gate1/Z, gate1/Z3, gate2/Q1, Din, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, RAM/gate46/D0<5>, gate1/Q<5>, gate1/Q1, Q, gate1/Z3, gate1/Z, a<5>, gate1/D1, gate1/D0, gate1/Q, gate1/Z1, gate1/z_not0001, Din, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate47/D0<0>, Din, gate1/D1, gate1/Z, gate6/Q, gate1/Z, a<0>, gate1/Z3, gate1/D0, gate1/Q<0>, Q, gate6/Q1, gate1/Z1, gate6/z_not0001, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<1>, gate1/Z1, gate1/Q, gate1/Z, gate5/Q1, Q, RAM/gate47/D0<1>, gate1/Q<1>, gate5/z_not0001, gate1/Z3, Din, gate1/D0, gate5/Q, gate1/D1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/Z3, RAM/gate47/D0<2>, Q, gate1/Z, Din, gate1/D1, gate1/Z, a<2>, gate1/Z1, gate1/Q<2>, gate4/z_not0001, gate1/D0, gate4/Q, gate4/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<3>, Din, Q, gate1/D0, a<3>, gate1/D1, gate3/z_not0001, RAM/gate47/D0<3>, Q1, gate1/Z, gate1/Z1, gate1/Q, Q, gate1/Z, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate47/D0<4>, gate1/Z, gate1/Z1, Din, gate1/Q, gate1/Q<4>, gate2/Q1, gate2/Q, gate1/D1, a<4>, gate2/z_not0001, gate1/Z, gate1/Z3, gate1/D0, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<5>, gate1/z_not0001, a<5>, gate1/Z, Q, RAM/gate47/D0<5>, Din, gate1/D0, gate1/Z3, gate1/Q, gate1/Q1, gate1/Z, gate1/Q, gate1/D1, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate6/Q, gate1/D1, gate1/D0, Q, gate1/Z1, gate1/Z, RAM/gate48/D0<0>, Din, gate1/Q<0>, gate1/Z3, gate1/Q, gate6/z_not0001, a<0>, gate6/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Q, gate5/z_not0001, gate1/D0, Din, gate5/Q, RAM/gate48/D0<1>, gate1/Z, gate1/D1, gate1/Q<1>, gate1/Z3, gate1/Z, a<1>, Q, gate5/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/z_not0001, gate1/Z, gate1/D1, gate4/Q1, gate1/D0, Din, RAM/gate48/D0<2>, gate4/Q, gate1/Z3, Q, gate1/Z, gate1/Q<2>, gate1/Z1, gate1/Q, a<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, RAM/gate48/D0<3>, gate3/z_not0001, gate1/Z3, gate1/Z, Q1, gate1/D1, gate1/Z, gate1/Q, Q, a<3>, gate1/Q<3>, gate1/Z1, Din, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, a<4>, gate2/Q1, Q, gate2/Q, gate1/Z, RAM/gate48/D0<4>, gate1/Z3, Din, gate1/Q, gate1/Z1, gate1/Q<4>, gate1/D1, gate1/Z, gate2/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate1/Z3, gate1/Q<5>, gate1/Q, gate1/Z1, gate1/D0, gate1/Z, a<5>, gate1/Q1, gate1/D1, gate1/z_not0001, gate1/Z, RAM/gate48/D0<5>, gate1/Q, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Z3, gate1/D0, Din, gate6/Q1, Q, gate1/Z, RAM/gate49/D0<0>, gate1/Q, gate6/Q, gate1/D1, gate1/Z, a<0>, gate6/z_not0001, gate1/Q<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Z, gate1/D1, gate1/Z1, gate5/z_not0001, gate5/Q1, RAM/gate49/D0<1>, Din, gate1/D0, Q, gate1/Q, gate1/Q<1>, gate5/Q, gate1/Z, a<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, Q, gate4/Q, gate1/Z1, gate1/D1, gate1/Z, gate1/Q, RAM/gate49/D0<2>, gate1/Z, gate4/Q1, gate4/z_not0001, gate1/Q<2>, gate1/D0, gate1/Z3, a<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/Z3, Q, gate1/D0, RAM/gate49/D0<3>, gate1/Z, gate3/z_not0001, gate1/D1, gate1/Z1, gate1/Q<3>, gate1/Q, Din, gate1/Z, Q1, a<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<4>, gate2/Q1, gate1/Z1, Q, RAM/gate49/D0<4>, gate1/D0, gate2/Q, gate1/Q, gate1/Z3, gate2/z_not0001, a<4>, gate1/D1, gate1/Z, Din, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<5>, gate1/Q, gate1/D0, RAM/gate49/D0<5>, gate1/Z1, gate1/Q1, Din, gate1/Z, gate1/z_not0001, a<5>, gate1/Z3, gate1/Q, Q, gate1/Z, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<0>, RAM/gate50/D0<0>, gate1/Z3, gate1/Q, gate1/D0, gate1/Z1, gate6/Q, gate6/Q1, a<0>, gate1/Z, gate1/D1, gate6/z_not0001, Din, gate1/Z, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate50/D0<1>, Din, gate1/Z, Q, gate5/Q, gate5/Q1, gate1/Q, a<1>, gate1/Z3, gate1/D0, gate1/Z1, gate1/Z, gate5/z_not0001, gate1/D1, gate1/Q<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/D0, a<2>, gate4/Q, gate1/Z, gate1/Z3, gate4/Q1, gate1/Z, gate1/Q, Din, Q, gate1/Z1, gate1/Q<2>, gate4/z_not0001, RAM/gate50/D0<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate3/z_not0001, Din, gate1/D0, Q, a<3>, gate1/Z1, gate1/D1, gate1/Z, Q, gate1/Z, gate1/Q<3>, Q1, gate1/Z3, RAM/gate50/D0<3>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate2/Q1, gate2/z_not0001, gate1/Q, a<4>, Din, gate1/D0, Q, gate1/Q<4>, gate1/D1, RAM/gate50/D0<4>, gate1/Z, gate1/Z, gate1/Z1, gate2/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, a<5>, gate1/Z1, gate1/Z, gate1/Q, gate1/Z3, gate1/Z, gate1/Q1, gate1/Q<5>, gate1/z_not0001, gate1/D0, RAM/gate50/D0<5>, gate1/Q, Din, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/Q1, a<0>, gate1/Z, RAM/gate51/D0<0>, gate6/z_not0001, Din, gate1/Q<0>, gate1/Z1, gate1/D0, Q, gate1/Z3, gate1/Q, gate1/Z, gate6/Q, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<1>, gate1/D0, gate1/Z, gate1/Z1, RAM/gate51/D0<1>, gate1/Q, gate1/Z, gate1/Z3, gate5/z_not0001, Din, gate1/D1, Q, gate5/Q1, gate1/Q<1>, gate5/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/D1, Din, gate1/Z3, gate1/D0, Q, gate1/Q, gate1/Z1, gate4/z_not0001, gate4/Q, gate4/Q1, RAM/gate51/D0<2>, gate1/Z, a<2>, gate1/Q<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<3>, Q, Q1, gate1/Z1, gate3/z_not0001, gate1/Z3, gate1/Z, gate1/D1, gate1/D0, Din, Q, a<3>, RAM/gate51/D0<3>, gate1/Z, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<4>, gate2/Q1, gate1/Z, gate1/D1, gate1/Z1, gate1/D0, Din, gate2/z_not0001, Q, gate1/Z, gate1/Z3, gate1/Q, a<4>, RAM/gate51/D0<4>, gate2/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Q, gate1/Z3, gate1/D1, gate1/Q<5>, gate1/Z, Q, gate1/z_not0001, a<5>, gate1/D0, gate1/Q1, gate1/Z1, Din, RAM/gate51/D0<5>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Z, a<0>, RAM/gate52/D0<0>, Q, gate1/Z1, Din, gate6/Q1, gate1/D1, gate1/Z, gate6/z_not0001, gate1/Z3, gate1/Q, gate1/Q<0>, gate6/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, a<1>, RAM/gate52/D0<1>, gate1/Q<1>, gate1/D1, gate5/Q, gate1/Q, gate5/z_not0001, gate1/Z, gate5/Q1, gate1/Z3, Din, Q, gate1/D0, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/z_not0001, gate1/D1, gate1/Z, gate1/Q, a<2>, gate4/Q, gate4/Q1, Q, RAM/gate52/D0<2>, gate1/D0, gate1/Z, gate1/Z1, gate1/Z3, Din, gate1/Q<2>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, RAM/gate52/D0<3>, Q1, gate1/Q<3>, gate1/Z1, Q, gate1/Q, a<3>, Q, gate1/Z, gate1/Z3, gate1/D0, gate3/z_not0001, Din, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/Q1, gate1/Q<4>, Din, gate2/Q, gate1/Z3, gate1/Q, a<4>, Q, RAM/gate52/D0<4>, gate1/Z1, gate1/Z, gate2/z_not0001, gate1/D0, gate1/D1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Z3, gate1/Z1, gate1/Q<5>, a<5>, gate1/Q1, RAM/gate52/D0<5>, Din, gate1/Q, gate1/Q, gate1/Z, gate1/z_not0001, Q, gate1/Z, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/Z3, gate1/Q<0>, RAM/gate53/D0<0>, Din, gate1/Z, gate6/Q1, gate1/Z, gate1/Z1, gate1/Q, gate1/D1, gate6/Q, Q, gate6/z_not0001, a<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate53/D0<1>, a<1>, gate1/D0, gate1/Z1, gate5/Q1, gate1/Z3, Din, gate1/Q<1>, gate1/Z, Q, gate5/z_not0001, gate1/Q, gate1/Z, gate5/Q, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Q<2>, Q, RAM/gate53/D0<2>, Din, gate1/Z, gate1/Z3, gate1/Z1, gate4/Q1, gate1/Z, gate1/Q, a<2>, gate4/Q, gate1/D0, gate4/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, Q, gate1/D1, RAM/gate53/D0<3>, a<3>, gate1/Z, gate1/Q, gate1/Z3, gate1/Q<3>, Q1, gate3/z_not0001, Din, gate1/Z1, Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<4>, gate1/Q<4>, gate1/D0, RAM/gate53/D0<4>, gate1/Z1, gate2/Q1, Din, gate1/Z, Q, gate2/z_not0001, gate1/Q, gate1/Z, gate2/Q, gate1/Z3, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q1, Din, a<5>, gate1/Z3, Q, gate1/Q<5>, gate1/Q, gate1/Z, gate1/D1, gate1/z_not0001, gate1/Q, gate1/Z, gate1/D0, gate1/Z1, RAM/gate53/D0<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/z_not0001, gate1/Z3, gate6/Q1, gate1/Q<0>, gate1/Z, gate1/D0, gate1/Z1, Din, a<0>, gate6/Q, gate1/Q, Q, RAM/gate54/D0<0>, gate1/Z, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/D1, gate1/Z, gate1/Z1, gate5/Q1, gate1/D0, gate5/Q, gate1/Q, gate1/Z3, RAM/gate54/D0<1>, gate1/Q<1>, gate1/Z, gate5/z_not0001, a<1>, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate1/D1, gate1/Z3, gate1/Z1, gate1/Z, gate1/Q<2>, Din, gate4/Q1, RAM/gate54/D0<2>, gate4/Q, Q, a<2>, gate1/D0, gate4/z_not0001, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Z, Q, gate1/D1, RAM/gate54/D0<3>, Q1, gate1/Z3, gate1/D0, gate1/Q<3>, gate3/z_not0001, Q, gate1/Q, a<3>, gate1/Z, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/Q, gate1/Q, gate2/z_not0001, Din, gate1/Q<4>, gate1/Z3, gate1/Z, Q, gate1/D1, gate1/Z1, a<4>, gate2/Q1, RAM/gate54/D0<4>, gate1/Z, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, a<5>, Din, Q, gate1/D1, RAM/gate54/D0<5>, gate1/Z3, gate1/Z, gate1/Q<5>, gate1/Q1, gate1/D0, gate1/z_not0001, gate1/Q, gate1/Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate6/z_not0001, Q, gate1/D1, a<0>, gate1/Z, gate6/Q1, RAM/gate55/D0<0>, gate1/D0, gate1/Z1, gate1/Z3, gate1/Q<0>, gate6/Q, gate1/Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, RAM/gate55/D0<1>, gate1/Q<1>, gate1/Z, gate1/Z3, gate1/D1, a<1>, gate5/Q1, gate1/D0, gate5/Q, gate1/Z, Din, gate1/Q, gate5/z_not0001, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, Din, gate1/D0, gate4/Q1, gate1/Q, RAM/gate55/D0<2>, a<2>, gate1/Z1, gate1/Q<2>, gate1/Z3, gate1/D1, gate4/Q, gate1/Z, gate1/Z, gate4/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, Q1, gate1/D1, a<3>, gate1/D0, gate1/Z, gate1/Q<3>, gate1/Z, RAM/gate55/D0<3>, Q, gate1/Q, Din, gate3/z_not0001, gate1/Z3, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate55/D0<4>, a<4>, gate1/Z1, gate2/Q, gate1/D1, gate1/Z, gate1/D0, gate1/Z3, gate2/Q1, Din, gate1/Z, gate1/Q, gate2/z_not0001, Q, gate1/Q<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate55/D0<5>, Din, gate1/Z3, gate1/D1, gate1/Q, gate1/Z1, gate1/Q<5>, gate1/Z, gate1/Z, gate1/z_not0001, Q, a<5>, gate1/Q, gate1/D0, gate1/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/D1, gate1/Q, gate1/Z, gate1/D0, gate6/Q, gate6/Q1, RAM/gate56/D0<0>, a<0>, gate1/Z, gate1/Z3, gate1/Q<0>, gate1/Z1, gate6/z_not0001, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/D0, Din, Q, gate1/Z, a<1>, gate5/Q1, gate1/Q, gate1/Z, RAM/gate56/D0<1>, gate5/Q, gate1/Z3, gate1/Z1, gate1/Q<1>, gate5/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/D1, Din, a<2>, gate1/Z3, gate4/z_not0001, RAM/gate56/D0<2>, gate4/Q, gate4/Q1, gate1/Q, gate1/Z, gate1/D0, gate1/Q<2>, Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<3>, a<3>, gate1/Z1, gate1/Q, gate3/z_not0001, gate1/Z, gate1/Z3, gate1/D0, gate1/Z, Q, gate1/D1, Q1, RAM/gate56/D0<3>, Din, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<4>, a<4>, gate1/Z3, gate1/D1, Din, Q, gate1/Z, gate2/z_not0001, gate1/Q, gate1/Z1, RAM/gate56/D0<4>, gate1/D0, gate2/Q, gate2/Q1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q1, gate1/Z, gate1/D1, gate1/Z1, Din, gate1/z_not0001, Q, RAM/gate56/D0<5>, gate1/Z3, gate1/Q, gate1/Z, gate1/D0, gate1/Q<5>, gate1/Q, a<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate6/Q1, gate1/Z1, gate6/Q, Q, gate1/Q, gate1/Z3, Din, gate1/Z, gate6/z_not0001, gate1/Z, gate1/D0, a<0>, RAM/gate57/D0<0>, gate1/D1, gate1/Q<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Q, gate1/D0, gate1/Z3, gate5/Q1, gate5/Q, gate5/z_not0001, RAM/gate57/D0<1>, gate1/Q<1>, Din, gate1/Z, gate1/Z1, a<1>, gate1/Z, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/Q, Din, gate1/Z, gate4/Q1, Q, gate1/D1, gate1/Q, gate4/z_not0001, gate1/Z, gate1/D0, gate1/Z1, RAM/gate57/D0<2>, gate1/Q<2>, a<2>, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, Din, gate1/Z, Q, gate1/Z1, Q1, RAM/gate57/D0<3>, gate1/Z3, gate3/z_not0001, gate1/Q<3>, a<3>, Q, gate1/D0, gate1/Q, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, gate2/Q1, Q, gate1/Z3, gate1/Z, gate2/Q, gate1/D0, gate2/z_not0001, RAM/gate57/D0<4>, gate1/Z1, gate1/Z, gate1/Q<4>, gate1/D1, a<4>, gate1/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Q1, RAM/gate57/D0<5>, Din, gate1/Q<5>, gate1/D0, Q, gate1/z_not0001, gate1/Q, gate1/Z, gate1/D1, gate1/Q, a<5>, gate1/Z1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate6/z_not0001, gate1/Z, RAM/gate58/D0<0>, Din, gate1/Q, gate6/Q1, gate1/Z1, gate1/Z, Q, gate6/Q, gate1/D1, a<0>, gate1/Q<0>, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, a<1>, gate5/Q, gate1/Z, gate1/Z, gate1/Q, Q, gate5/z_not0001, gate1/D0, RAM/gate58/D0<1>, gate5/Q1, gate1/D1, gate1/Q<1>, Din, gate1/Z3.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<2>, gate1/Z3, RAM/gate58/D0<2>, gate1/Z1, gate1/Z, gate4/z_not0001, gate1/Q, gate4/Q, gate1/D0, gate1/Z, gate4/Q1, gate1/D1, Q, gate1/Q<2>, Din.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<3>, gate1/Q, gate1/Z3, Din, Q, gate1/Z, gate1/Z1, RAM/gate58/D0<3>, gate1/D0, gate3/z_not0001, Q1, gate1/Q<3>, gate1/D1, Q, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Z1, gate2/Q1, gate1/Z, RAM/gate58/D0<4>, gate1/D1, Q, gate2/z_not0001, a<4>, Din, gate1/Z, gate1/Q, gate1/D0, gate2/Q, gate1/Q<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/z_not0001, gate1/Z, gate1/D1, gate1/Z, Q, gate1/Z1, gate1/Q, RAM/gate58/D0<5>, a<5>, gate1/Q, gate1/D0, Din, gate1/Q<5>, gate1/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q, gate6/Q, gate1/D0, RAM/gate59/D0<0>, gate1/D1, gate6/Q1, gate6/z_not0001, gate1/Z, Q, gate1/Q<0>, gate1/Z1, a<0>, Din, gate1/Z3, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, Din, gate1/Z, gate1/Q, a<1>, gate5/Q, gate1/D0, gate5/Q1, gate1/Q<1>, gate1/Z1, gate5/z_not0001, gate1/Z3, gate1/Z, RAM/gate59/D0<1>, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, RAM/gate59/D0<2>, gate1/Q, gate4/Q, gate1/Z, Din, gate1/Z3, gate4/z_not0001, gate1/D0, gate4/Q1, a<2>, gate1/Z1, gate1/Q<2>, gate1/D1, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Q<3>, Q1, gate1/Z1, gate3/z_not0001, a<3>, gate1/Z, gate1/D1, gate1/Z, Q, gate1/Q, Q, gate1/D0, Din, RAM/gate59/D0<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate2/Q, gate1/D0, gate2/Q1, RAM/gate59/D0<4>, gate1/Z, gate1/Z3, gate1/D1, Q, a<4>, gate1/Z1, Din, gate1/Z, gate1/Q<4>, gate1/Q, gate2/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<5>, gate1/Z, Din, gate1/Z, gate1/D1, gate1/z_not0001, a<5>, gate1/Q, gate1/Q1, gate1/D0, Q, gate1/Z3, RAM/gate59/D0<5>, gate1/Q, gate1/Z1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, Din, gate1/Z, gate1/Z3, RAM/gate60/D0<0>, gate6/Q1, gate6/z_not0001, gate1/D0, gate1/Z, Q, a<0>, gate1/Z1, gate1/Q, gate1/Q<0>, gate6/Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Z, gate1/D0, gate1/Q, gate1/Z, gate1/Z3, Q, gate1/Z1, Din, gate5/Q, gate1/Q<1>, gate5/z_not0001, gate5/Q1, a<1>, RAM/gate60/D0<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Z3, gate1/Q, gate4/Q, gate4/z_not0001, gate1/Z, RAM/gate60/D0<2>, Din, Q, gate1/D0, a<2>, gate1/Z, gate1/Q<2>, gate1/Z1, gate4/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, Q, gate3/z_not0001, Q, gate1/Q, gate1/Q<3>, RAM/gate60/D0<3>, gate1/Z1, gate1/Z3, Q1, Din, gate1/D0, gate1/Z, gate1/D1, a<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D1, gate1/Z, gate2/Q, gate1/Z1, Q, gate2/z_not0001, RAM/gate60/D0<4>, gate2/Q1, a<4>, gate1/Z, Din, gate1/D0, gate1/Q, gate1/Z3, gate1/Q<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Z3, gate1/Z, gate1/Q, Q, RAM/gate60/D0<5>, gate1/Q, gate1/D0, gate1/z_not0001, gate1/Q<5>, Din, gate1/Q1, a<5>, gate1/Z, gate1/D1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Z1, gate6/z_not0001, gate1/D1, gate1/Z, Q, Din, gate1/Z3, gate1/D0, RAM/gate61/D0<0>, gate1/Q<0>, gate6/Q, gate1/Q, gate6/Q1, a<0>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/D0, gate1/D1, gate1/Z3, gate5/Q, gate1/Q, gate1/Z1, gate5/Q1, RAM/gate61/D0<1>, gate1/Z, Din, Q, gate1/Q<1>, gate1/Z, a<1>, gate5/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate4/z_not0001, gate1/Z, RAM/gate61/D0<2>, gate1/Z1, Din, Q, gate1/D1, gate1/Z, gate1/Q<2>, a<2>, gate1/D0, gate4/Q, gate1/Q, gate1/Z3, gate4/Q1.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q1, RAM/gate61/D0<3>, gate1/Z, gate3/z_not0001, a<3>, gate1/D1, gate1/Q<3>, gate1/Z, gate1/D0, gate1/Z3, Din, Q, gate1/Q, gate1/Z1, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: RAM/gate61/D0<4>, gate2/z_not0001, gate2/Q, gate1/Z1, gate1/Z, gate1/Q<4>, a<4>, gate1/D0, Din, gate1/Q, Q, gate1/D1, gate2/Q1, gate1/Z3, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/D1, gate1/Z, gate1/D0, gate1/Z3, gate1/Q<5>, gate1/Q, gate1/Q, gate1/Z1, gate1/Q1, gate1/Z, Din, RAM/gate61/D0<5>, gate1/z_not0001, a<5>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate1/Z, a<0>, gate1/D0, RAM/gate62/D0<0>, gate6/Q, gate1/Q, gate1/Q<0>, gate6/Q1, gate1/Z3, gate1/Z1, Din, Q, gate1/D1, gate6/z_not0001.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate5/z_not0001, a<1>, RAM/gate62/D0<1>, gate1/Z, gate1/Q<1>, gate1/D0, gate5/Q, gate1/Q, Din, gate5/Q1, gate1/Z1, Q, gate1/D1, gate1/Z3, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: a<2>, RAM/gate62/D0<2>, gate4/z_not0001, gate1/Z3, gate1/D0, gate1/Q<2>, gate4/Q, gate1/Q, gate1/Z1, gate4/Q1, gate1/Z, Din, Q, gate1/D1, gate1/Z.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Din, Q, gate1/Q, Q1, gate1/Q<3>, gate3/z_not0001, RAM/gate62/D0<3>, gate1/Z1, Q, gate1/D1, gate1/Z, gate1/Z3, gate1/Z, gate1/D0, a<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/D0, RAM/gate62/D0<4>, Din, gate2/Q, gate1/Q, Q, gate2/z_not0001, gate1/D1, gate2/Q1, gate1/Z, gate1/Z, gate1/Z1, gate1/Q<4>, a<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: Q, gate1/D1, gate1/Q, gate1/Q1, gate1/Z, RAM/gate62/D0<5>, gate1/Z3, gate1/Q<5>, gate1/Q, gate1/Z1, gate1/Z, a<5>, gate1/z_not0001, Din, gate1/D0.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z, gate6/z_not0001, gate1/D0, RAM/gate63/D0<0>, a<0>, gate6/Q, gate6/Q1, gate1/Z1, gate1/D1, gate1/Z, gate1/Z3, Din, gate1/Q, gate1/Q<0>, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z3, gate1/Z1, gate1/Z, gate1/Q, Q, RAM/gate63/D0<1>, Din, gate1/Q<1>, gate1/Z, gate1/D0, gate5/Q1, gate1/D1, gate5/z_not0001, gate5/Q, a<1>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, a<2>, gate1/Q<2>, gate1/Z3, gate1/D1, gate1/Z, gate4/Q, gate4/z_not0001, gate1/Z, gate1/Q, gate1/D0, gate4/Q1, Din, RAM/gate63/D0<2>, Q.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate3/z_not0001, gate1/Z, gate1/Q<3>, gate1/D0, Q1, RAM/gate63/D0<3>, gate1/Z3, gate1/Z, Q, Q, gate1/D1, Din, gate1/Q, gate1/Z1, a<3>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Q<4>, RAM/gate63/D0<4>, gate2/Q, gate1/D0, gate2/Q1, gate1/D1, Din, gate1/Z, gate1/Z3, gate1/Z1, gate1/Q, gate1/Z, gate2/z_not0001, Q, a<4>.
+WARNING:Xst:2170 - Unit gate3 : the following signal(s) form a combinatorial loop: gate1/Z1, gate1/Z, RAM/gate63/D0<5>, gate1/Z3, Din, gate1/Z, gate1/Q<5>, gate1/D1, a<5>, gate1/Q1, gate1/D0, gate1/Q, gate1/z_not0001, gate1/Q, Q.
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : eaRisc.ngr
+Top Level Output File Name         : eaRisc
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : Automotive CoolRunner2
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 66
+
+Cell Usage :
+# BELS                             : 5670
+#      AND2                        : 1570
+#      AND3                        : 152
+#      AND4                        : 84
+#      AND6                        : 32
+#      INV                         : 2862
+#      OR2                         : 898
+#      VCC                         : 64
+#      XOR2                        : 8
+# Tri-States                       : 1920
+#      BUFE                        : 1920
+# IO Buffers                       : 66
+#      IBUF                        : 8
+#      OBUF                        : 58
+=========================================================================
+CPU : 9.84 / 9.90 s | Elapsed : 10.00 / 10.00 s
+ 
+--> 
+
+Total memory usage is 209180 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  471 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,1 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/pj3GAMA.ise" -intstyle ise -ifn ea4to1MUX.xst -ofn ea4to1MUX.syr

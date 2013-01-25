@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="1">
+<DesignStatistics TimeStamp="Thu Dec 06 02:00:56 2012"><group name="MiscellaneousStatistics">
+<item name="AVG_LUT_FAN_IN" rev="1">
+<attrib name="value" value="3.438200"/></item>
+<item name="AVG_SIG_FANOUT" rev="1">
+<attrib name="value" value="3.670000"/></item>
+<item name="FOUR_LOAD_SIG" rev="1">
+<attrib name="value" value="2"/></item>
+<item name="LUT" rev="1">
+<attrib name="value" value="89"/></item>
+<item name="MAX_SIG_FANOUT" rev="1">
+<attrib name="value" value="24"/></item>
+<item name="PK_NUM_4_INPUT_LUTS" rev="1">
+<attrib name="value" value="89"/></item>
+<item name="PK_NUM_BONDED_IOBS" rev="1">
+<attrib name="value" value="42"/></item>
+<item name="PK_NUM_EQUIV_GATES" rev="1">
+<attrib name="value" value="549"/></item>
+<item name="PK_NUM_JTAG_GATES" rev="1">
+<attrib name="value" value="42"/></item>
+<item name="PK_NUM_MUXF5" rev="1">
+<attrib name="value" value="5"/></item>
+<item name="PK_NUM_MUXFS" rev="1">
+<attrib name="value" value="5"/></item>
+<item name="PK_NUM_SLICELS" rev="1">
+<attrib name="value" value="47"/></item>
+<item name="PK_NUM_SLICES" rev="1">
+<attrib name="value" value="47"/></item>
+<item name="SINGLE_LOAD_SIG" rev="1">
+<attrib name="value" value="48"/></item>
+<item name="THREE_LOAD_SIG" rev="1">
+<attrib name="value" value="4"/></item>
+<item name="TWO_LOAD_SIG" rev="1">
+<attrib name="value" value="14"/></item>
+</group>
+</DesignStatistics>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

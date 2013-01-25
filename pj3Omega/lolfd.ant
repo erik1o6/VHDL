@@ -1,0 +1,112 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : lolfd.ant
+// /___/   /\     Timestamp : Tue Oct 02 15:20:49 2012
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: lolfd
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module lolfd;
+    reg [5:0] D0 = 6'b000000;
+    reg [5:0] D1 = 6'b000000;
+    reg [5:0] S = 6'b000000;
+    wire [5:0] Z;
+
+
+    ea6bitMUX UUT (
+        .D0(D0),
+        .D1(D1),
+        .S(S),
+        .Z(Z));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process
+        #0;
+        ANNOTATE_Z;
+        forever begin
+            #50;
+            ANNOTATE_Z;
+            #50;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("C:\\Users\\ERIK\\Dropbox\\cmpen471\\projects\\pj3Omega\\lolfd.ano");
+        #10000 // Final time:  10000 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  600ns
+        #600;
+        S = 6'b000010;
+        // -------------------------------------
+        // -------------  Current Time:  700ns
+        #100;
+        S = 6'b000011;
+        // -------------------------------------
+        // -------------  Current Time:  1200ns
+        #500;
+        D0 = 6'b010000;
+        D1 = 6'b000100;
+        // -------------------------------------
+        // -------------  Current Time:  1800ns
+        #600;
+        S = 6'b001011;
+        // -------------------------------------
+        // -------------  Current Time:  1900ns
+        #100;
+        D1 = 6'b000110;
+        // -------------------------------------
+        // -------------  Current Time:  2000ns
+        #100;
+        D0 = 6'b010100;
+        // -------------------------------------
+        // -------------  Current Time:  2100ns
+        #100;
+        D1 = 6'b001110;
+        // -------------------------------------
+        // -------------  Current Time:  2300ns
+        #200;
+        S = 6'b011011;
+        // -------------------------------------
+        // -------------  Current Time:  2500ns
+        #200;
+        S = 6'b111011;
+        // -------------------------------------
+        // -------------  Current Time:  3100ns
+        #600;
+        D0 = 6'b011100;
+        // -------------------------------------
+        // -------------  Current Time:  3500ns
+        #400;
+        D1 = 6'b101110;
+    end
+
+    task ANNOTATE_Z;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,Z,%b]", $time, Z);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

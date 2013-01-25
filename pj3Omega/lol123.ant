@@ -1,0 +1,137 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : lol123.ant
+// /___/   /\     Timestamp : Tue Oct 02 16:08:05 2012
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: lol123
+//Device: Xilinx
+//
+`timescale 1ps/1fs
+
+module lol123;
+    reg ckm = 1'b0;
+    reg rb = 1'b0;
+    reg [5:0] b = 6'b000000;
+    reg [1:0] s = 2'b00;
+    wire testCK;
+    wire [3:0] testF;
+    wire [5:0] testA;
+    wire [5:0] d;
+
+    parameter PERIOD = 2000;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 100;
+
+    initial    // Clock process for ckm
+    begin
+        #OFFSET;
+        forever
+        begin
+            ckm = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) ckm = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    ufm6bit UUT (
+        .ckm(ckm),
+        .rb(rb),
+        .b(b),
+        .s(s),
+        .testCK(testCK),
+        .testF(testF),
+        .testA(testA),
+        .d(d));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process for clock ckm
+        #0;
+        ANNOTATE_testCK;
+        ANNOTATE_testF;
+        ANNOTATE_testA;
+        ANNOTATE_d;
+        #OFFSET;
+        forever begin
+            #1015;
+            ANNOTATE_testCK;
+            ANNOTATE_testF;
+            ANNOTATE_testA;
+            ANNOTATE_d;
+            #985;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("C:\\Users\\ERIK\\Dropbox\\cmpen471\\projects\\pj3Omega\\lol123.ano");
+        #102000 // Final time:  102000 ps
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  1085ps
+        #1085;
+        rb = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  3085ps
+        #2000;
+        rb = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  5085ps
+        #2000;
+        rb = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  11085ps
+        #6000;
+        b = 6'b000001;
+        // -------------------------------------
+    end
+
+    task ANNOTATE_testCK;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,testCK,%b]", $time, testCK);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_testF;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,testF,%b]", $time, testF);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_testA;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,testA,%b]", $time, testA);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_d;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,d,%b]", $time, d);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

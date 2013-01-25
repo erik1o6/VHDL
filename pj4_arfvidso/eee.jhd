@@ -1,0 +1,3 @@
+MODULE eee
+SUBMODULE ramtest
+INSTANCE UUT

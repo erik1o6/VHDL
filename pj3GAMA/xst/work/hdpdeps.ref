@@ -1,0 +1,242 @@
+V3 118
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/DFFeaCERES.vhd 2012/10/01.16:10:02 J.36
+EN work/DFFeaCERES 1349153415 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/DFFeaCERES.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/DFFeaCERES/struct 1349153416 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/DFFeaCERES.vhd \
+      EN work/DFFeaCERES 1349153415 CP eaINVERT CP ea3AND CP ea2OR CP eaFlipFlop
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea1bitadder.vhd 2012/09/13.15:05:26 J.36
+EN work/ea1bitadder 1349153423 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea1bitadder.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea1bitadder/Behavioral 1349153424 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea1bitadder.vhd \
+      EN work/ea1bitadder 1349153423 CP eaINVERT CP ea2NAND CP ea3NAND CP ea4NAND
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2AND.vhd 2012/10/02.00:48:49 J.36
+EN work/ea2AND 1349153427 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2AND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2AND/Behavioral 1349153428 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2AND.vhd \
+      EN work/ea2AND 1349153427
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2NAND.vhd 2012/09/17.11:46:11 J.36
+EN work/ea2NAND 1349153395 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2NAND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2NAND/Behavioral 1349153396 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2NAND.vhd \
+      EN work/ea2NAND 1349153395
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2NOR.vhd 2012/10/01.02:11:48 J.36
+EN work/ea2NOR 1349153433 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2NOR.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2NOR/Behavioral 1349153434 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2NOR.vhd \
+      EN work/ea2NOR 1349153433
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2OR.vhd 2012/10/01.15:50:52 J.36
+EN work/ea2OR 1349153405 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2OR.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2OR/Behavioral 1349153406 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2OR.vhd EN work/ea2OR 1349153405
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2to1MUX.vhd 2012/09/17.12:12:16 J.36
+EN work/ea2to1MUX 1349153399 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2to1MUX.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea2to1MUX/Behavioral 1349153400 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea2to1MUX.vhd \
+      EN work/ea2to1MUX 1349153399 CP ea2NAND CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea3AND.vhd 2012/10/01.15:50:33 J.36
+EN work/ea3AND 1349153403 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea3AND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea3AND/Behavioral 1349153404 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea3AND.vhd \
+      EN work/ea3AND 1349153403
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea3NAND.vhd 2012/10/01.13:44:58 J.36
+EN work/ea3NAND 1349153588 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea3NAND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea3NAND/Behavioral 1349153589 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea3NAND.vhd \
+      EN work/ea3NAND 1349153588
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea4bitFrequencyCounter.vhd 2012/10/01.17:06:00 J.36
+EN work/ea4bitFrequencyCounter 1349153449 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea4bitFrequencyCounter.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea4bitFrequencyCounter/struct 1349153450 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea4bitFrequencyCounter.vhd \
+      EN work/ea4bitFrequencyCounter 1349153449 CP eaTFlipFlop CP ea2AND CP ea3AND
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea4NAND.vhd 2012/09/13.23:25:29 J.36
+EN work/ea4NAND 1349153590 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea4NAND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea4NAND/Behavioral 1349153591 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea4NAND.vhd \
+      EN work/ea4NAND 1349153590
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea4to1MUX.vhd 2012/10/02.00:06:21 J.36
+EN work/ea4to1MUX 1349153924 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea4to1MUX.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea4to1MUX/struct 1349153925 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea4to1MUX.vhd \
+      EN work/ea4to1MUX 1349153924 CP eaINVERT CP ea3NAND CP ea4NAND
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea64Rom.vhd 2012/10/01.13:25:13 J.36
+EN work/ea64Rom 1349153445 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea64Rom.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea64Rom/struct 1349153446 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea64Rom.vhd \
+      EN work/ea64Rom 1349153445 CP ea6bitto64decoder CP ea6bit64word CP ea2NOR \
+      CP eaOutputBuf
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6bit64word.vhd 2012/10/01.13:26:57 J.36
+EN work/ea6bit64word 1349153431 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6bit64word.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6bit64word/struct 1349153432 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6bit64word.vhd \
+      EN work/ea6bit64word 1349153431 CP eainv6buf
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6bitMUX.vhd 2012/10/01.01:04:19 J.36
+EN work/ea6bitMUX 1349153437 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6bitMUX.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6bitMUX/struct 1349153438 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6bitMUX.vhd \
+      EN work/ea6bitMUX 1349153437 CP ea2to1MUX
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6bitto64decoder.vhd 2012/10/01.13:06:42 J.36
+EN work/ea6bitto64decoder 1349153429 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6bitto64decoder.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6bitto64decoder/struct 1349153430 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6bitto64decoder.vhd \
+      EN work/ea6bitto64decoder 1349153429 CP ea7AND CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6Flip.vhd 2012/10/01.01:03:28 J.36
+EN work/ea6Flip 1349153439 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6Flip.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6Flip/struct 1349153440 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6Flip.vhd \
+      EN work/ea6Flip 1349153439 CP eaFlipFlop
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6PCf.vhd 2012/10/01.15:17:17 J.36
+EN work/ea6PCf 1349153443 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6PCf.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea6PCf/struct 1349153444 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea6PCf.vhd \
+      EN work/ea6PCf 1349153443 CP ea6bitMUX CP ea6Flip CP eaadd6bit
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea7AND.vhd 2012/10/01.04:38:50 J.36
+EN work/ea7AND 1349153421 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea7AND.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ea7AND/Behavioral 1349153422 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ea7AND.vhd \
+      EN work/ea7AND 1349153421
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaadd6bit.vhd 2012/10/01.01:23:21 J.36
+EN work/eaadd6bit 1349153441 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaadd6bit.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaadd6bit/struct 1349153442 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaadd6bit.vhd \
+      EN work/eaadd6bit 1349153441 CP ea1bitadder
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaDLatch.vhd 2012/09/17.14:32:13 J.36
+EN work/eaDlatch 1349153401 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaDLatch.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaDlatch/struc 1349153402 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaDLatch.vhd \
+      EN work/eaDlatch 1349153401 CP ea2to1MUX
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaFlipFlop.vhd 2012/09/18.15:57:28 J.36
+EN work/eaFlipFlop 1349153407 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaFlipFlop.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaFlipFlop/Behavioral 1349153408 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaFlipFlop.vhd \
+      EN work/eaFlipFlop 1349153407 CP eaDlatch CP eaINVERT
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eainv6buf.vhd 2012/10/01.15:07:06 J.36
+EN work/eainv6buf 1349153419 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eainv6buf.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eainv6buf/struct 1349153420 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eainv6buf.vhd \
+      EN work/eainv6buf 1349153419 CP eainvbuf
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eainvbuf.vhd 2012/10/01.02:29:00 J.36
+EN work/eainvbuf 1349153409 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eainvbuf.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eainvbuf/Behavioral 1349153410 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eainvbuf.vhd \
+      EN work/eainvbuf 1349153409
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaINVERT.vhd 2012/09/13.23:41:46 J.36
+EN work/eaINVERT 1349153586 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaINVERT.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaINVERT/Behavioral 1349153587 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaINVERT.vhd \
+      EN work/eaINVERT 1349153586
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaOutputBuf.vhd 2012/10/01.13:23:24 J.36
+EN work/eaOutputBuf 1349153435 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaOutputBuf.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaOutputBuf/struct 1349153436 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaOutputBuf.vhd \
+      EN work/eaOutputBuf 1349153435 CP eainvbuf
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaSINVERTER.vhd 2012/10/01.16:24:17 J.36
+EN work/eaSINVERTER 1349153417 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaSINVERTER.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaSINVERTER/Behavioral 1349153418 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaSINVERTER.vhd \
+      EN work/eaSINVERTER 1349153417
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaTFlipFlop.vhd 2012/10/01.16:25:54 J.36
+EN work/eaTFlipFlop 1349153425 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaTFlipFlop.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaTFlipFlop/struct 1349153426 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaTFlipFlop.vhd \
+      EN work/eaTFlipFlop 1349153425 CP DFFeaCERES CP eaSINVERTER
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaUltraMultiplier.vhd 2012/10/01.18:03:44 J.36
+EN work/eaUltraMultiplier 0 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaUltraMultiplier.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/eaUltraMultiplier/struct 0 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/eaUltraMultiplier.vhd \
+      EN work/eaUltraMultiplier 0 CP ea6PCf CP ea64Rom
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ufm6bit.vhd 2012/10/02.00:07:29 J.36
+EN work/ufm6bit 1349154086 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ufm6bit.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/ufm6bit/struct 1349154087 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pj3GAMA/ufm6bit.vhd \
+      EN work/ufm6bit 1349154086 CP ea6PCf CP ea64Rom CP ea4to1MUX \
+      CP ea4bitFrequencyCounter

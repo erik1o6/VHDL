@@ -1,0 +1,42 @@
+ command line:
+   ./eaAND2bw_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  52997
+
+Tue Sep 04 20:34:17 2012
+
+Total Line Count : 109
+
+ Elaboration time : 0.0156 sec.
+
+ Estimate current memory usage : 151.167 Meg. 
+
+ Total Signals          : 12
+ Total Nets             : 12
+ Total Signal Drivers   : 7
+ Total Blocks           : 6
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 93
+ntrace select -o on -m / -l this 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun all 
+isimrun 10000 ns 
+isimrun 10000 ns 
+isimrun 10000 ns 
+restart
+isimrun 10000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.0624 sec.
+
+ Estimate current memory usage : 160.379 Meg. 
+
+Tue Sep 04 20:40:29 2012
+

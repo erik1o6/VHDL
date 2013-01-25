@@ -1,0 +1,3 @@
+MODULE kitty
+SUBMODULE smicro
+INSTANCE UUT

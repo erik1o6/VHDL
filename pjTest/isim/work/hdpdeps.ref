@@ -1,0 +1,40 @@
+V3 18
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/../hw1_arfvidson/eaAND2.vhd 2012/09/17.07:38:13 J.36
+EN work/eaAND 1347893330 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/../hw1_arfvidson/eaAND2.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/eaAND/Behavioral 1347893331 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/../hw1_arfvidson/eaAND2.vhd \
+      EN work/eaAND 1347893330
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/aa.vhw 2012/09/17.07:56:18 J.36
+EN work/aa 1347893827 FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/aa.vhw \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/aa/testbench_arch 1347893828 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/aa.vhw EN work/aa 1347893827 \
+      CP eaMY
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaMY.vhd 2012/09/17.07:42:18 J.36
+EN work/eaMY 1347893334 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaMY.vhd \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/eaMY/Structural 1347893335 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaMY.vhd EN work/eaMY 1347893334 \
+      CP eaAND CP eaOR
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaOR.vhd 2012/09/17.07:44:59 J.36
+EN work/eaOR 1347893332 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaOR.vhd \
+      PB ieee/std_logic_1164 1179176983
+AR work/eaOR/OR_beh 1347893333 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/eaOR.vhd EN work/eaOR 1347893332
+FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/test1.vhw 2012/09/17.07:47:25 J.36
+EN work/test1 1347893336 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/test1.vhw \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/test1/testbench_arch 1347893337 \
+      FL C:/Users/ERIK/Dropbox/cmpen471/projects/pjTest/test1.vhw EN work/test1 1347893336 \
+      CP eaMY

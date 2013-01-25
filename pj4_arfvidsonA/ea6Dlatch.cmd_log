@@ -1,0 +1,3 @@
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/pj4_arfvidsonA.ise" -intstyle ise -ifn ea6Dlatch.xst -ofn ea6Dlatch.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/pj4_arfvidsonA.ise" -intstyle ise -ifn ea6Dlatch.xst -ofn ea6Dlatch.syr
+xst -ise "C:/Users/ERIK/Dropbox/cmpen471/projects/pj4_arfvidsonA/pj4_arfvidsonA.ise" -intstyle ise -ifn ea6Dlatch.xst -ofn ea6Dlatch.syr

@@ -1,0 +1,3 @@
+MODULE lol
+SUBMODULE smicro
+INSTANCE UUT
